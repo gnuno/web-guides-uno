@@ -1,23 +1,16 @@
-import './App.css';
+import React from "react";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
-function App() {
+import Index from './pages/Index';
+import Map from './pages/Map';
+
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Router>
+        <Route exact strict path='/' render={() => <Index/>} />
+        <Route exact strict path='/:name' render={() => <Map/>} />
+      </Router>
+    </>
   );
 }
-
-export default App;
