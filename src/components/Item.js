@@ -1,7 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-
-import { colors, breackpoints } from "../../../assets/styles";
+import { breackpoints, colors } from "../assets/styles";
 
 const Item = styled.li`
   padding: 0em 0em 0em 1.5em;
