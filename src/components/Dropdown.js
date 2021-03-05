@@ -1,8 +1,8 @@
 import React, {useState} from "react"
 import styled from "styled-components"
+import { colors } from "../assets/styles";
 
-import {colors} from "../../../assets/styles"
-import Card from "./Card"
+import Card from "./Item"
 
 const Ball = styled.div`
   border-radius: 50%;
