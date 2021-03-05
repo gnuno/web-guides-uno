@@ -8,8 +8,10 @@ export default function App() {
   return (
     <>
       <Router>
-        <Route exact strict path='/' render={() => <Index/>} />
-        <Route exact strict path='/:name' render={() => <Map/>} />
+        <Switch>
+          <Route exact strict path='/' render={() => <Index/>} />
+          <Route exact strict path='/:name' render={() => <Map/>} />
+        </Switch>
       </Router>
     </>
   );
