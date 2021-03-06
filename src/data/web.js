@@ -1,4 +1,5 @@
 import GIT from "./git.json";
+import BDD from "./bdd.json";
 
 const Web = [
   {
@@ -23,6 +24,10 @@ const Web = [
         ],
         "hasVideo": false,
         "video": ""
+      },
+      {
+          "name": "",
+          "void" : true
       }
     ]
   },
@@ -51,7 +56,7 @@ const Web = [
       },
       {
         "name": "Etiquetas Semanticas",
-        "description": "headerm article, section, main, nav, aside, footer, details, figure...",
+        "description": "header, article, section, main, nav, aside, footer, details, figure...",
         "links": [
           {"key": "", "value": ""}, 
           {"key": "", "value": ""}
@@ -68,6 +73,10 @@ const Web = [
         ],
         "hasVideo": false,
         "video": ""
+      },
+      {
+          "name": "",
+          "void" : true
       }
     ]
   },
@@ -163,101 +172,250 @@ const Web = [
         ],
         "hasVideo": false,
         "video": ""
+      },
+      {
+          "name": "",
+          "void" : true
       }
     ]
   },
   GIT,
-
-/*
-
-Unidad 5 : JavaScript
-Nacimiento, usos, bondades del lenguaje
-Sintaxis básica
-¿Qué significa inferencia de tipo?
-Operadores lógicos, matemáticos
-Manejo de strings
-Condicionales
-Operador ternario
-Bucles
-Funciones
-Closure
-Funciones Anónimas/Arrow Functions
-High Order Functions
-First Class Functions
-Funciones Puras
-Manejo de arrays, set, maps 
-Objetos
-Herencia a través de función extender
-Callbacks
-Dom
-Interacción con el dom
-Event Listeners
-Json
-Asincronismo
-Promesas
-Encadenar promesas
-Async Await
-Request HTTP
-Local Storage
-
-Unidad 6 : Preprocesadores CSS
-¿Qué es un Preprocesador?
-Transpilar
-Variables
-Nesting/Anidamiento
-¿Qué son las Metodologías CSS y por qué aplicarlas? BEM
-Módulos
-Mixins
-Herencia/Extensión
-Operadores
-Control de Flujo
-Functions
-
-Unidad 7 : Frameworks / Bibliotecas JS
-¿Qué es un Framework/Biblioteca JS?
-¿Por qué utilizar uno?
-Choose One(React-Vue-Angular-Svelte)
-Componentes y Atomic Design
-Router y Navegación
-Ciclo de Vida de Componentes
-Comunicación entre Componentes
-Formularios
-HTTP y Asincronismo
-Bibliotecas de Estilos
-Testing
-TypeScript
-Server Side Rendering
-GraphQL
-	
-Contenidos Extra
-Mobile Apps
-Desktop Apps
-Progressive Web Apps
-Web Assembly
-
-Unidad 8 : Bases de Datos
-	Mi playlist  y un poco mas xd.
-
-Unidad 9 : Backend
-Choose Lang(JS, Py, Java, Go, Ruby, PHP, C#, Rust)
-Bases del lenguaje elegido
-Frameworks Backend
-API REST
-Modelos - Controladores - Rutas
-ORMs
-CRUD
-Postman
-Manejo de Archivos
-CORS
-Autenticaciones
-Enviar Mails
-Testing
-GraphQL
-WebSockets
-
-	Contenidos Extra
-Microservicios
-Docker
-*/
+  {
+    "title": "JavaScript",
+    "content" : [ 
+      {
+        "name": "Introducción",
+        "description" : "Nacimiento, Usos, Bondades del lenguaje, Sintaxis básica, ¿Qué significa inferencia de tipo?",
+        "links": [
+          {"key": "", "value": ""}, 
+          {"key": "", "value": ""}
+        ],
+        "hasVideo": false,
+        "video": ""
+      },
+      {
+        "name": "Bases",
+        "description": "Operadores lógicos, matemáticos, Manejo de strings, Condicionales, Operador ternario, Bucles, Funciones",
+        "links": [
+          {"key": "", "value": ""}, 
+          {"key": "", "value": ""}
+        ],
+        "hasVideo": false,
+        "video": ""
+      },
+      {
+        "name": "JavaScript Funcional",
+        "description": "Closure, Funciones Anónimas/Arrow Functions, High Order Functions, First Class Functions, Funciones Puras, Manejo de Arrays/Set/Maps, Callbacks",
+        "links": [
+          {"key": "", "value": ""}, 
+          {"key": "", "value": ""}
+        ],
+        "hasVideo": false,
+        "video": ""
+      },
+      {
+        "name": "JavaScript Orientado a Objetos",
+        "description": "Objetos, Herencia/Extension",
+        "links": [
+          {"key": "", "value": ""}, 
+          {"key": "", "value": ""}
+        ],
+        "hasVideo": false,
+        "video": ""
+      },
+      {
+        "name": "JavaScript y el DOM",
+        "description": "¿Qué es el DOM?, Interaccion con el DOM, Event Listeners",
+        "links": [
+          {"key": "", "value": ""}, 
+          {"key": "", "value": ""}
+        ],
+        "hasVideo": false,
+        "video": ""
+      },
+      {
+        "name": "JavaScript Asincronico",
+        "description": "Asincronismo, Promesas, Encadenamiento de Promesas, Async/Await",
+        "links": [
+          {"key": "", "value": ""}, 
+          {"key": "", "value": ""}
+        ],
+        "hasVideo": false,
+        "video": ""
+      },
+      {
+        "name": "JavaScript y el Backend",
+        "description": "JSON, Request HTTP, LocalStorage",
+        "links": [
+          {"key": "", "value": ""}, 
+          {"key": "", "value": ""}
+        ],
+        "hasVideo": false,
+        "video": ""
+      },
+      {
+          "name": "",
+          "void" : true
+      }
+    ]
+  },
+  {
+    "title": "Preprocesadores CSS",
+    "content" : [ 
+      {
+        "name": "Introducción",
+        "description" : "¿Qué es un Preprocesador?, Transpilar, SCSS/SASS",
+        "links": [
+          {"key": "", "value": ""}, 
+          {"key": "", "value": ""}
+        ],
+        "hasVideo": false,
+        "video": ""
+      },
+      {
+        "name": "Bases",
+        "description": "Variables, Nesting/Anidamiento, Módulos, Mixins",
+        "links": [
+          {"key": "", "value": ""}, 
+          {"key": "", "value": ""}
+        ],
+        "hasVideo": false,
+        "video": ""
+      },
+      {
+        "name": "Metodologia CSS",
+        "description": "¿Qué son las Metodologías CSS y por qué aplicarlas?, BEM",
+        "links": [
+          {"key": "", "value": ""}, 
+          {"key": "", "value": ""}
+        ],
+        "hasVideo": false,
+        "video": ""
+      },
+      {
+        "name": "SCSS/SASS Avanzado",
+        "description": "Herencia/Extensión, Operadores, Control de Flujo, Functions",
+        "links": [
+          {"key": "", "value": ""}, 
+          {"key": "", "value": ""}
+        ],
+        "hasVideo": false,
+        "video": ""
+      },
+      {
+          "name": "",
+          "void" : true
+      }
+    ]
+  },
+  {
+    "title": "Frameworks/Bibliotecas JS",
+    "content" : [ 
+      {
+        "name": "Introducción",
+        "description" : "¿Qué es un Framework/Biblioteca JS?, ¿Por qué utilizar uno?, Choose One(React-Vue-Angular-Svelte)",
+        "links": [
+          {"key": "", "value": ""}, 
+          {"key": "", "value": ""}
+        ],
+        "hasVideo": false,
+        "video": ""
+      },
+      {
+        "name": "Bases de cada uno a aprender",
+        "description": "Componentes y Atomic Design, Router y Navegación, Ciclo de Vida de Componentes, Comunicación entre Componentes",
+        "links": [
+          {"key": "", "value": ""}, 
+          {"key": "", "value": ""}
+        ],
+        "hasVideo": false,
+        "video": ""
+      },
+      {
+        "name": "Adentrandose un poquito mas",
+        "description": "Formularios, HTTP y Asincronismo, Bibliotecas de Estilos",
+        "links": [
+          {"key": "", "value": ""}, 
+          {"key": "", "value": ""}
+        ],
+        "hasVideo": false,
+        "video": ""
+      },
+      {
+        "name": "Mas y mas",
+        "description": "Testing, TypeScript, Server Side Rendering, GraphQL",
+        "links": [
+          {"key": "", "value": ""}, 
+          {"key": "", "value": ""}
+        ],
+        "hasVideo": false,
+        "video": ""
+      },
+      {
+        "name": "Contenidos Avanzados",
+        "description": "Mobile Apps, Desktop Apps, Progressive Web Apps, Web Assembly",
+        "links": [
+          {"key": "", "value": ""}, 
+          {"key": "", "value": ""}
+        ],
+        "hasVideo": false,
+        "video": ""
+      },
+      {
+          "name": "",
+          "void" : true
+      }
+    ]
+  },
+  BDD,
+  {
+    "title": "Backend",
+    "content" : [ 
+      {
+        "name": "Introducción",
+        "description" : "¿Qué es el Backend?, Elegir Lenguaje(JS, Py, Java, Go, Ruby, PHP, C#, Rust...), ¿Qué es una API REST?, Postman",
+        "links": [
+          {"key": "", "value": ""}, 
+          {"key": "", "value": ""}
+        ],
+        "hasVideo": false,
+        "video": ""
+      },
+      {
+        "name": "Bases de cada uno a aprender",
+        "description": "Sintaxis y bases de programacion, Frameworks de backend, Modelos - Controladores - Rutas, ORMs, Hacer un CRUD, Manejo de Archivos, CORS",
+        "links": [
+          {"key": "", "value": ""}, 
+          {"key": "", "value": ""}
+        ],
+        "hasVideo": false,
+        "video": ""
+      },
+      {
+        "name": "Adentrandose un poquito mas",
+        "description": "Autenticaciones, Enviar Mails, Testing, GraphQL, WebSockets",
+        "links": [
+          {"key": "", "value": ""}, 
+          {"key": "", "value": ""}
+        ],
+        "hasVideo": false,
+        "video": ""
+      },
+      {
+        "name": "Contenidos Avanzados",
+        "description": "Microservicios, Docker",
+        "links": [
+          {"key": "", "value": ""}, 
+          {"key": "", "value": ""}
+        ],
+        "hasVideo": false,
+        "video": ""
+      },
+      {
+          "name": "",
+          "void" : true
+      }
+    ]
+  }
 ]
 export default Web;  
