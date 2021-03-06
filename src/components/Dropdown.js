@@ -86,24 +86,25 @@ const Diagonal = styled.div`
   margin-bottom: -15px;
 `*/
 
-export default function Trayectoria(props) {
-  const [open, setOpen] = useState(props.open)
+export default function Dropdown(props) {
+  const { lista, open, titulo } = props;
+  const [isOpen, setOpen] = useState(open)
 
   const handleClick = () => {
-    setOpen(!open)
+    setOpen(!isOpen)
   }
 
   return (
     <li style={{display: "block", maxWidth: "700px", margin: "auto"}}>
       <FlexBox
-        open={open}
+        open={isOpen}
         onClick={handleClick}
-        style={open ? {marginBottom: "0px"} : {marginBottom: "5px"}}>
+        style={isOpen ? {marginBottom: "0px"} : {marginBottom: "5px"}}>
         <Ball />
-        {props.titulo ? (
+        {titulo ? (
           <h2>
-            {props.titulo}
-            {open ? (
+            {titulo}
+            {isOpen ? (
               <span className="fa-stack">
                 <i className="fas fa-circle fa-stack-2x circulo-active"></i>
                 <i className="fas fa-angle-down fa-stack-1x flecha-active"></i>
@@ -119,12 +120,10 @@ export default function Trayectoria(props) {
           ""
         )}
       </FlexBox>
-      {props.lista ? (
-        <ul style={open ? {display: "block"} : {display: "none"}}>
+      {lista ? (
+        <ul style={isOpen ? {display: "block"} : {display: "none"}}>
           <Diagonal />
-          {props.lista.map((x) => (
-            <Card element={x} key={x.title}></Card>
-          ))}
+          {lista.map(element => <Card element={element} key={element.name}></Card>)}
           {/*<InvertDiagonal />*/}
         </ul>
       ) : (

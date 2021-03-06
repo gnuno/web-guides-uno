@@ -94,32 +94,15 @@ const ContentElement = styled.div`
 `;
 
 export default function Card(props) {
-  let element = props.element;
+  let { element } = props;
   return (
     <Item>
       <HeadElement>
         <Ball />
-        <h3> {element.title} </h3>
-        {element.start ? (
-          <span
-            style={{
-              background: element.isActive ? colors.detalle1 : colors.bgGris3,
-            }}
-          >
-            {" "}
-            {element.start}
-            {element.isActive ? "Actualidad" : element.end}{" "}
-          </span>
-        ) : (
-          ""
-        )}
+        <h3> {element.name} </h3>
       </HeadElement>
-      {element.start ? (
-        <ContentElement>
-          <h4> {element.subtitle} </h4>
-          {element.progress ? <span> {element.progress} Completo </span> : ""}
-          <p> {element.description} </p>
-        </ContentElement>
+      {!element.void ? (
+        <ContentElement> <p> {element.description} </p> </ContentElement>
       ) : (
         <div style={{ paddingBottom: "12px" }}></div>
       )}

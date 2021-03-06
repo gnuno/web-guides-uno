@@ -1,6 +1,8 @@
 import styled from "styled-components"
 
-export const Container = styled.div`
+import { breackpoints } from "../assets/styles";
+
+const Container = styled.div`
   margin: 0em auto;
 
   @media ${breackpoints.mobileS} {
@@ -20,4 +22,5 @@ export const Container = styled.div`
   @media ${breackpoints.desktop} {
     max-width: "1280px";
   }
-`
+`;
+export default Container;
