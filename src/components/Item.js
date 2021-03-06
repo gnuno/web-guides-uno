@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { breackpoints, colors } from "../assets/styles";
+import { breakpoints, colors } from "../assets/styles";
 
 const Item = styled.li`
   padding: 0em 0em 0em 1.5em;
@@ -32,7 +32,7 @@ const HeadElement = styled.div`
     display: inline-block;
     padding: 0.15em 0.4em;
   }
-  @media ${breackpoints.mobileS} {
+  @media ${breakpoints.mobileS} {
     h3 {
       font-size: 1em;
     }
@@ -40,7 +40,7 @@ const HeadElement = styled.div`
       display: none;
     }
   }
-  @media ${breackpoints.tablet} {
+  @media ${breakpoints.tablet} {
     h3 {
       font-size: 1.1em;
     }
@@ -73,7 +73,7 @@ const ContentElement = styled.div`
   span {
     color: ${colors.detalle1Oscuro};
   }
-  @media ${breackpoints.mobileS} {
+  @media ${breakpoints.mobileS} {
     h4 {
       font-size: 0.92em;
     }
@@ -82,7 +82,7 @@ const ContentElement = styled.div`
       font-size: 0.85em;
     }
   }
-  @media ${breackpoints.tablet} {
+  @media ${breakpoints.tablet} {
     h4 {
       font-size: 1.05em;
     }

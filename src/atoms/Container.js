@@ -1,25 +1,25 @@
 import styled from "styled-components"
 
-import { breackpoints } from "../assets/styles";
+import { breakpoints as breakpoints } from "../assets/styles";
 
 const Container = styled.div`
   margin: 0em auto;
 
-  @media ${breackpoints.mobileS} {
+  @media ${breakpoints.mobileS} {
     max-width: "360px";
     width: 90%;
   }
-  @media ${breackpoints.mobileL} {
+  @media ${breakpoints.mobileL} {
     max-width: "400px";
   }
-  @media ${breackpoints.tablet} {
+  @media ${breakpoints.tablet} {
     max-width: "720px";
     width: 80%;
   }
-  @media ${breackpoints.laptop} {
+  @media ${breakpoints.laptop} {
     max-width: "960px";
   }
-  @media ${breackpoints.desktop} {
+  @media ${breakpoints.desktop} {
     max-width: "1280px";
   }
 `;

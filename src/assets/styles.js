@@ -30,7 +30,7 @@ const size = {
   desktopL: "1441px"
 }
 
-export const breackpoints = {
+export const breakpoints = {
   mobileS: `(min-width: ${size.mobileS})`,
   mobileM: `(min-width: ${size.mobileM})`,
   mobileL: `(min-width: ${size.mobileL})`,
