@@ -1,10 +1,3 @@
-import styled from "styled-components"
-
-export const fonts = {
-  txtFamily1: "'Ubuntu', sans-serif",
-  txtFamily2: "'Oswald', sans-serif"
-}
-
 export const colors = {
   bgOscuro: "#373737",
   bgGris1: "#474747",
