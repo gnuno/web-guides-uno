@@ -1,11 +1,10 @@
 import styled from "styled-components";
-import Breakpoints from "../atoms/Breakpoints";
+import FontSizes from "../atoms/FontSizes";
 
 const List = styled.ul`
     margin-top: 5px;
     font-weight: lighter;
-    @media ${Breakpoints.mobileS} { font-size: 0.8em }
-    @media ${Breakpoints.tablet} { font-size: 0.9em }
+    ${FontSizes.p2}
 
     li:not(:last-child){
         ::after {

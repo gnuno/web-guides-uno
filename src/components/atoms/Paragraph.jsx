@@ -1,12 +1,10 @@
 import styled from "styled-components";
-import Breakpoints from "./Breakpoints";
+import FontSizes from "./FontSizes";
 
 export const Paragraph = styled.p`
-    @media ${Breakpoints.mobileS} { font-size: 0.9em }
-    @media ${Breakpoints.tablet} { font-size: 1em }
+    ${FontSizes.p1};
 `;
 
 export const SubParagraph = styled.p`
-    @media ${Breakpoints.mobileS} { font-size: 0.8em }
-    @media ${Breakpoints.tablet} { font-size: 0.9em }
+    ${FontSizes.p2};
 `;
