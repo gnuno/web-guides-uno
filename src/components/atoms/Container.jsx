@@ -1,9 +1,7 @@
 import styled from "styled-components";
 import Breakpoints from "./Breakpoints";
 
-export const Container = styled.div`
-    margin: 0em auto;
-
+const Queries = `
     @media ${Breakpoints.mobileS} {
         max-width: "360px";
         width: 90%;
@@ -23,6 +21,13 @@ export const Container = styled.div`
     }
 `;
 
-export const CenteredContainer = styled(Container)`
+export const Container = styled.div`
+    margin: 0em auto;
+    ${Queries}
+`;
+
+export const HeaderContainer = styled.header`
+    margin: 0em auto;
     text-align: center;
+    ${Queries}
 `;

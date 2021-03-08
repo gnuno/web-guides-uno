@@ -6,11 +6,11 @@ const Ball = styled.div`
     padding: 0.45em;
     display: inline-block;
     border: 0.3em solid;
-    background: ${Theme.divider};
+    background: ${Theme.background.paper};
 `
 
 export const MainBall = styled(Ball)`
-    border-color: ${Theme.backgroundPaper};
+    border-color: ${Theme.divider.soft};
 `;
 
 export const ChildBall = styled(Ball)`

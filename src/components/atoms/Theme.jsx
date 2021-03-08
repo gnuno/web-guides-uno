@@ -1,8 +1,14 @@
 const Theme = {
-    background: "#252525", 
-    backgroundPaper: "#474747",
+    background: {
+        normal: "#252525", 
+        paper: "#474747"
+    },
 
-    divider: "#bdbdbd",
+    divider: {
+        soft: "#777",
+        normal: "#AAA",
+        hard: "#ccc"
+    },
 
     text: {
         primary: "#dadada",
@@ -13,12 +19,13 @@ const Theme = {
 
     color: {
         primary: "#fb8c00",
-        secondary: "#3fd13f"
+        secondary: "#3fd13f",
+        verde: "#43a047", 
+        verdeagua: "#00acc1",
+        azul: "#039be5",
+        naranja: "#fb8c00"
     }
-    /*verde 43a047 
-    verde agua 00acc1
-    azul 039be5
-    naranja fb8c00
+    /*
      */
 }
 

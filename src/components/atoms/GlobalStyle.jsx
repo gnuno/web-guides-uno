@@ -3,7 +3,7 @@ import Theme from "./Theme";
 
 const GlobalStyle = createGlobalStyle`
     body {
-        background: ${Theme.background};
+        background: ${Theme.background.normal};
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         color: ${Theme.text.primary};
         a{
