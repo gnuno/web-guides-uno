@@ -1,6 +1,6 @@
 import React, {useState} from "react"
 import styled from "styled-components"
-import { colors } from "../assets/styles";
+import colors from "./atoms/Colors";
 
 import Card from "./Item"
 

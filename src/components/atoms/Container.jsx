@@ -1,6 +1,5 @@
 import styled from "styled-components"
-
-import { breakpoints as breakpoints } from "../assets/styles";
+import breakpoints from "./Breakpoints";
 
 const Container = styled.div`
   margin: 0em auto;
@@ -23,4 +22,9 @@ const Container = styled.div`
     max-width: "1280px";
   }
 `;
-export default Container;
+
+const CenteredContainer = styled(Container)`
+  text-align: center;
+`;
+
+export default { Container, CenteredContainer };
