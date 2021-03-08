@@ -12,12 +12,18 @@ export default function Map() {
     const { data, title, description } = getData(name);
 
     return (
-      <>
-        <TextContainer title={title} description={description}/>
-        <List>
-            {data.map((element, index) => <Dropdown lista={element.content} open={index === 0} titulo={element.title} />)}
-            <Dropdown />
-        </List>
-      </>
+        <>
+            <TextContainer title={title} description={description} />
+            <List>
+                {data.map((element, index) => (
+                    <Dropdown
+                        lista={element.content}
+                        open={index === 0}
+                        titulo={element.title}
+                    />
+                ))}
+                <Dropdown />
+            </List>
+        </>
     );
 }

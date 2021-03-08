@@ -4,109 +4,112 @@ import breakpoints from "./atoms/Breakpoints";
 import colors from "./atoms/Colors";
 
 const Item = styled.li`
-  padding: 0em 0em 0em 1.5em;
+    padding: 0em 0em 0em 1.5em;
 `;
 
 const Ball = styled.div`
-  border-radius: 50%;
-  padding: 0.3em;
-  display: inline-block;
-  background: ${colors.bgGris1};
-  border: 0.25em solid ${colors.detalle1};
+    border-radius: 50%;
+    padding: 0.3em;
+    display: inline-block;
+    background: ${colors.bgGris1};
+    border: 0.25em solid ${colors.detalle1};
 `;
 
 const HeadElement = styled.div`
-  display: flex;
-  align-items: flex-start;
-  h3 {
-    flex: 2 0;
-    margin-left: 6px;
-    font-weight: 500;
-    color: ${colors.txtBgClaro2};
-  }
-  span {
-    color: ${colors.txtBgClaro2 + "99"};
-    white-space: nowrap;
-    font-size: 0.8em;
-    border-radius: 30px;
-    align-self: flex-end;
-    display: inline-block;
-    padding: 0.15em 0.4em;
-  }
-  @media ${breakpoints.mobileS} {
+    display: flex;
+    align-items: flex-start;
     h3 {
-      font-size: 1em;
+        flex: 2 0;
+        margin-left: 6px;
+        font-weight: 500;
+        color: ${colors.txtBgClaro2};
     }
     span {
-      display: none;
+        color: ${colors.txtBgClaro2 + "99"};
+        white-space: nowrap;
+        font-size: 0.8em;
+        border-radius: 30px;
+        align-self: flex-end;
+        display: inline-block;
+        padding: 0.15em 0.4em;
     }
-  }
-  @media ${breakpoints.tablet} {
-    h3 {
-      font-size: 1.1em;
+    @media ${breakpoints.mobileS} {
+        h3 {
+            font-size: 1em;
+        }
+        span {
+            display: none;
+        }
     }
-    span {
-      display: block;
+    @media ${breakpoints.tablet} {
+        h3 {
+            font-size: 1.1em;
+        }
+        span {
+            display: block;
+        }
     }
-  }
 `;
 
 const ContentElement = styled.div`
-  margin-left: 6px;
-  padding: 0px 8px 15px 15px;
-  border-left: 6px solid transparent;
-  border-image: linear-gradient(
-      to right,
-      ${colors.bgGris3 + "40"} 0%,
-      ${colors.detalle1 + "aa"} 0.5%,
-      ${colors.bgGris3 + "40"} 1%
-    )
-    1% stretch;
-  h4 {
-    font-weight: lighter;
-    color: ${colors.bgGris1};
-    margin-bottom: 7px;
-  }
-  p {
-    color: ${colors.txtBgClaro2};
-    margin-top: 5px;
-  }
-  span {
-    color: ${colors.detalle1Oscuro};
-  }
-  @media ${breakpoints.mobileS} {
+    margin-left: 6px;
+    padding: 0px 8px 15px 15px;
+    border-left: 6px solid transparent;
+    border-image: linear-gradient(
+            to right,
+            ${colors.bgGris3 + "40"} 0%,
+            ${colors.detalle1 + "aa"} 0.5%,
+            ${colors.bgGris3 + "40"} 1%
+        )
+        1% stretch;
     h4 {
-      font-size: 0.92em;
+        font-weight: lighter;
+        color: ${colors.bgGris1};
+        margin-bottom: 7px;
     }
-    p,
+    p {
+        color: ${colors.txtBgClaro2};
+        margin-top: 5px;
+    }
     span {
-      font-size: 0.85em;
+        color: ${colors.detalle1Oscuro};
     }
-  }
-  @media ${breakpoints.tablet} {
-    h4 {
-      font-size: 1.05em;
+    @media ${breakpoints.mobileS} {
+        h4 {
+            font-size: 0.92em;
+        }
+        p,
+        span {
+            font-size: 0.85em;
+        }
     }
-    p,
-    span {
-      font-size: 0.95em;
+    @media ${breakpoints.tablet} {
+        h4 {
+            font-size: 1.05em;
+        }
+        p,
+        span {
+            font-size: 0.95em;
+        }
     }
-  }
 `;
 
 export default function Card(props) {
-  let { element } = props;
-  return (
-    <Item>
-      <HeadElement>
-        <Ball />
-        <h3> {element.name} </h3>
-      </HeadElement>
-      {!element.void ? (
-        <ContentElement> <p> {element.description} </p> </ContentElement>
-      ) : (
-        <div style={{ paddingBottom: "12px" }}></div>
-      )}
-    </Item>
-  );
+    let { element } = props;
+    return (
+        <Item>
+            <HeadElement>
+                <Ball />
+                <h3> {element.name} </h3>
+            </HeadElement>
+            {!element.void ? (
+                <ContentElement>
+                    {" "}
+                    <p> {element.description} </p>{" "}
+                </ContentElement>
+            ) : (
+                <div style={{ paddingBottom: "12px" }}></div>
+            )}
+        </Item>
+    );
 }

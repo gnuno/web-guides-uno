@@ -1,7 +1,7 @@
-import styled from "styled-components"
+import styled from "styled-components";
 
 const Paragraph = styled.p`
-  font-size: .8em;
+    font-size: 0.8em;
 `;
 
 export default Paragraph;

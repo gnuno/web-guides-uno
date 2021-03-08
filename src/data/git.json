@@ -1,39 +1,39 @@
 {
     "title": "GIT",
-    "content" : [ 
+    "content": [
         {
             "name": "Introduccion",
-            "description" : "¿Qué es?, ¿Para qué sirve?",
+            "description": "¿Qué es?, ¿Para qué sirve?",
             "links": [
-            {"key": "", "value": ""}, 
-            {"key": "", "value": ""}
+                { "key": "", "value": "" },
+                { "key": "", "value": "" }
             ],
             "hasVideo": false,
             "video": ""
         },
         {
             "name": "Uso basico",
-            "description" : "Working directory-Stage-Head, Commit, Log",
+            "description": "Working directory-Stage-Head, Commit, Log",
             "links": [
-            {"key": "", "value": ""}, 
-            {"key": "", "value": ""}
+                { "key": "", "value": "" },
+                { "key": "", "value": "" }
             ],
             "hasVideo": false,
             "video": ""
         },
         {
             "name": "Uso colaborativo",
-            "description" : "Branchs - Merge, Remotes(Github-Gitlab), Push, Pull-Fetch, Clone",
+            "description": "Branchs - Merge, Remotes(Github-Gitlab), Push, Pull-Fetch, Clone",
             "links": [
-            {"key": "", "value": ""}, 
-            {"key": "", "value": ""}
+                { "key": "", "value": "" },
+                { "key": "", "value": "" }
             ],
             "hasVideo": false,
             "video": ""
         },
         {
             "name": "",
-            "void" : true
+            "void": true
         }
     ]
 }

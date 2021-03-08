@@ -8,8 +8,8 @@ export default function TextContainer(props) {
 
     return (
         <CenteredContainer>
-            <Title> { title } </Title>
-            <Paragraph> { description } </Paragraph>
+            <Title> {title} </Title>
+            <Paragraph> {description} </Paragraph>
         </CenteredContainer>
     );
 }
