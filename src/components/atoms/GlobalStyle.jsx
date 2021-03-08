@@ -8,6 +8,10 @@ const GlobalStyle = createGlobalStyle`
     color: ${Colors.text.primary};
     a{
       color: ${Colors.text.link};
+      :hover{
+        color: ${Colors.text.lightLink};
+        text-decoration: underline;
+      }
     }
   }
 `

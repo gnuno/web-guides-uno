@@ -5,9 +5,10 @@ const colors = {
     divider: "#bdbdbd",
 
     text: {
-        primary: "#eeeeee",
-        secondary: "#e0e0e0",
-        link: "#03a9f4"
+        primary: "#dadada",
+        secondary: "#fafafa",
+        link: "#0faef8",
+        lightLink: "#52c8ff"
     },
 
     color: {

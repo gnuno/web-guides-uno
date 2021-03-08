@@ -1,4 +1,5 @@
 import React from "react";
+import TextContainer from "../components/molecules/TextContainer";
 
 export default function Index() {
   const roadmaps= [
@@ -6,10 +7,16 @@ export default function Index() {
     {name: "GIT", url:"/git"},
     {name: "Bases de Datos", url:"/db"}
   ]
+
+  const title = 'Roads Maps UNO';
+  const description = 'Bienvenidxs a esta pagina creada por la comunidad IT de la UNO, aqui podras encontrarte con varios mapas a seguir para aprender una tecnologia de punta a punta';
   
   return (
-    <ul>
-     {roadmaps.map(element => <li key={element.name}><a href={element.url}>{element.name}</a></li> )}
-    </ul>
+    <>
+      <TextContainer title={title} description={description}/>
+      <ul>
+        {roadmaps.map(element => <li key={element.name}><a href={element.url}>{element.name}</a></li> )}
+      </ul>
+    </>
   );
 }
