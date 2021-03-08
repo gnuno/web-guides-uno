@@ -7,7 +7,6 @@ export const Paragraph = styled.p`
 `;
 
 export const SubParagraph = styled.p`
-    font-weight: lighter;
     @media ${Breakpoints.mobileS} { font-size: 0.8em }
     @media ${Breakpoints.tablet} { font-size: 0.9em }
 `;
