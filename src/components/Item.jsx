@@ -3,16 +3,10 @@ import styled from "styled-components";
 import breakpoints from "./atoms/Breakpoints";
 import Theme from "./atoms/Theme";
 
+import { ChildBall } from "./atoms/Ball";
+
 const Item = styled.li`
     padding: 0em 0em 0em 1.5em;
-`;
-
-const Ball = styled.div`
-    border-radius: 50%;
-    padding: 0.3em;
-    display: inline-block;
-    background: ${Theme.bgGris1};
-    border: 0.25em solid ${Theme.detalle1};
 `;
 
 const HeadElement = styled.div`
@@ -99,7 +93,7 @@ export default function Card(props) {
     return (
         <Item>
             <HeadElement>
-                <Ball />
+                <ChildBall />
                 <h3> {element.name} </h3>
             </HeadElement>
             {!element.void ? (

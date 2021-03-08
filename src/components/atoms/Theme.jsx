@@ -5,9 +5,9 @@ const Theme = {
     },
 
     divider: {
-        soft: "#777",
-        normal: "#AAA",
-        hard: "#ccc"
+        soft: "#777777",
+        normal: "#AAAAAA",
+        hard: "#cccccc"
     },
 
     text: {

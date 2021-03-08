@@ -1,8 +1,8 @@
 import React from "react";
 import { useParams } from "react-router";
 
-import Dropdown from "../components/Dropdown";
-import List from "../components/atoms/List";
+import Dropdown from "../components/organism/Dropdown";
+import { MainList } from "../components/atoms/List";
 import TextContainer from "../components/molecules/TextContainer";
 
 import getData from "../data/dataProvider";
@@ -14,7 +14,7 @@ export default function Map() {
     return (
         <>
             <TextContainer title={title} description={description} />
-            <List>
+            <MainList>
                 {data.map((element, index) => (
                     <Dropdown
                         lista={element.content}
@@ -23,7 +23,7 @@ export default function Map() {
                     />
                 ))}
                 <Dropdown />
-            </List>
+            </MainList>
         </>
     );
 }

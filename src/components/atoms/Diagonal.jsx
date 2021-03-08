@@ -3,12 +3,12 @@ import Theme from "./Theme";
 
 export const Diagonal = styled.div`
     border-left: 35px solid;
-    border-top: 38px solid ${Theme.background};
+    border-top: 38px solid ${Theme.background.normal};
     border-image: linear-gradient(
             to bottom left,
-            ${Theme.backgroundPaper + "1a"} 40%,
+            ${Theme.background.paper + "1a"} 40%,
             ${Theme.color.primary + "cc"},
-            ${Theme.backgroundPaper + "1a"} 60%
+            ${Theme.background.paper + "1a"} 60%
         )
         100% stretch;
     position: relative;
@@ -19,11 +19,13 @@ export const Diagonal = styled.div`
 `;
 
 export const InvertDiagonal = styled(Diagonal)`
+    border-left: 30px solid;
+    border-top: 38px solid ${Theme.background.normal}; 
     border-image: linear-gradient(
         to bottom right,
-        ${Theme.backgroundPaper + "1a"} 40%,
+        ${Theme.background.paper + "1a"} 40%,
         ${Theme.color.primary + "cc"},
-        ${Theme.backgroundPaper + "1a"} 60%
+        ${Theme.background.paper + "1a"} 60%
     );
     margin-top: -10px;
     margin-bottom: -15px;

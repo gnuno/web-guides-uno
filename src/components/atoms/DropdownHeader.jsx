@@ -20,7 +20,7 @@ const DropdownHeader = styled.header`
             border-color: ${Theme.divider.normal};
         }
     }
-    ${(props) => (props.open ? "margin-bottom: 0px" : "margin-bottom: 5px")}
+    margin-bottom: ${(props) => props.open ? "0px" : "5px"};
 `;
 
 export default DropdownHeader;

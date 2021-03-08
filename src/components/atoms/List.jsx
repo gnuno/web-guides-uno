@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import Theme from "./Theme";
 
-const List = styled.ul`
+export const MainList = styled.ul`
     padding: 1.5em 0em;
 
     li ul {
@@ -9,12 +9,14 @@ const List = styled.ul`
         border-left: 8px solid transparent;
         border-image: linear-gradient(
                 to right,
-                ${Theme.bgGris3 + "40"} 0%,
-                ${Theme.bgGris3} 0.5%,
-                ${Theme.bgGris3 + "40"} 1%
+                ${Theme.divider.soft}40 0%,
+                ${Theme.divider.normal}dd 0.5%,
+                ${Theme.divider.soft}40 1%
             )
             1% stretch;
     }
 `;
 
-export default List;
+export const ListChild = styled.ul`
+    display: ${props => props.open ? "block" : "none" }
+`;
