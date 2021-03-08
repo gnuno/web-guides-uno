@@ -1,6 +1,6 @@
 import React from "react";
 import Title from "../atoms/Title";
-import Paragraph from "../atoms/Paragraph";
+import { Paragraph } from "../atoms/Paragraph";
 import { HeaderContainer } from "../atoms/Container";
 
 export default function TextContainer(props) {
