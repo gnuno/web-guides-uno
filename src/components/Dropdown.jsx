@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 import styled from "styled-components";
-import colors from "./atoms/Colors";
+import Theme from "./atoms/Theme";
 
 import Card from "./Item";
+import { Diagonal, InvertDiagonal} from "./atoms/Diagonal"
 import { MainBall } from "./atoms/Ball";
 
 const FlexBox = styled.div`
@@ -12,7 +13,7 @@ const FlexBox = styled.div`
         margin-left: 7px;
         font-weight: 700;
         font-size: 1.2em;
-        color: ${colors.txtBgClaro2};
+        color: ${Theme.txtBgClaro2};
         i {
             vertical-align: middle;
         }
@@ -20,16 +21,16 @@ const FlexBox = styled.div`
             font-size: 0.5em;
         }
         .circulo {
-            color: ${colors.bgGris1 + "ee"};
+            color: ${Theme.bgGris1 + "ee"};
             &-active {
-                color: ${colors.detalle1 + "bb"};
+                color: ${Theme.detalle1 + "bb"};
             }
         }
         .flecha {
-            color: ${colors.detalle1};
+            color: ${Theme.detalle1};
             font-size: 1.5em;
             &-active {
-                color: ${colors.bgGris1 + "bb"};
+                color: ${Theme.bgGris1 + "bb"};
                 font-size: 1.5em;
             }
         }
@@ -37,46 +38,18 @@ const FlexBox = styled.div`
     cursor: pointer;
     :hover {
         h2 {
-            color: ${colors.txtBgClaro2 + "bb"};
+            color: ${Theme.txtBgClaro2 + "bb"};
         }
         div {
-            background: ${colors.bgGris1 + "bb"};
+            background: ${Theme.bgGris1 + "bb"};
         }
         .circulo {
-            color: ${colors.bgGris1 + "bb"};
+            color: ${Theme.bgGris1 + "bb"};
         }
     }
 `;
 
-const Diagonal = styled.div`
-    border-left: 35px solid red;
-    border-top: 38px solid #4c4c4c;
-    border-image: linear-gradient(
-            to bottom left,
-            ${colors.bgGris4 + "20"} 40%,
-            ${colors.detalle1 + "aa"},
-            ${colors.bgGris4 + "20"} 60%
-        )
-        100% stretch;
-    position: relative;
-    z-index: -10;
-    left: 0px;
-    bottom: 7px;
-    margin-bottom: -18px;
-`;
-
-/*const InvertDiagonal = styled(Diagonal)`
-  border-left: 32px solid red;
-  border-top: 38px solid #4c4c4c;
-  border-image: linear-gradient(
-    to bottom right,
-    ${colors.bgGris4 + "15"} 40%,
-    ${colors.detalle1 + "aa"},
-    ${colors.bgGris4 + "15"} 60%
-  )
-  100% stretch;
-  margin-top: -10px;
-  margin-bottom: -15px;
+/*
 `*/
 
 export default function Dropdown(props) {
@@ -122,7 +95,7 @@ export default function Dropdown(props) {
                     {lista.map((element) => (
                         <Card element={element} key={element.name}></Card>
                     ))}
-                    {/*<InvertDiagonal />*/}
+                    <InvertDiagonal />
                 </ul>
             ) : (
                 ""

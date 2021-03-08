@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import Colors from "./Colors";
+import Theme from "./Theme";
 
 const List = styled.ul`
     padding: 1.5em 0em;
@@ -9,9 +9,9 @@ const List = styled.ul`
         border-left: 8px solid transparent;
         border-image: linear-gradient(
                 to right,
-                ${Colors.bgGris3 + "40"} 0%,
-                ${Colors.bgGris3} 0.5%,
-                ${Colors.bgGris3 + "40"} 1%
+                ${Theme.bgGris3 + "40"} 0%,
+                ${Theme.bgGris3} 0.5%,
+                ${Theme.bgGris3 + "40"} 1%
             )
             1% stretch;
     }

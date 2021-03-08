@@ -1,9 +1,9 @@
 import styled from "styled-components";
-import Colors from "./Colors";
+import Theme from "./Theme";
 
 const Title = styled.h1`
     font-size: 2em;
-    color: ${Colors.text.secondary};
+    color: ${Theme.text.secondary};
 `;
 
 export default Title;

@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import breakpoints from "./atoms/Breakpoints";
-import colors from "./atoms/Colors";
+import Theme from "./atoms/Theme";
 
 const Item = styled.li`
     padding: 0em 0em 0em 1.5em;
@@ -11,8 +11,8 @@ const Ball = styled.div`
     border-radius: 50%;
     padding: 0.3em;
     display: inline-block;
-    background: ${colors.bgGris1};
-    border: 0.25em solid ${colors.detalle1};
+    background: ${Theme.bgGris1};
+    border: 0.25em solid ${Theme.detalle1};
 `;
 
 const HeadElement = styled.div`
@@ -22,10 +22,10 @@ const HeadElement = styled.div`
         flex: 2 0;
         margin-left: 6px;
         font-weight: 500;
-        color: ${colors.txtBgClaro2};
+        color: ${Theme.txtBgClaro2};
     }
     span {
-        color: ${colors.txtBgClaro2 + "99"};
+        color: ${Theme.txtBgClaro2 + "99"};
         white-space: nowrap;
         font-size: 0.8em;
         border-radius: 30px;
@@ -57,22 +57,22 @@ const ContentElement = styled.div`
     border-left: 6px solid transparent;
     border-image: linear-gradient(
             to right,
-            ${colors.bgGris3 + "40"} 0%,
-            ${colors.detalle1 + "aa"} 0.5%,
-            ${colors.bgGris3 + "40"} 1%
+            ${Theme.bgGris3 + "40"} 0%,
+            ${Theme.detalle1 + "aa"} 0.5%,
+            ${Theme.bgGris3 + "40"} 1%
         )
         1% stretch;
     h4 {
         font-weight: lighter;
-        color: ${colors.bgGris1};
+        color: ${Theme.bgGris1};
         margin-bottom: 7px;
     }
     p {
-        color: ${colors.txtBgClaro2};
+        color: ${Theme.txtBgClaro2};
         margin-top: 5px;
     }
     span {
-        color: ${colors.detalle1Oscuro};
+        color: ${Theme.detalle1Oscuro};
     }
     @media ${breakpoints.mobileS} {
         h4 {

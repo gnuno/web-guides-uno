@@ -1,15 +1,15 @@
 import { createGlobalStyle } from "styled-components";
-import Colors from "./Colors";
+import Theme from "./Theme";
 
 const GlobalStyle = createGlobalStyle`
     body {
-        background: ${Colors.background};
+        background: ${Theme.background};
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        color: ${Colors.text.primary};
+        color: ${Theme.text.primary};
         a{
-            color: ${Colors.text.link};
+            color: ${Theme.text.link};
             :hover{
-                color: ${Colors.text.lightLink};
+                color: ${Theme.text.lightLink};
                 text-decoration: underline;
             }
         }
