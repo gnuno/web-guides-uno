@@ -1,7 +1,7 @@
 import styled from "styled-components"
 import breakpoints from "./Breakpoints";
 
-const Container = styled.div`
+export const Container = styled.div`
   margin: 0em auto;
 
   @media ${breakpoints.mobileS} {
@@ -23,8 +23,6 @@ const Container = styled.div`
   }
 `;
 
-const CenteredContainer = styled(Container)`
+export const CenteredContainer = styled(Container)`
   text-align: center;
 `;
-
-export default { Container, CenteredContainer };

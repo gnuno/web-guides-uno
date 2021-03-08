@@ -7,7 +7,7 @@ import TextContainer from "../components/molecules/TextContainer";
 
 import getData from "../data/dataProvider";
 
-export default function Map(props) {
+export default function Map() {
     const { name } = useParams();
     const { data, title, description } = getData(name);
 
