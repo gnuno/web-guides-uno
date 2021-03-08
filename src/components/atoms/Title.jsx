@@ -4,7 +4,7 @@ import FontSizes from "./FontSizes";
 
 export const H1 = styled.h1`
     font-weight: 700;
-    color: ${Theme.text.secondary};
+    color: ${Theme.color.primary};
     ${FontSizes.h1};
 `;
 

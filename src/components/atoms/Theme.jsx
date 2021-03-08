@@ -18,11 +18,11 @@ const Theme = {
     },
 
     color: {
-        primary: "#fb8c00",
+        //primary: "#fb8c00",
         secondary: "#3fd13f",
         verde: "#43a047", 
         verdeagua: "#00acc1",
-        azul: "#039be5",
+        primary: "#039be5",
         naranja: "#fb8c00"
     }
     /*

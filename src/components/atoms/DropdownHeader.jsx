@@ -7,11 +7,11 @@ const DropdownHeader = styled.header`
     cursor: pointer;
     :hover {
         h2 { 
-            color: ${Theme.text.secondary};
+            color: ${Theme.color.primary};
             text-decoration: underline;
         }
         div{
-            border-color: ${Theme.divider.normal};
+            border-color: ${Theme.color.primary}dd;
         }
     }
     margin-bottom: ${(props) => props.open ? "0px" : "5px"};
