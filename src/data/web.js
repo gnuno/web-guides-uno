@@ -235,7 +235,7 @@ const Web = [
       },
       {
         "name": "JavaScript Asincronico",
-        "description": "Asincronismo, Promesas, Encadenamiento de Promesas, Async/Await",
+        "description": "Asincronismo, Event loop, Promesas, Encadenamiento de Promesas, Async/Await",
         "links": [
           {"key": "", "value": ""}, 
           {"key": "", "value": ""}

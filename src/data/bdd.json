@@ -2,8 +2,8 @@
     "title": "Bases de Datos",
     "content" : [ 
         {
-            "name": "Introduccion",
-            "description" : ", ¿Para qué sirven?",
+            "name": "Introducción",
+            "description" : "¿Qué son?, ¿Para qué sirven?",
             "links": [
             {"key": "", "value": ""}, 
             {"key": "", "value": ""}
@@ -12,8 +12,8 @@
             "video": ""
         },
         {
-            "name": "Modelo Entidad Interrelacion",
-            "description" : "¿Qué es?, Cardinalidades, Entidades Debiles y Jerarquias",
+            "name": "Modelo Entidad Interrelación",
+            "description" : "¿Qué es?, Cardinalidades, Entidades Débiles y Jerarquías",
             "links": [
             {"key": "", "value": ""}, 
             {"key": "", "value": ""}
@@ -23,7 +23,7 @@
         },
         {
             "name": "Modelo Relacional",
-            "description" : "¿Qué es?, Mapeo de MEI a MR, Algebra Relacional",
+            "description" : "¿Qué es?, Mapeo de MEI a MR, Álgebra Relacional",
             "links": [
             {"key": "", "value": ""}, 
             {"key": "", "value": ""}
@@ -33,7 +33,17 @@
         },
         {
             "name": "SQL",
-            "description" : "¿Qué es?, Creacion de BDD, Consultas SQL, Joins, Funciones de Agrupamiento, SubSelect, Division",
+            "description" : "¿Qué es?, Creación de BDD, Consultas SQL, Joins, Funciones de Agrupamiento, SubSelect, División",
+            "links": [
+            {"key": "", "value": ""}, 
+            {"key": "", "value": ""}
+            ],
+            "hasVideo": false,
+            "video": ""
+        },
+        {
+            "name": "No relacionales",
+            "description" : "¿Qué son?, Diferencias con Relacional, MongoDB",
             "links": [
             {"key": "", "value": ""}, 
             {"key": "", "value": ""}

@@ -6,8 +6,9 @@ import Container from "../atoms/Container";
 
 export default function TextContainer(props) {
     const { title, description } = props;
+
     return (
-        <Container>
+        <Container style={{textAlign: "center"}}>
             <Title> { title } </Title>
             <Paragraph> { description } </Paragraph>
         </Container>
