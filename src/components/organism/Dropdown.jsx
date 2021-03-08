@@ -1,11 +1,18 @@
 import React, { useState } from "react";
+import styled from "styled-components";
 
-import Card from "../Item";
+import ChildItem from "./ChildItem";
 import { Diagonal, InvertDiagonal } from "../atoms/Diagonal";
 import { MainBall } from "../atoms/Ball";
 import DropdownHeader from "../atoms/DropdownHeader";
-import { ListChild } from "../atoms/List";
-import MainItem from "../atoms/MainItem";
+import ListChild from "../atoms/ListChild";
+import { H2 } from "../atoms/Title";
+
+const MainItem = styled.li`
+    display: block;
+    max-width: 700px;
+    margin: auto;
+`;
 
 export default function Dropdown(props) {
     const { lista, open, titulo } = props;
@@ -21,12 +28,12 @@ export default function Dropdown(props) {
                 <>
                     <DropdownHeader open={isOpen} onClick={handleClick}>
                         <MainBall />
-                        <h2> {titulo} </h2>
+                        <H2> {titulo} </H2>
                     </DropdownHeader>
                     <ListChild open={isOpen}>
                         <Diagonal />
                         {lista.map((element) => (
-                            <Card element={element} key={element.name}></Card>
+                            <ChildItem element={element} key={element.name}></ChildItem>
                         ))}
                         <InvertDiagonal />
                     </ListChild>

@@ -1,10 +1,10 @@
 import React from "react";
 import styled from "styled-components";
 
-import { ChildBall } from "./atoms/Ball";
-import ChildItemTitle from "./atoms/ChildItemTitle";
-import ChildItemContent from "./atoms/ChildItemContent";
-import { SubParagraph } from "./atoms/Paragraph";
+import { ChildBall } from "../atoms/Ball";
+import { H3 } from "../atoms/Title";
+import ChildItemContent from "../atoms/ChildItemContent";
+import { SubParagraph } from "../atoms/Paragraph";
 
 const ChildItem = styled.li`
     padding-left: 1.5em;
@@ -21,7 +21,7 @@ export default function Card(props) {
         <ChildItem>
             <ChildItemHeader>
                 <ChildBall />
-                <ChildItemTitle> {element.name} </ChildItemTitle>
+                <H3> {element.name} </H3>
             </ChildItemHeader>
             {!element.void ? (
                 <ChildItemContent>

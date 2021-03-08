@@ -4,12 +4,6 @@ import Theme from "./Theme";
 const DropdownHeader = styled.header`
     display: flex;
     align-items: center;
-    h2 {
-        margin-left: 7px;
-        font-weight: 700;
-        font-size: 1.2em;
-        color: ${Theme.text.primary};
-    }
     cursor: pointer;
     :hover {
         h2 { 
