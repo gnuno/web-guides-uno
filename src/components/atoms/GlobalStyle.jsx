@@ -4,12 +4,12 @@ import Theme from "./Theme";
 const GlobalStyle = createGlobalStyle`
     body {
         background: ${Theme.background.normal};
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-family:  'Encode Sans', sans-serif;
         color: ${Theme.text.primary};
         a{
-            color: ${Theme.text.link};
+            color: ${Theme.color.primary};
             :hover{
-                color: ${Theme.text.lightLink};
+                color: ${Theme.color.primary}df;
                 text-decoration: underline;
             }
         }

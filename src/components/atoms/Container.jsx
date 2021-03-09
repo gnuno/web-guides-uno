@@ -1,7 +1,8 @@
 import styled from "styled-components";
 import Breakpoints from "./Breakpoints";
 
-const Queries = `
+export const Container = styled.div`
+    margin: 0em auto;
     @media ${Breakpoints.mobileS} {
         max-width: 360px;
         width: 90%;
@@ -21,13 +22,17 @@ const Queries = `
     }
 `;
 
-export const Container = styled.div`
-    margin: 0em auto;
-    ${Queries}
-`;
-
 export const HeaderContainer = styled.header`
-    margin: 0em auto;
+    margin: 2em auto;
     text-align: center;
-    ${Queries}
+    max-width: 700px;
+    @media ${Breakpoints.mobileS} {
+        width: 100%;
+    }
+    @media ${Breakpoints.tablet} {
+        width: 90%;
+    }
+    @media ${Breakpoints.laptop} {
+        width: 80%;
+    }
 `;

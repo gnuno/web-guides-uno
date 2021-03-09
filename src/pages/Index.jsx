@@ -1,5 +1,6 @@
 import React from "react";
 import TextContainer from "../components/molecules/TextContainer";
+import { Container } from "../components/atoms/Container";
 
 export default function Index() {
     const roadmaps = [
@@ -13,7 +14,7 @@ export default function Index() {
         "Bienvenidxs a esta pagina creada por la comunidad IT de la UNO, aqui podras encontrarte con varios mapas a seguir para aprender una tecnologia de punta a punta";
 
     return (
-        <>
+        <Container>
             <TextContainer title={title} description={description} />
             <ul>
                 {roadmaps.map((element) => (
@@ -22,6 +23,6 @@ export default function Index() {
                     </li>
                 ))}
             </ul>
-        </>
+        </Container>
     );
 }
