@@ -7,26 +7,18 @@ const Theme = {
     divider: {
         soft: "#777777",
         normal: "#AAAAAA",
-        hard: "#cccccc"
+        hard: "#CCCCCC"
     },
 
     text: {
-        primary: "#dadada",
-        secondary: "#fafafa",
-        link: "#0faef8",
-        lightLink: "#52c8ff"
+        primary: "#DADADA",
+        secondary: "#FAFAFA"
     },
 
     color: {
-        //primary: "#fb8c00",
-        secondary: "#3fd13f",
-        verde: "#43a047", 
-        verdeagua: "#00acc1",
-        primary: "#039be5",
-        naranja: "#fb8c00"
+        primary: "#725AC1",
+        secondary: "#1B998B"
     }
-    /*
-     */
 }
 
 export default Theme;

@@ -3,21 +3,21 @@ import Breakpoints from "./Breakpoints";
 
 const Queries = `
     @media ${Breakpoints.mobileS} {
-        max-width: "360px";
+        max-width: 360px;
         width: 90%;
     }
     @media ${Breakpoints.mobileL} {
-        max-width: "400px";
+        max-width: 400px;
     }
     @media ${Breakpoints.tablet} {
-        max-width: "720px";
+        max-width: 720px;
         width: 80%;
     }
     @media ${Breakpoints.laptop} {
-        max-width: "960px";
+        max-width: 960px;
     }
     @media ${Breakpoints.desktop} {
-        max-width: "1280px";
+        max-width: 1100px;
     }
 `;
 
