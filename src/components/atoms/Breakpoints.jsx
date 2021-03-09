@@ -1,11 +1,11 @@
 const size = {
     mobileS: "0px",
-    mobileM: "321px",
-    mobileL: "376px",
-    tablet: "426px",
-    laptop: "769px",
-    desktop: "1025px",
-    desktopL: "1441px"
+    mobileM: "320px",
+    mobileL: "375px",
+    tablet: "425px",
+    laptop: "768px",
+    desktop: "1024px",
+    desktopL: "1440px"
 }
   
 const Breakpoints = {

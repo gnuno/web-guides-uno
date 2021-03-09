@@ -4,7 +4,7 @@ import styled from "styled-components";
 import { ChildBall } from "../atoms/Ball";
 import { H3 } from "../atoms/Title";
 import ChildItemContent from "../atoms/ChildItemContent";
-import { SubParagraph } from "../atoms/Paragraph";
+import { P2 } from "../atoms/Paragraph";
 import LinkList from "../molecules/LinkList";
 
 const ChildItem = styled.li`
@@ -27,7 +27,7 @@ export default function Card(props) {
             </ChildItemHeader>
             {!element.void ? (
                 <ChildItemContent>
-                    <SubParagraph> {element.description} </SubParagraph>
+                    <P2> {element.description} </P2>
                     <LinkList links={element.links}/>
                 </ChildItemContent>
             ) : (
