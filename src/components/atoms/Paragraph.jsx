@@ -3,7 +3,7 @@ import FontSizes from "./FontSizes";
 import Theme from "./Theme";
 
 export const P1 = styled.p`
-    margin-top: 16px;
+    padding: 16px 0px;
     color: ${Theme.text.primary};
     ${FontSizes.p1};
 `;

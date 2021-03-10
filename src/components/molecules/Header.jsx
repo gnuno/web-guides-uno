@@ -4,7 +4,6 @@ import styled from "styled-components";
 import { Container } from "../atoms/Container";
 import { Link } from "react-router-dom";
 import Theme from "../atoms/Theme";
-import Breakpoints from "../atoms/Breakpoints";
 
 const Title = styled(Link)`
     font-weight: 700;

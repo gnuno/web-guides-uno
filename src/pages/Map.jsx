@@ -5,7 +5,7 @@ import styled from "styled-components";
 import Dropdown from "../components/organism/Dropdown";
 import TextContainer from "../components/molecules/TextContainer";
 
-import getData from "../data/dataProvider";
+import { getData } from "../data/dataProvider";
 
 const MainList = styled.ul`
     padding: 1.5em 0em;

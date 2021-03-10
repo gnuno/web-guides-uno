@@ -4,7 +4,26 @@ import Web from "./web";
 /*import React from './react.json';
 import Node from './node.json';*/
 
-export default function getData(name) {
+const courses = [
+    { data: Web, name: "Web FullStack", url: "/web", contents: getContents(Web, true) },
+    { data: BDD, name: "Bases de Datos", url: "/db", contents: getContents(BDD, false) },
+    { data: GIT, name: "GIT", url: "/git", contents: getContents(GIT, false) },
+];
+
+export function getCourses() {
+    return courses;
+}
+
+function getContents(data, proGuide) {
+    var contents = " - ";
+
+    proGuide ? (data.map(guide => contents = contents + guide.title + " - ")) 
+        : (data.content.map(modules => (modules.void ? "" : contents = contents + modules.name + " - ")))
+
+    return contents;
+}
+
+export function getData(name) {
     switch (name) {
         case "git":
             return {
