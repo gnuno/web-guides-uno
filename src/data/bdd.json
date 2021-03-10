@@ -5,8 +5,8 @@
             "name": "Introducción",
             "description": "¿Qué son?, ¿Para qué sirven?",
             "links": [
-                { "key": "Ejercicios", "value": "Ejercicios", "class": "video" },
-                { "key": "Paper", "value": "Paper", "class": "ejercicio" },
+                { "key": "Ejercicios", "value": "Ejercicios", "class": "terciary" },
+                { "key": "Paper", "value": "Paper", "class": "cuartiary" },
                 { "key": "Paper", "value": "Paper"}
             ],
             "hasVideo": false,

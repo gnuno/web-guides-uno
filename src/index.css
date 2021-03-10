@@ -28,6 +28,9 @@ nav {
 }
 body {
     line-height: 1;
+    position: relative;
+    min-height: 94vh;
+    padding-bottom: 40px;
 }
 article,
 aside,

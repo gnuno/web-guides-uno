@@ -1,3 +1,4 @@
+import React from "react"
 import styled from "styled-components";
 import Theme from "../atoms/Theme";
 import { H2 } from "../atoms/Title";

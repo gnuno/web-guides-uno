@@ -1,3 +1,4 @@
+import React from "react"
 import styled from "styled-components";
 import FontSizes from "../atoms/FontSizes";
 import Theme from "../atoms/Theme";
@@ -15,12 +16,6 @@ const List = styled.ul`
 
 const Item = styled.li`
     display: inline;
-    a.video{
-        color: ${Theme.color.terciary};
-    }
-    a.ejercicio{
-        color: ${Theme.color.cuartiary};
-    }
 `;
 
 export default function LinkList({ links }) {

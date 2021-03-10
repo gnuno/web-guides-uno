@@ -13,6 +13,10 @@ const GlobalStyle = createGlobalStyle`
                 text-decoration: underline;
             }
         }
+        .primary{ color: ${Theme.color.primary} }
+        .secondary{ color: ${Theme.color.secondary} }
+        .terciary{ color: ${Theme.color.terciary} }
+        .cuartiary{ color: ${Theme.color.cuartiary} }
     }
 `;
 

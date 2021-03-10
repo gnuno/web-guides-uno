@@ -5,6 +5,7 @@ import { BrowserRouter, Route } from "react-router-dom";
 import GlobalStyle from "./components/atoms/GlobalStyle";
 
 import Header from "./components/molecules/Header";
+import Footer from "./components/molecules/Footer";
 import Index from "./pages/Index";
 import Map from "./pages/Map";
 
@@ -15,6 +16,7 @@ ReactDOM.render(
             <Header/>
             <Route exact strict path='/' render={() => <Index />} />
             <Route exact strict path='/:name' render={() => <Map />} />
+            <Footer/>
         </BrowserRouter>
     </>,
     document.getElementById("root")
