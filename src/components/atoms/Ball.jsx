@@ -10,11 +10,11 @@ const Ball = styled.div`
 export const MainBall = styled(Ball)`
     padding: 0.45em;
     border: 0.3em solid;
-    border-color: ${Theme.divider.soft};
+    border-color: ${Theme.color.secondary}dd;
 `;
 
 export const ChildBall = styled(Ball)`
     padding: 0.38em;
     border: 0.25em solid;
-    border-color: ${Theme.color.primary};
+    border-color: ${Theme.color.primary}dd;
 `;

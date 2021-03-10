@@ -1,10 +1,10 @@
 import styled from "styled-components";
 import FontSizes from "../atoms/FontSizes";
+import Theme from "../atoms/Theme";
 
 const List = styled.ul`
     margin-top: 5px;
-    font-weight: lighter;
-    ${FontSizes.p2}
+    ${FontSizes.p3}
 
     li:not(:last-child){
         ::after {
@@ -15,15 +15,21 @@ const List = styled.ul`
 
 const Item = styled.li`
     display: inline;
+    a.video{
+        color: ${Theme.color.terciary};
+    }
+    a.ejercicio{
+        color: ${Theme.color.cuartiary};
+    }
 `;
 
 export default function LinkList({ links }) {
     return (
-        <List>
-            {links.map((item) =>
+        <List> {links? `Links: ` : ""}
+            {links.map((item, index) =>
                 item.key ? (
-                    <Item>
-                        <a href={item.value} key={item.key}>
+                    <Item key={index+item.key}>
+                        <a href={item.value} className={item.class}>
                             {item.key}
                         </a>
                     </Item>

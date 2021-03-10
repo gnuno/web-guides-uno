@@ -17,7 +17,9 @@ const Theme = {
 
     color: {
         primary: "#725AC1",
-        secondary: "#1B998B"
+        secondary: "#1B998B",
+        terciary: "#CC2936",
+        cuartiary: "#FFC600"
     }
 }
 

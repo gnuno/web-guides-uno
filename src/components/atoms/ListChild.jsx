@@ -8,7 +8,7 @@ const ListChild = styled.ul`
     border-image: linear-gradient(
             to right,
             ${Theme.divider.soft}40 0%,
-            ${Theme.divider.normal}dd 0.5%,
+            ${Theme.color.secondary}dd 0.5%,
             ${Theme.divider.soft}40 1%
         )
         1% stretch;

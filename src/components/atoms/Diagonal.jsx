@@ -6,9 +6,9 @@ export const Diagonal = styled.div`
     border-top: 38px solid ${Theme.background.normal};
     border-image: linear-gradient(
             to bottom left,
-            ${Theme.background.paper + "1a"} 40%,
-            ${Theme.color.primary + "cc"},
-            ${Theme.background.paper + "1a"} 60%
+            ${Theme.background.paper}0a 40%,
+            ${Theme.color.primary}dd,
+            ${Theme.background.paper}0a 60%
         )
         100% stretch;
     position: relative;
@@ -23,9 +23,9 @@ export const InvertDiagonal = styled(Diagonal)`
     border-top: 38px solid ${Theme.background.normal}; 
     border-image: linear-gradient(
         to bottom right,
-        ${Theme.background.paper + "1a"} 40%,
-        ${Theme.color.primary + "cc"},
-        ${Theme.background.paper + "1a"} 60%
+        ${Theme.background.paper}0a 40%,
+        ${Theme.color.primary}dd,
+        ${Theme.background.paper}0a 60%
     );
     margin-top: -10px;
     margin-bottom: -15px;

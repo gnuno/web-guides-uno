@@ -14,6 +14,7 @@ export const P2 = styled.p`
 `;
 
 export const P3 = styled.p`
+    padding: 5px 0px;
     color: ${Theme.text.primary};
     ${FontSizes.p3};
 `;

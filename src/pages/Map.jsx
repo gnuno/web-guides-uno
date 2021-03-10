@@ -4,6 +4,7 @@ import styled from "styled-components";
 
 import Dropdown from "../components/organism/Dropdown";
 import TextContainer from "../components/molecules/TextContainer";
+import { Container } from "../components/atoms/Container";
 
 import { getData } from "../data/dataProvider";
 
@@ -18,16 +19,19 @@ export default function Map() {
     return (
         <>
             <TextContainer title={title} description={description} />
-            <MainList>
-                {data.map((element, index) => (
-                    <Dropdown
-                        lista={element.content}
-                        open={index === 0}
-                        titulo={element.title}
-                    />
-                ))}
-                <Dropdown />
-            </MainList>
+            <Container>
+                <MainList>
+                    {data.map((element, index) => (
+                        <Dropdown
+                            lista={element.content}
+                            key={element.title}
+                            open={index === 0}
+                            titulo={element.title}
+                        />
+                    ))}
+                    <Dropdown />
+                </MainList>
+            </Container>
         </>
     );
 }

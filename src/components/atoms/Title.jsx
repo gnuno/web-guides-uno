@@ -17,5 +17,6 @@ export const H2 = styled.h2`
 export const H3 = styled.h3`
     margin-left: 6px;
     font-weight: 500;
+    color: ${Theme.color.secondary};
     ${FontSizes.h3};
 `;
