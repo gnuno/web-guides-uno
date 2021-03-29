@@ -7,7 +7,7 @@
             "links": [
                 { "key": "Ejercicios", "value": "Ejercicios", "class": "terciary" },
                 { "key": "Paper", "value": "Paper", "class": "cuartiary" },
-                { "key": "Paper", "value": "Paper"}
+                { "key": "Paper", "value": "Paper", "class": "primary"}
             ],
             "hasVideo": false
         },

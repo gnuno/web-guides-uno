@@ -13,10 +13,22 @@ const GlobalStyle = createGlobalStyle`
                 text-decoration: underline;
             }
         }
-        .primary{ color: ${Theme.color.primary} }
-        .secondary{ color: ${Theme.color.secondary} }
-        .terciary{ color: ${Theme.color.terciary} }
-        .cuartiary{ color: ${Theme.color.cuartiary} }
+        .primary{ 
+            color: ${Theme.color.primary};
+            fill: ${Theme.color.primary};
+        }
+        .secondary{ 
+            color: ${Theme.color.secondary};
+            fill: ${Theme.color.secondary}; 
+        }
+        .terciary{ 
+            color: ${Theme.color.terciary};
+            fill: ${Theme.color.terciary}; 
+        }
+        .cuartiary{ 
+            color: ${Theme.color.cuartiary};
+            fill: ${Theme.color.cuartiary};
+        }
     }
 `;
 

@@ -7,12 +7,21 @@ import { MainBall } from "../atoms/Ball";
 import DropdownHeader from "../atoms/DropdownHeader";
 import ListChild from "../atoms/ListChild";
 import { H2 } from "../atoms/Title";
+import { P3 } from "../atoms/Paragraph";
 
 const MainItem = styled.li`
     display: block;
     max-width: 700px;
     margin: auto;
 `;
+
+const Detail = styled(P3)`
+    flex: 1 0;
+    text-align: right;
+    .primary{
+        font-weight: bold;
+    }
+`
 
 export default function Dropdown(props) {
     const { lista, open, titulo } = props;
@@ -28,7 +37,8 @@ export default function Dropdown(props) {
                 <>
                     <DropdownHeader open={isOpen} onClick={handleClick}>
                         <MainBall />
-                        <H2> {titulo} </H2>
+                        <H2> {titulo}</H2>
+                        <Detail> <span className="primary">{lista.length}</span> Unidades </Detail>
                     </DropdownHeader>
                     <ListChild open={isOpen}>
                         <Diagonal />
