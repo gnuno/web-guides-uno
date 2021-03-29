@@ -4,6 +4,7 @@ import Theme from "../atoms/Theme";
 import { H2 } from "../atoms/Title";
 import { P3 } from "../atoms/Paragraph";
 import { Link } from "react-router-dom";
+import { ReactComponent as StarIcon } from "../../assets/icons/StarIcon.svg"
 
 const Item = styled.li`
     border: 1px solid ${Theme.color.secondary};
@@ -23,17 +24,29 @@ const StyledLink = styled(Link)`
     height: 100%;
     :hover{ text-decoration: none }
     ${P3}{ flex: 2 0 }
-    ${H2}{
-        flex: 1 1;
-        margin-bottom: 5px;
-    }
 `;
+
+const Title = styled.div`
+    flex: 1 1;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+`
+
+const Icon = styled(StarIcon)`
+    display: inline;
+    fill: ${Theme.color.cuartiary};
+`
 
 export default function MainCard({ element }){
     return(
         <Item>
             <StyledLink to={element.url}>
-                <H2>{element.name}</H2>
+                <Title>
+                    <H2>{element.name}</H2>
+                    {element.proGuide? <Icon/> : ""}
+                </Title>
                 <P3>{element.contents}</P3>
             </StyledLink>
         </Item>

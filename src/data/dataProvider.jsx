@@ -5,9 +5,9 @@ import Web from "./web";
 import Node from './node.json';*/
 
 const courses = [
-    { data: Web, name: "Web FullStack", url: "/web", contents: getContents(Web, true) },
-    { data: BDD, name: "Bases de Datos", url: "/db", contents: getContents(BDD, false) },
-    { data: GIT, name: "GIT", url: "/git", contents: getContents(GIT, false) },
+    { data: Web, name: "Web FullStack", url: "/web", contents: getContents(Web, true), proGuide: true},
+    { data: BDD, name: "Bases de Datos", url: "/db", contents: getContents(BDD, false), proGuide: false},
+    { data: GIT, name: "GIT", url: "/git", contents: getContents(GIT, false), proGuide: false},
 ];
 
 export function getCourses() {

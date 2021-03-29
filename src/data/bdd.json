@@ -9,8 +9,7 @@
                 { "key": "Paper", "value": "Paper", "class": "cuartiary" },
                 { "key": "Paper", "value": "Paper"}
             ],
-            "hasVideo": false,
-            "video": ""
+            "hasVideo": false
         },
         {
             "name": "Modelo Entidad Interrelación",
