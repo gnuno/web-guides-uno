@@ -8,6 +8,8 @@ import Header from "./components/molecules/Header";
 import Footer from "./components/molecules/Footer";
 import Index from "./pages/Index";
 import Map from "./pages/Map";
+import AboutUs from "./pages/AboutUs";
+import Contribute from "./pages/Contribute";
 
 ReactDOM.render(
     <>
@@ -15,9 +17,18 @@ ReactDOM.render(
         <BrowserRouter>
             <Header/>
             <Route exact strict path='/' render={() => <Index />} />
-            <Route exact strict path='/:name' render={() => <Map />} />
+            <Route exact strict path='/contribute' render={() => <Contribute />} />
+            <Route exact strict path='/aboutus' render={() => <AboutUs />} />
+            <Route exact strict path='/guide/:name' render={() => <Map />} />
             <Footer/>
         </BrowserRouter>
     </>,
     document.getElementById("root")
 );
+
+
+/* TODO
+* 1- Completar contenidos
+* 2- Seccion de Como Contribuir
+* 3- Seccion de Sobre Nosotros
+*/

@@ -3,11 +3,11 @@ import BDD from "./bdd.json";
 import Web from "./web";
 /*import React from './react.json';
 import Node from './node.json';*/
-
+const baseUrl = "/guide/"
 const courses = [
-    { data: Web, name: "Web FullStack", url: "/web", contents: getContents(Web, true), proGuide: true},
-    { data: BDD, name: "Bases de Datos", url: "/db", contents: getContents(BDD, false), proGuide: false},
-    { data: GIT, name: "GIT", url: "/git", contents: getContents(GIT, false), proGuide: false},
+    { data: Web, name: "Web FullStack", url: baseUrl+"web", contents: getContents(Web, true), proGuide: true},
+    { data: BDD, name: "Bases de Datos", url: baseUrl+"db", contents: getContents(BDD, false), proGuide: false},
+    { data: GIT, name: "GIT", url: baseUrl+"git", contents: getContents(GIT, false), proGuide: false},
 ];
 
 export function getCourses() {

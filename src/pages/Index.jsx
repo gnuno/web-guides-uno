@@ -5,6 +5,7 @@ import { Container } from "../components/atoms/Container";
 import MainCard from "../components/molecules/MainCard";
 import GridContainer from "../components/molecules/GridContainer";
 import  { getCourses }  from "../data/dataProvider";
+import MainButtons from "../components/molecules/MainButtons";
 
 export default function Index() {
     const courses = getCourses();
@@ -15,6 +16,7 @@ export default function Index() {
     return (
         <Container>
             <TextContainer title={title} description={description} />
+            <MainButtons/>
             <GridContainer>
                 {courses.map((element) => (
                     <MainCard key={element.name} element={element}/>
