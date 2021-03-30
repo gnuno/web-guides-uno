@@ -19,7 +19,8 @@ const Theme = {
         primary: "#725AC1",
         secondary: "#1B998B",
         terciary: "#CC2936",
-        cuartiary: "#FFC600"
+        cuartiary: "#FFC600",
+        quintiary: "#039BE5"
     }
 }
 

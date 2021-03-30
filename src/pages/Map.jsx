@@ -14,11 +14,11 @@ const MainList = styled.ul`
 
 export default function Map() {
     const { name } = useParams();
-    const { data, title, description } = getData(name);
+    const { data, title, description, telegram } = getData(name);
 
     return (
         <>
-            <TextContainer title={title} description={description} />
+            <TextContainer title={title} description={description} telegram={telegram}/>
             <Container>
                 <MainList>
                     {data.map((element, index) => (

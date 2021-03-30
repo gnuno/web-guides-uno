@@ -29,6 +29,10 @@ const GlobalStyle = createGlobalStyle`
             color: ${Theme.color.cuartiary};
             fill: ${Theme.color.cuartiary};
         }
+        .quintiary{ 
+            color: ${Theme.color.quintiary};
+            fill: ${Theme.color.quintiary};
+        }
     }
 `;
 

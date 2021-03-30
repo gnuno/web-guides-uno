@@ -42,8 +42,8 @@ export default function Card(props) {
         if (acc.video && acc.task && acc.url) arr.splice(1)
 
         if(curr.class) {
-            if(curr.class == "primary") acc.url = true
-            else if(curr.class == "terciary") acc.video = true
+            if(curr.class === "primary") acc.url = true
+            else if(curr.class === "terciary") acc.video = true
             else acc.task = true
         }
 
@@ -51,7 +51,6 @@ export default function Card(props) {
     };
 
     !element.void && element.links.slice(0).reduce(reducer, reduced)
-    console.log(reduced)
 
     return (
         <ChildItem>

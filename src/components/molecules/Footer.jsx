@@ -17,7 +17,7 @@ const Foot = styled.footer`
 export default function Footer(){
     return(
         <Foot>
-            <a href="">
+            <a href="https://www.gnuno.com.ar">
                 <P3><i>Desarrollado por <span className="primary">GEA/GNUno/Igna Garcia</span></i></P3>
             </a>
         </Foot>

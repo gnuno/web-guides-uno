@@ -1,7 +1,6 @@
 import React from "react"
 import styled from "styled-components";
 import FontSizes from "../atoms/FontSizes";
-import Theme from "../atoms/Theme";
 
 const List = styled.ul`
     margin-top: 5px;

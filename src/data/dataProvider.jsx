@@ -30,26 +30,25 @@ export function getData(name) {
                 data: [GIT],
                 title: "git",
                 description: "esto es un road to git",
+                telegram: "https://t.me/unogit"
             };
         case "db":
             return {
                 data: [BDD],
                 title: "Bases de Datos",
                 description: "esto es un road to bases de datos",
+                telegram: "https://t.me/DDBBUNO"
             };
         case "web":
             return {
                 data: Web,
                 title: "Web Fullstack",
                 description: "esto es un road to desarrollo web fullstack",
+                telegram: "https://t.me/javascript_uno"
             };
         /*case "react": return({data:React, title:"ReactJS", description:"esto es un road to react"});
         case "node": return({data:Node, title:"NodeJS", description:"esto es un road to node"});*/
         default:
-            return {
-                data: Web,
-                title: "Web Fullstack",
-                description: "esto es un road to desarrollo web fullstack",
-            };
+            return ""
     }
 }
