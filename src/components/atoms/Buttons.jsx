@@ -3,7 +3,10 @@ import Theme from "./Theme";
 
 export const BorderedButton = styled.button`
     border-radius: 13px;
-    padding: .75em 1.2em;
+    padding: .75em .5em;
+    min-width: 135px;
+    width: 60%;
+    max-width: 180px;
     border: 2px solid ${Theme.color.primary};
     background: transparent;
     outline: none;

@@ -5,9 +5,12 @@ import { P2 } from "../atoms/Paragraph";
 import { Link } from "react-router-dom";
 import { ContainedButton, BorderedButton } from "../atoms/Buttons";
 
-const FlexContainer = styled(Container)`
+const FlexContainer = styled.div`
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    margin-top: .5em;
+    margin-bottom: 2em;
+    > *{ flex: 1 1 auto }
 `
 
 export default function Footer(){

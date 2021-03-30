@@ -3,7 +3,7 @@ import Breakpoints from "../atoms/Breakpoints";
 
 const GridContainer = styled.ul`
     display: grid;
-    padding: 2em 0px;
+    padding: 1em 0px 2em 0px;
     place-content: space-evenly;
     text-align: center;
     @media ${Breakpoints.mobileS} {
