@@ -42,8 +42,8 @@ export default function TextContainer(props) {
                     <TelegramIcon className="quintiary"/>
                     <P2 className="quintiary">Grupo de Telegram</P2>
                 </TelegramContainer>
-            : ""}
-            <MainButtons/>
+            : <MainButtons/>}
+            
         </HeaderContainer>
     );
 }

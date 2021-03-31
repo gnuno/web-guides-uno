@@ -31,4 +31,5 @@ ReactDOM.render(
 * 1- Completar contenidos
 * 2- Seccion de Como Contribuir
 * 3- Seccion de Sobre Nosotros
+* 4- Barra de navegacion responsive(Guias - Contribuir - AboutUs)
 */
