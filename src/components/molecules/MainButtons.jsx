@@ -15,12 +15,12 @@ const FlexContainer = styled.div`
 export default function Footer(){
     return(
         <FlexContainer>
-            <Link to="/contribute">
+            <Link to="/contribuir">
                 <BorderedButton>
                     <P2> Contribuir </P2>
                 </BorderedButton>
             </Link>
-            <Link to="/aboutus">
+            <Link to="/gnuno">
                 <ContainedButton>
                     <P2> Sobre Nosotros </P2>
                 </ContainedButton>

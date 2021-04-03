@@ -3,7 +3,8 @@ import BDD from "./bdd.json";
 import Web from "./web";
 /*import React from './react.json';
 import Node from './node.json';*/
-const baseUrl = "/guide/"
+
+const baseUrl = "/guia/"
 const courses = [
     { data: Web, name: "Web FullStack", url: baseUrl+"web", contents: getContents(Web, true), proGuide: true},
     { data: BDD, name: "Bases de Datos", url: baseUrl+"db", contents: getContents(BDD, false), proGuide: false},

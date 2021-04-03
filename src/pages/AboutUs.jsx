@@ -6,7 +6,7 @@ import ImageText from "../components/molecules/ImageText";
 import ContactList from "../components/molecules/ContactList";
 
 export default function Contribute() {
-    const title = "GNUno";
+    const title = "Sobre GNUno";
     const description =
         "Somos un grupo de compañerxs de la carrera de Informática de la Universidad Nacional del Oeste que compartimos la misma pasion por esta ciencia y el entusiasmo para trabajar en proyectos, compartir un buen rato, enseñar y aprender juntxs";
 

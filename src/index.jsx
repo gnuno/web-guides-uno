@@ -17,9 +17,9 @@ ReactDOM.render(
         <BrowserRouter>
             <Header/>
             <Route exact strict path='/' render={() => <Index />} />
-            <Route exact strict path='/contribute' render={() => <Contribute />} />
-            <Route exact strict path='/aboutus' render={() => <AboutUs />} />
-            <Route exact strict path='/guide/:name' render={() => <Map />} />
+            <Route exact strict path='/contribuir' render={() => <Contribute />} />
+            <Route exact strict path='/gnuno' render={() => <AboutUs />} />
+            <Route exact strict path='/guia/:name' render={() => <Map />} />
             <Footer/>
         </BrowserRouter>
     </>,
@@ -30,6 +30,5 @@ ReactDOM.render(
 /* TODO
 * 1- Completar contenidos
 * 2- Seccion de Como Contribuir
-* 3- Seccion de Sobre Nosotros
-* 4- Barra de navegacion responsive(Guias - Contribuir - AboutUs)
+* 4- Barra de navegacion responsive(Guias - Contribuir - Sobre GNUno)
 */

@@ -16,14 +16,14 @@ const Imagen = styled.img`
 
 const ImageContainer = styled.div`
     display: block;
-    margin: .5em 0em 1em;
+    margin: .5em 0em 0em;
     flex: 1 1;
     @media ${Breakpoints.tablet} {
         max-width: 400px;
     }
     @media ${Breakpoints.desktop} {
         max-width: 45%;
-        margin: .5em 1em 1em 0em;
+        margin: .5em 1em 0em 0em;
     }
     @media ${Breakpoints.desktopL} {
         max-width: 40%;
