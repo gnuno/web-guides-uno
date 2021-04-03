@@ -3,6 +3,7 @@ import React from "react";
 import TextContainer from "../components/molecules/TextContainer";
 import { Container } from "../components/atoms/Container";
 import ImageText from "../components/molecules/ImageText";
+import ContactList from "../components/molecules/ContactList";
 
 export default function Contribute() {
     const title = "GNUno";
@@ -13,6 +14,7 @@ export default function Contribute() {
         <Container>
             <TextContainer title={title} description={description} telegram={"https://t.me/gnuno_merlo"}/>
             <ImageText/>
+            <ContactList/>
         </Container>
     );
 }
