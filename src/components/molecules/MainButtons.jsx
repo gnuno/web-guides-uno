@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import { Container } from "../atoms/Container"
 import { P2 } from "../atoms/Paragraph";
 import { Link } from "react-router-dom";
 import { ContainedButton, BorderedButton } from "../atoms/Buttons";

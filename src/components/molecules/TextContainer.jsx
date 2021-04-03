@@ -5,7 +5,6 @@ import { P1, P2 } from "../atoms/Paragraph";
 import Breakpoints from "../atoms/Breakpoints";
 import { HeaderContainer } from "../atoms/Container";
 import { ReactComponent as TelegramIcon } from "../../assets/icons/TelegramIcon.svg"
-import MainButtons from "./MainButtons";
 
 const TelegramContainer = styled.a`
     display: flex;
@@ -31,7 +30,7 @@ const TelegramContainer = styled.a`
 `
 
 export default function TextContainer(props) {
-    const { title, description, telegram } = props;
+    const { title, description, telegram, children } = props;
 
     return (
         <HeaderContainer>
@@ -42,7 +41,8 @@ export default function TextContainer(props) {
                     <TelegramIcon className="quintiary"/>
                     <P2 className="quintiary">Grupo de Telegram</P2>
                 </TelegramContainer>
-            : <MainButtons/>}
+            : ""}
+            {children}
             
         </HeaderContainer>
     );

@@ -6,6 +6,7 @@ import MainCard from "../components/molecules/MainCard";
 import GridContainer from "../components/molecules/GridContainer";
 import  { getCourses }  from "../data/dataProvider";
 import { H2 } from "../components/atoms/Title";
+import MainButtons from "../components/molecules/MainButtons";
 
 export default function Index() {
     const courses = getCourses();
@@ -15,7 +16,7 @@ export default function Index() {
 
     return (
         <Container>
-            <TextContainer title={title} description={description} />
+            <TextContainer title={title} description={description}> <MainButtons/> </TextContainer>
             
             <H2 style={{textAlign: 'center'}}> Guias </H2>
             <GridContainer>
