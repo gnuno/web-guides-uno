@@ -8,6 +8,12 @@ export const H1 = styled.h1`
     ${FontSizes.h1};
 `;
 
+export const BigH2 = styled.h2`
+    font-weight: 700;
+    color: ${Theme.color.primary};
+    ${FontSizes.h1medio};
+`;
+
 export const H2 = styled.h2`
     font-weight: 600;
     color: ${Theme.color.secondary};

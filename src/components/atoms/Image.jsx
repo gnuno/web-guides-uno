@@ -30,10 +30,10 @@ const ImageContainer = styled.div`
     }
 `;
 
-export default function Image(){
+export default function Image({path}){
     return(
         <ImageContainer>
-            <Imagen src={"img/gnuno.jpg"}></Imagen>
+            <Imagen src={path}></Imagen>
         </ImageContainer>
     );
 }

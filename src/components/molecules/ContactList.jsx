@@ -1,13 +1,12 @@
 import React from "react";
 import styled from "styled-components";
 
-import { Container } from "../atoms/Container";
 import { H2 } from "../atoms/Title";
 import { BorderedButton } from "../atoms/Buttons";
 import { P2 } from "../atoms/Paragraph";
 import Breakpoints from "../atoms/Breakpoints";
 
-const MainContainer = styled(Container)`
+const MainContainer = styled.div`
     margin: 2em auto 1em;
     h2{
         text-align: center;

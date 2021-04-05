@@ -33,6 +33,12 @@ const GlobalStyle = createGlobalStyle`
             color: ${Theme.color.quintiary};
             fill: ${Theme.color.quintiary};
         }
+        .bold{
+            font-weight: 600;
+        }
+        .center{
+            text-align: center;
+        }
     }
 `;
 

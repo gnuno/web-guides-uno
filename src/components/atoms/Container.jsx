@@ -27,12 +27,15 @@ export const HeaderContainer = styled.header`
     text-align: center;
     max-width: 700px;
     @media ${Breakpoints.mobileS} {
-        width: 100%;
-    }
-    @media ${Breakpoints.tablet} {
         width: 90%;
     }
-    @media ${Breakpoints.laptop} {
+    @media ${Breakpoints.tablet} {
         width: 80%;
+    }
+    @media ${Breakpoints.laptop} {
+        width: 70%;
+    }
+    @media ${Breakpoints.desktop} {
+        width: 60%;
     }
 `;
