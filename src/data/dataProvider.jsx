@@ -1,14 +1,12 @@
 import GIT from "./git.json";
 import BDD from "./bdd.json";
 import Web from "./web";
-/*import React from './react.json';
-import Node from './node.json';*/
 
 const baseUrl = "/guia/"
 const courses = [
     { data: Web, name: "Web FullStack", url: baseUrl+"web", contents: getContents(Web, true), proGuide: true},
     { data: BDD, name: "Bases de Datos", url: baseUrl+"db", contents: getContents(BDD, false), proGuide: false},
-    { data: GIT, name: "GIT", url: baseUrl+"git", contents: getContents(GIT, false), proGuide: false},
+    { data: GIT, name: "GIT", url: baseUrl+"git", contents: getContents(GIT, false), proGuide: false}
 ];
 
 export function getCourses() {
@@ -47,8 +45,6 @@ export function getData(name) {
                 description: "esto es un road to desarrollo web fullstack",
                 telegram: "https://t.me/javascript_uno"
             };
-        /*case "react": return({data:React, title:"ReactJS", description:"esto es un road to react"});
-        case "node": return({data:Node, title:"NodeJS", description:"esto es un road to node"});*/
         default:
             return ""
     }

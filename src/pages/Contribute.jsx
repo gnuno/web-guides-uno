@@ -27,14 +27,13 @@ export default function Contribute() {
     const issueContributionsPath = "img/issueContribute.gif"
 
     const bigContributions = []
-    bigContributions[0] = "Para esto se deben seguir los mismo pasos que para una pequena contribucion, pero te ahorramos de leer el codigo y entender que te esta faltando. Lo primero que tenes que hacer es crear en la carpeta data tu guia .json";
-    bigContributions[1] = "Fork - Cambios + Commits - PullRequest Fork - Cambios + Commits - PullRequest Fork - Cambios + Commits - PullRequest";
-    bigContributions[2] = "Fork - Cambios + Commits - PullRequest Fork - Cambios + Commits - PullRequest Fork - Cambios + Commits - PullRequest";
-    const bicContributionsPath = "img/gnuno.jpg"
+    bigContributions[0] = "Para esto se deben seguir los mismos pasos que para una pequena contribucion, pero te ahorramos de leer el codigo y entender donde tocar. Lo primero que tenes que hacer es crear en la carpeta 'data' tu guia .json, podes copiar y pegar el template.json y editar desde ahi.";
+    bigContributions[1] = "En esa nueva guia creada tenes que ir creando tus unidades, especificando los temas, y si es posible dejando links de referencia. Una vez tengas tu guia completa tenes que ir a 'dataProvider.jsx' y hacer lo siguiente: Importar el json, agregarlo al objeto courses y por ultimo crear un case en la funcion getData.";
+    const bicContributionsPath = "img/bigContribute.gif"
 
     const titleText = []
     titleText[0] = "Porque Contribuir?"
-    titleText[1] = "Llasdlsaldalsdlasa adsadsa dsad adsa dsa adsas"
+    titleText[1] = "Contribuir ademas de darte experiencia como desarrollador y hacer que te comuniques con colegas, ayuda a que proyectos buenos se vuelvan aun mejores y estos se mantengan actualizados en el tiempo"
 
     return (
         <Container>

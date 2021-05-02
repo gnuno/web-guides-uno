@@ -1,0 +1,27 @@
+{
+    "title": "TITULO",
+    "content": [
+        {
+            "name": "UNIDAD 1",
+            "description": "TEMA 1, TEMA 2, ..., TEMA N",
+            "links": [
+                { "key": "VIDEO1", "href": "link", "class": "terciary" },
+                { "key": "TAREA1", "href": "link", "class": "cuartiary" },
+                { "key": "BIBLIOGRAFIA1", "href": "link", "class": "primary"}
+            ]
+        },
+        {
+            "name": "UNIDAD 2",
+            "description": "TEMA 1, TEMA 2, ..., TEMA N",
+            "links": [
+                { "key": "VIDEO1", "href": "link", "class": "terciary" },
+                { "key": "TAREA1", "href": "link", "class": "cuartiary" },
+                { "key": "BIBLIOGRAFIA1", "href": "link", "class": "primary"}
+            ]
+        },
+        {
+            "name": "",
+            "void": true
+        }
+    ]
+}
