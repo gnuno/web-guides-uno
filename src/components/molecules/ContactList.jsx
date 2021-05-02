@@ -40,7 +40,8 @@ export default function ContactList(){
         { name: "Instagram", url: "https://www.instagram.com/gnuno.merlo/" },
         { name: "Facebook", url: "https://www.facebook.com/GNUno.Merlo" },
         { name: "Discord", url: "https://discord.gg/CY552NV" },
-        { name: "Github", url: "https://github.com/gnuno" }
+        { name: "Github", url: "https://github.com/gnuno" },
+        { name: "YouTube", url: "https://www.youtube.com/channel/UC1eLdOQtaN_GAx0NJhVerJQ" }
     ]
     return(
         <MainContainer> 

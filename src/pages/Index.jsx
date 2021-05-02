@@ -10,15 +10,15 @@ import MainButtons from "../components/molecules/MainButtons";
 
 export default function Index() {
     const courses = getCourses();
-    const title = "Roads Maps UNO";
+    const title = "Guides UNO";
     const description =
-        "Bienvenidxs a esta pagina creada por la comunidad IT de la UNO, aquí podrás encontrarte con varios mapas a seguir para aprender una tecnología de punta a punta";
+        "Bienvenidxs a esta pagina creada por la comunidad IT de la UNO, aquí podrás encontrarte con varias guias a seguir para aprender una tecnología de punta a punta, con links de bibliografia, ejercicios para hacer, videos de apoyo y grupo de telegram para consultar.";
 
     return (
         <Container>
             <TextContainer title={title} description={description}> <MainButtons/> </TextContainer>
             
-            <H2 style={{textAlign: 'center'}}> Guias </H2>
+            <H2 style={{textAlign: 'center'}}> Nuestras Guias </H2>
             <GridContainer>
                 {courses.map((element) => (
                     <MainCard key={element.name} element={element}/>

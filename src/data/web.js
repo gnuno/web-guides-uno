@@ -73,6 +73,7 @@ const Web = [
             },
         ],
     },
+    GIT,
     {
         title: "CSS",
         content: [
@@ -158,7 +159,6 @@ const Web = [
             },
         ],
     },
-    GIT,
     {
         title: "JavaScript",
         content: [
