@@ -5,51 +5,42 @@
             "name": "Introducción",
             "description": "¿Qué son?, ¿Para qué sirven?",
             "links": [
-                { "key": "Ejercicios", "value": "Ejercicios", "class": "terciary" },
-                { "key": "Paper", "value": "Paper", "class": "cuartiary" },
-                { "key": "Paper", "value": "Paper", "class": "primary"}
-            ],
-            "hasVideo": false
+                { "key": "Ejercicios", "href": "Ejercicios", "class": "terciary" },
+                { "key": "Paper", "href": "Paper", "class": "cuartiary" },
+                { "key": "Paper", "href": "Paper", "class": "primary"}
+            ]
         },
         {
             "name": "Modelo Entidad Interrelación",
             "description": "¿Qué es?, Cardinalidades, Entidades Débiles y Jerarquías",
             "links": [
-                { "key": "", "value": "" },
-                { "key": "", "value": "" }
-            ],
-            "hasVideo": false,
-            "video": ""
+                { "key": "", "href": "" },
+                { "key": "", "href": "" }
+            ]
         },
         {
             "name": "Modelo Relacional",
             "description": "¿Qué es?, Mapeo de MEI a MR, Álgebra Relacional",
             "links": [
-                { "key": "", "value": "" },
-                { "key": "", "value": "" }
-            ],
-            "hasVideo": false,
-            "video": ""
+                { "key": "", "href": "" },
+                { "key": "", "href": "" }
+            ]
         },
         {
             "name": "SQL",
             "description": "¿Qué es?, Creación de BDD, Consultas SQL, Joins, Funciones de Agrupamiento, SubSelect, División",
             "links": [
-                { "key": "", "value": "" },
-                { "key": "", "value": "" }
-            ],
-            "hasVideo": false,
-            "video": ""
+                { "key": "", "href": "" },
+                { "key": "", "href": "" }
+            ]
         },
         {
             "name": "No relacionales",
             "description": "¿Qué son?, Diferencias con Relacional, MongoDB",
             "links": [
-                { "key": "", "value": "" },
-                { "key": "", "value": "" }
-            ],
-            "hasVideo": false,
-            "video": ""
+                { "key": "", "href": "" },
+                { "key": "", "href": "" }
+            ]
         },
         {
             "name": "",

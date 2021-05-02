@@ -12,7 +12,7 @@ const MainList = styled.ul`
     padding: 1.5em 0em;
 `;
 
-export default function Map() {
+export default function Guide() {
     const { name } = useParams();
     const { data, title, description, telegram } = getData(name);
 

@@ -7,7 +7,7 @@ import GlobalStyle from "./components/atoms/GlobalStyle";
 import Header from "./components/molecules/Header";
 import Footer from "./components/molecules/Footer";
 import Index from "./pages/Index";
-import Map from "./pages/Map";
+import Guide from "./pages/Guide";
 import AboutUs from "./pages/AboutUs";
 import Contribute from "./pages/Contribute";
 
@@ -19,7 +19,7 @@ ReactDOM.render(
             <Route exact strict path='/' render={() => <Index />} />
             <Route exact strict path='/contribuir' render={() => <Contribute />} />
             <Route exact strict path='/gnuno' render={() => <AboutUs />} />
-            <Route exact strict path='/guia/:name' render={() => <Map />} />
+            <Route exact strict path='/guia/:name' render={() => <Guide />} />
             <Footer/>
         </BrowserRouter>
     </>,

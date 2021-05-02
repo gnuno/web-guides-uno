@@ -23,7 +23,7 @@ export default function LinkList({ links }) {
             {links.map((item, index) =>
                 item.key ? (
                     <Item key={index+item.key}>
-                        <a href={item.value} className={item.class}>
+                        <a href={item.href} className={item.class}>
                             {item.key}
                         </a>
                     </Item>
