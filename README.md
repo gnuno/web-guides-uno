@@ -4,7 +4,7 @@ Repositorio de la web ***[guides uno]()***.
 
 Este es un proyecto impulsado por **GNUno**, el cual consta de un conjunto de **'planes de estudio'** de diferentes tecnologias para que alguien que recien inicia tenga un camino a seguir, junto a recursos como videos, video-tutoriales y bibliografia recomendada, ademas del soporte que puede dar la comunidad en los grupos de telegram.
 
-## SetUp
+## SET UP
 Requisitos previos
 - node(npm)
 
@@ -14,7 +14,7 @@ npm install
 npm start
 ```
 
-## Contribuir
+## CONTRIBUIR
 ### Pequena Contribucion
 ![Pequena Contribucion](./public/img/basicContribute.gif)
 
@@ -39,5 +39,5 @@ En esa nueva guia creada tenes que ir creando tus unidades, especificando los te
 
 **NOTA**: Si tu guia sera muy larga y queres modularizarla mas tenes que crear un array de templates, como se ve en ***web.js***, en ***dataProvider*** esta sera una ***proGuide***(booleanos en true), y por ultimo en el case simplemente la prop data ira sin [], ya que data debe recibir un array, y una proGuide lo es.
 
-## Licencia
-[Licencia](./LICENCE)
+## LICENCIA
+[Licencia](https://github.com/gnuno/web-guides-uno/blob/main/LICENSE)
