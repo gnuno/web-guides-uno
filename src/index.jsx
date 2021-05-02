@@ -25,10 +25,3 @@ ReactDOM.render(
     </>,
     document.getElementById("root")
 );
-
-
-/* TODO
-* 1- Completar contenidos
-* 2- Seccion de Como Contribuir
-* 4- Barra de navegacion responsive(Guias - Contribuir - Sobre GNUno)
-*/

@@ -9,7 +9,6 @@ const Imagen = styled.img`
     border: 1px solid ${Theme.color.secondary};
     box-shadow: 0px 2px 8px ${Theme.color.secondary}df;
     width: 100%;
-    aspect-ratio: 16 / 9;
     object-fit: contain;
     
 `;
