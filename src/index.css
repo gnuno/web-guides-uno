@@ -1,24 +1,4 @@
-html,
-body,
-div,
-span,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-a,
-ol,
-ul,
-li,
-article,
-aside,
-footer,
-header,
-menu,
-nav {
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, ol, ul, li, article, aside, footer, header, menu, nav {
     margin: 0;
     padding: 0;
     border: 0;
@@ -32,25 +12,13 @@ body {
     min-height: 94vh;
     padding-bottom: 40px;
 }
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
     display: block;
 }
-ol,
-ul {
+ol,ul {
     list-style: none;
 }
-a,
-a:visited {
+a, a:visited {
     text-decoration: none;
     outline: none;
 }

@@ -2,7 +2,7 @@
     "title": "GIT",
     "content": [
         {
-            "name": "Introduccion",
+            "name": "Introducción",
             "description": "¿Qué es?, ¿Para qué sirve?",
             "links": [
                 { "key": "", "href": "" },
@@ -10,7 +10,7 @@
             ]
         },
         {
-            "name": "Uso basico",
+            "name": "Uso básico",
             "description": "Working directory-Stage-Head, Commit, Log",
             "links": [
                 { "key": "", "href": "" },

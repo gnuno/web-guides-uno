@@ -51,7 +51,7 @@ const Web = [
                 ]
             },
             {
-                name: "Etiquetas Semanticas",
+                name: "Etiquetas Semánticas",
                 description:
                     "header, article, section, main, nav, aside, footer, details, figure...",
                 links: [
@@ -191,7 +191,7 @@ const Web = [
             },
             {
                 name: "JavaScript Orientado a Objetos",
-                description: "Objetos, Herencia/Extension",
+                description: "Objetos, Herencia/Extensión",
                 links: [
                     { key: "", href: "" },
                     { key: "", href: "" },
@@ -200,14 +200,14 @@ const Web = [
             {
                 name: "JavaScript y el DOM",
                 description:
-                    "¿Qué es el DOM?, Interaccion con el DOM, Event Listeners",
+                    "¿Qué es el DOM?, Interacción con el DOM, Event Listeners",
                 links: [
                     { key: "", href: "" },
                     { key: "", href: "" },
                 ]
             },
             {
-                name: "JavaScript Asincronico",
+                name: "JavaScript Asincrónico",
                 description:
                     "Asincronismo, Event loop, Promesas, Encadenamiento de Promesas, Async/Await",
                 links: [
@@ -249,7 +249,7 @@ const Web = [
                 ]
             },
             {
-                name: "Metodologia CSS",
+                name: "Metodología CSS",
                 description:
                     "¿Qué son las Metodologías CSS y por qué aplicarlas?, BEM",
                 links: [
@@ -294,7 +294,7 @@ const Web = [
                 ]
             },
             {
-                name: "Adentrandose un poquito mas",
+                name: "Adentrándose un poquito mas",
                 description:
                     "Formularios, HTTP y Asincronismo, Bibliotecas de Estilos",
                 links: [
@@ -342,14 +342,14 @@ const Web = [
             {
                 name: "Bases de cada uno a aprender",
                 description:
-                    "Sintaxis y bases de programacion, Frameworks de backend, Modelos - Controladores - Rutas, ORMs, Hacer un CRUD, Manejo de Archivos, CORS",
+                    "Sintaxis y bases de programación, Frameworks de backend, Modelos - Controladores - Rutas, ORMs, Hacer un CRUD, Manejo de Archivos, CORS",
                 links: [
                     { key: "", href: "" },
                     { key: "", href: "" },
                 ]
             },
             {
-                name: "Adentrandose un poquito mas",
+                name: "Adentrándose un poquito mas",
                 description:
                     "Autenticaciones, Enviar Mails, Testing, GraphQL, WebSockets",
                 links: [

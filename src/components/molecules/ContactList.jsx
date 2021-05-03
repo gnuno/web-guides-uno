@@ -45,7 +45,7 @@ export default function ContactList(){
     ]
     return(
         <MainContainer> 
-            <H2> Enterate de nuestros Eventos y Sumate a participar! </H2>
+            <H2> Entérate de nuestros Eventos y Sumate a participar! </H2>
             <FlexContainer>
             {links.map(item =>
                 <a key={item.url} href={item.url}>
