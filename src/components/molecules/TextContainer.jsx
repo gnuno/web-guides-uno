@@ -2,7 +2,6 @@ import React from "react";
 import styled from "styled-components";
 import { H1 } from "../atoms/Title";
 import { P1, P2 } from "../atoms/Paragraph";
-import Breakpoints from "../atoms/Breakpoints";
 import { HeaderContainer } from "../atoms/Container";
 import { ReactComponent as TelegramIcon } from "../../assets/icons/TelegramIcon.svg"
 

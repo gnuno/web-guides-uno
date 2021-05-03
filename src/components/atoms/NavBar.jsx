@@ -35,7 +35,7 @@ export default function NavBar(){
         };
         media.addEventListener('change', listener)
         return () => media.removeEventListener('change',listener);
-    }, [matches, "(max-width: 768px)"]);
+    }, [matches]);
 
     const links = [
         {
@@ -52,7 +52,7 @@ export default function NavBar(){
         <Container>
             {!matches?
                 <>
-                    {links.map(el => <Title to={el.ref}> {el.value} </Title>)}
+                    {links.map(el => <Title key={el.ref} to={el.ref}> {el.value} </Title>)}
                 </>
                 :
                 <MobileDropdown links={links}/>
