@@ -13,7 +13,7 @@ const Imagen = styled.img`
     
 `;
 
-const ImageContainer = styled.div`
+const ImageContainer = styled.a`
     display: block;
     margin: .5em 0em 0em;
     flex: 1 1;
@@ -31,7 +31,7 @@ const ImageContainer = styled.div`
 
 export default function Image({path}){
     return(
-        <ImageContainer>
+        <ImageContainer href={path} target="_blank">
             <Imagen src={path}></Imagen>
         </ImageContainer>
     );

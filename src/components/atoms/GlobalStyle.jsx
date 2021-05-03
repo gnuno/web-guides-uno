@@ -9,7 +9,7 @@ const GlobalStyle = createGlobalStyle`
         a{
             color: ${Theme.color.primary};
             :hover{
-                color: ${Theme.color.primary}df;
+                color: ${Theme.color.quintiary}df;
                 text-decoration: underline;
             }
         }
@@ -35,6 +35,9 @@ const GlobalStyle = createGlobalStyle`
         }
         .bold{
             font-weight: 600;
+        }
+        .underline{
+            text-decoration: underline;
         }
         .center{
             text-align: center;

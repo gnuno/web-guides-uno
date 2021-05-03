@@ -11,6 +11,7 @@ const ColumnContainer = styled.div`
     align-items: center;
     justify-content: center;
     margin-bottom: 1.2rem;
+    margin-bottom: 2rem;
     p{
         padding: 0px 10px;
         margin-top: 10px;
@@ -48,7 +49,7 @@ export default function ImageText({title, text, path}) {
         <ColumnContainer>
             <FlexContainer>
                 <Image path={path}/>
-                <P2> <div className="secondary bold"> {title} </div> {desc1} </P2>
+                <P2> <div className="secondary bold underline"> {title} </div> {desc1} </P2>
             </FlexContainer>
             {desc2 || final?
                 <div>

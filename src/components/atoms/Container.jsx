@@ -23,7 +23,7 @@ export const Container = styled.div`
 `;
 
 export const HeaderContainer = styled.header`
-    margin: 2em auto;
+    margin: 2em auto 1.5em;
     text-align: center;
     max-width: 700px;
     @media ${Breakpoints.mobileS} {

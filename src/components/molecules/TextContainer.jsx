@@ -14,19 +14,8 @@ const TelegramContainer = styled.a`
         margin-right: 7px;
         width: clamp(1.1rem, 0.9500rem + 0.6667vw, 1.3rem);
         height: clamp(1.1rem, 0.9500rem + 0.6667vw, 1.3rem);
-        /*@media ${Breakpoints.mobileS} {
-            width: 19px;
-            height: 19px;
-        }
-        @media ${Breakpoints.tablet} {
-            width: 21px;
-            height: 21px;
-        }
-        @media ${Breakpoints.desktop} {
-            width: 24px;
-            height: 24px;
-        }*/
     }
+    p.quintiary:hover{ text-decoration: underline }
 `
 
 export default function TextContainer(props) {

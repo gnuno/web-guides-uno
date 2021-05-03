@@ -10,9 +10,11 @@ const FlexContainer = styled.div`
     align-items: center;
     justify-content: center;
     margin-bottom: 1.3em;
+    margin-top: 1.3em;
     @media ${Breakpoints.mobileS} {
         flex-direction: column;
         margin-bottom: 1.3em;
+        margin-top: 1.3em;
         p{
             padding: 10px;
         }
@@ -20,6 +22,7 @@ const FlexContainer = styled.div`
     @media ${Breakpoints.desktop} {
         flex-direction: row;
         margin-bottom: 2.5em;
+        margin-top: 2em;
         p{
             padding: 0px 0px 0px 10px;
             max-width: 60%;
@@ -31,7 +34,7 @@ const FlexContainer = styled.div`
     }
 `;
 
-export default function ImageText({title, text}) {
+export default function TitleText({title, text}) {
     
     return (
         <FlexContainer>

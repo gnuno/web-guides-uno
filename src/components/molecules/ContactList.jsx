@@ -5,12 +5,14 @@ import { H2 } from "../atoms/Title";
 import { BorderedButton } from "../atoms/Buttons";
 import { P2 } from "../atoms/Paragraph";
 import Breakpoints from "../atoms/Breakpoints";
+import { DividerBar } from "../atoms/DividerBar"
 
 const MainContainer = styled.div`
     margin: 2em auto 1em;
     h2{
         text-align: center;
         margin-bottom: .7em;
+        margin-top: 1em;
     }
 `;
 
@@ -45,6 +47,7 @@ export default function ContactList(){
     ]
     return(
         <MainContainer> 
+            <DividerBar/>
             <H2> Entérate de nuestros Eventos y Sumate a participar! </H2>
             <FlexContainer>
             {links.map(item =>
