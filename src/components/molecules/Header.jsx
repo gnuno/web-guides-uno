@@ -3,6 +3,7 @@ import styled from "styled-components";
 
 import { Container } from "../atoms/Container";
 import { Link } from "react-router-dom";
+import NavBar from "../atoms/NavBar";
 import Theme from "../atoms/Theme";
 
 const Title = styled(Link)`
@@ -21,6 +22,11 @@ export default function Header(){
         background: ${Theme.color.primary};
         display: flex;
         align-items: center;
+        ${Container}{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
         box-shadow: 0px 2px 8px 0px ${Theme.color.primary}BF;
         height: 50px;
     `;
@@ -29,6 +35,7 @@ export default function Header(){
         <Header>
             <Container>
                 <Title to="/"> Guides UNO </Title>
+                <NavBar/>
             </Container>
         </Header>
     );
