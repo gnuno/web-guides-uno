@@ -1,0 +1,66 @@
+[
+    { 
+        "name": "Ignacio Garcia", 
+        "nick": "Igna",
+        "rol": "Miembro",
+        "image": "img/IgnaProfile.png",
+        "github": "https://github.com/IgnaGarcia", 
+        "web": "https://ignagarcia.vercel.app", 
+        "telegram": "https://t.me/IgnaGarciaRavlic", 
+        "linkedin": "https://www.linkedin.com/in/ignagarcia" 
+    },
+    { 
+        "name": "Fernando Pastorelli", 
+        "nick": "Phosphorus", 
+        "rol": "Miembro",
+        "image": "img/PhosphorusProfile.jpg",
+        "github": "https://github.com/Phosphorus-M", 
+        "web": "https://phosphorus-moscu.gitlab.io", 
+        "telegram": "https://t.me/PhosphorusM", 
+        "linkedin": "https://www.linkedin.com/in/fernando-pastorelli/" 
+    },
+    { 
+        "name": "Matias Noriega", 
+        "nick": "Emperador", 
+        "rol": "Fundador",
+        "image": "img/MatiNoriegaProfile.jpg",
+        "github": "https://github.com/matiasnoriega", 
+        "telegram": "https://t.me/murd1c", 
+        "linkedin": "https://www.linkedin.com/in/matiasnoriega/" 
+    },
+    { 
+        "name": "Lucas Carnero",  
+        "nick": "Luqui",
+        "rol": "Fundador",
+        "image": "img/LucasProfile.jpg"
+    },
+    { 
+        "name": "Matias Gimenez", 
+        "nick": "Perri", 
+        "rol": "Miembro",
+        "image": "img/MatiGimenezProfile.jpg",
+        "github": "https://github.com/MatiGimenez",
+        "telegram": "https://t.me/matithrash", 
+        "linkedin": "https://www.linkedin.com/in/matías-giménez-0b4b9b14b/" 
+    },
+    { 
+        "name": "Julian Buda", 
+        "nick": "___",
+        "rol": "Miembro",
+        "github": "", 
+        "linkedin": "https://www.linkedin.com/in/jjbuda/" 
+    },
+    { 
+        "name": "David Gaona", 
+        "nick": "___", 
+        "rol": "Miembro",
+        "github": "https://github.com/davidlabragaona",
+        "linkedin": "https://www.linkedin.com/in/david-labra-gaona/"
+    },
+    { 
+        "name": "Marcelo ___",
+        "nick": "Marce", 
+        "rol": "Miembro",
+        "github": "https://github.com/Maluc8"
+    }
+]

@@ -4,6 +4,7 @@ import TextContainer from "../components/molecules/TextContainer";
 import { Container } from "../components/atoms/Container";
 import ImageText from "../components/molecules/ImageText";
 import ContactList from "../components/molecules/ContactList";
+import MembersList from "../components/molecules/MembersList";
 
 export default function Contribute() {
     const title = "Sobre GNUno";
@@ -20,6 +21,7 @@ export default function Contribute() {
             <TextContainer title={title} description={description} telegram={"https://t.me/gnuno_merlo"}/>
             <ImageText text={imageText} path={imagePath}/>
             <ContactList/>
+            <MembersList/>
         </Container>
     );
 }
