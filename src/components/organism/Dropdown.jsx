@@ -28,7 +28,7 @@ const Detail = styled(P3)`
 `
 
 export default function Dropdown(props) {
-    const { lista, open, titulo } = props;
+    const { lista, open, titulo, lastChild } = props;
     const [isOpen, setOpen] = useState(open);
 
     const handleClick = () => {
@@ -51,11 +51,13 @@ export default function Dropdown(props) {
                         ))}
                         <InvertDiagonal />
                     </ListChild>
+                    {(isOpen && lastChild) ?
+                        <DropdownHeader>
+                            <MainBall />
+                        </DropdownHeader> : ""
+                    }
                 </>
-            ) : 
-                <DropdownHeader>
-                    <MainBall />
-                </DropdownHeader>
+            ) :  ""
             }
         </MainItem>
     );

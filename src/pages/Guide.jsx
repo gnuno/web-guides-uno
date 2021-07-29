@@ -27,8 +27,10 @@ export default function Guide() {
                             key={element.title}
                             open={index === 0}
                             titulo={element.title}
+                            lastChild={index === data.length - 1}
                         />
-                    ))}
+                    ))
+                    }
                     <Dropdown />
                 </MainList>
             </Container>
