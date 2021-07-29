@@ -8,11 +8,15 @@ import DropdownHeader from "../atoms/DropdownHeader";
 import ListChild from "../atoms/ListChild";
 import { H2 } from "../atoms/Title";
 import { P3 } from "../atoms/Paragraph";
+import Breakpoints from "../atoms/Breakpoints";
 
 const MainItem = styled.li`
     display: block;
     max-width: 700px;
     margin: auto;
+    @media ${Breakpoints.desktopL} {
+        max-width: 800px;
+    }
 `;
 
 const Detail = styled(P3)`
@@ -48,11 +52,11 @@ export default function Dropdown(props) {
                         <InvertDiagonal />
                     </ListChild>
                 </>
-            ) : (
+            ) : 
                 <DropdownHeader>
                     <MainBall />
                 </DropdownHeader>
-            )}
+            }
         </MainItem>
     );
 }

@@ -19,6 +19,10 @@ export const Container = styled.div`
     }
     @media ${Breakpoints.desktop} {
         max-width: 1100px;
+    }    
+    @media ${Breakpoints.desktopL} {
+        max-width: 1440px;
+        width: 70%;
     }
 `;
 
@@ -37,5 +41,9 @@ export const HeaderContainer = styled.header`
     }
     @media ${Breakpoints.desktop} {
         width: 60%;
+    }
+    @media ${Breakpoints.desktopL} {
+        width: 70%;
+        max-width: 800px;
     }
 `;
