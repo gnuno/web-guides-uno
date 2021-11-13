@@ -40,4 +40,4 @@ En esa nueva guia creada tenes que ir creando tus unidades, especificando los te
 **NOTA**: Si tu guia sera muy larga y queres modularizar mas tenes que crear un array de templates, como se ve en ***web.js***, en ***dataProvider*** esta sera una ***proGuide***(booleanos en true), y por último en el case simplemente la prop data ira sin [], ya que data debe recibir un array, y una proGuide lo es.
 
 ## LICENCIA
-[Licencia](https://github.com/gnuno/web-guides-uno/blob/main/LICENSE)
+[GPL-3.0 License](https://github.com/gnuno/web-guides-uno/blob/main/LICENSE)
