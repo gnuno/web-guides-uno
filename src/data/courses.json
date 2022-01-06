@@ -1,0 +1,91 @@
+{
+    "git": {
+        "title": "git",
+        "description": "En esta guía de git, una herramienta que todo desarrollador debe acostumbrarse y manejar con fluidez, vas a aprender a versionar tu código, a trabajar con repositorios remotos y con repositorios con más de 1 colaborador, abriendote las puertas a colaborar en proyectos y sumando una gran skill a tu CV.",
+        "telegram": "https://t.me/unogit",
+        "url": "/git",
+        "content": [
+            {
+                "name": "Introducción",
+                "description": "¿Qué es?, ¿Para qué sirve?",
+                "links": [
+                    { "key": "", "href": "" },
+                    { "key": "", "href": "" }
+                ]
+            },
+            {
+                "name": "Uso básico",
+                "description": "Working directory-Stage-Head, Commit, Log",
+                "links": [
+                    { "key": "", "href": "" },
+                    { "key": "", "href": "" }
+                ]
+            },
+            {
+                "name": "Uso colaborativo",
+                "description": "Branchs - Merge, Remotes(Github-Gitlab), Push, Pull-Fetch, Clone",
+                "links": [
+                    { "key": "", "href": "" },
+                    { "key": "", "href": "" }
+                ]
+            },
+            {
+                "name": "",
+                "void": true
+            }
+        ]
+    },
+    "Bases de Datos": {
+        "title": "Bases de Datos",
+        "description": "Todo desarrollador FullStack o BackEnd debe tener los conocimientos básicos en Bases de Datos, por eso en esta guía vas a aprender para qué sirven estas, como se modelan, como se administran y cómo se programa en SQL.",
+        "telegram": "https://t.me/DDBBUNO",
+        "url": "/db",
+        "content": [
+            {
+                "name": "Introducción",
+                "description": "¿Qué son?, ¿Para qué sirven?",
+                "links": [
+                    { "key": "Ejercicios", "href": "Ejercicios", "class": "terciary" },
+                    { "key": "Paper", "href": "Paper", "class": "cuartiary" },
+                    { "key": "Paper", "href": "Paper", "class": "primary"}
+                ]
+            },
+            {
+                "name": "Modelo Entidad Interrelación",
+                "description": "¿Qué es?, Cardinalidades, Entidades Débiles y Jerarquías",
+                "links": [
+                    { "key": "", "href": "" },
+                    { "key": "", "href": "" }
+                ]
+            },
+            {
+                "name": "Modelo Relacional",
+                "description": "¿Qué es?, Mapeo de MEI a MR, Álgebra Relacional",
+                "links": [
+                    { "key": "", "href": "" },
+                    { "key": "", "href": "" }
+                ]
+            },
+            {
+                "name": "SQL",
+                "description": "¿Qué es?, Creación de BDD, Consultas SQL, Joins, Funciones de Agrupamiento, SubSelect, División",
+                "links": [
+                    { "key": "", "href": "" },
+                    { "key": "", "href": "" }
+                ]
+            },
+            {
+                "name": "No relacionales",
+                "description": "¿Qué son?, Diferencias con Relacional, MongoDB",
+                "links": [
+                    { "key": "", "href": "" },
+                    { "key": "", "href": "" }
+                ]
+            },
+            {
+                "name": "",
+                "void": true
+            }
+        ]
+    }
+}

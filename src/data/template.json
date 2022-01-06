@@ -1,27 +1,54 @@
 {
-    "title": "TITULO",
-    "content": [
-        {
-            "name": "UNIDAD 1",
-            "description": "TEMA 1, TEMA 2, ..., TEMA N",
-            "links": [
-                { "key": "VIDEO1", "href": "link", "class": "terciary" },
-                { "key": "TAREA1", "href": "link", "class": "cuartiary" },
-                { "key": "BIBLIOGRAFIA1", "href": "link", "class": "primary"}
+    "course": {
+        "name id": {
+            "title": "name of course",
+            "description": "description of course",
+            "telegram": "url to telegram",
+            "url": "/name",
+            "content": [
+                {
+                    "name": "name of content",
+                    "description": "questions, topics and more of content",
+                    "links": [
+                        { "key": "visible name of link", "href": "url of link", "class": "type of link" },
+                        { "key": "...", "href": "...", "class": "" }
+                    ]
+                },
+                { 
+                    "name": "",
+                    "void": true
+                }
             ]
         },
-        {
-            "name": "UNIDAD 2",
-            "description": "TEMA 1, TEMA 2, ..., TEMA N",
-            "links": [
-                { "key": "VIDEO1", "href": "link", "class": "terciary" },
-                { "key": "TAREA1", "href": "link", "class": "cuartiary" },
-                { "key": "BIBLIOGRAFIA1", "href": "link", "class": "primary"}
+        "career": {
+            "title": "name of course",
+            "description": "description of course",
+            "telegram": "url to telegram",
+            "url": "/name",
+            "content": [
+                {
+                    "title": "name of course",
+                    "content": [
+                        {
+                            "name": "name of content",
+                            "description": "questions, topics and more of content",
+                            "links": [
+                                { "key": "visible name of link", "href": "url of link", "class": "type of link" },
+                                { "key": "...", "href": "...", "class": "" }
+                            ]
+                        },
+                        {
+                            "name": "",
+                            "void": true
+                        }
+                    ]
+                }
             ]
         },
-        {
-            "name": "",
-            "void": true
-        }
-    ]
+        "types of link": [
+            "video", 
+            "exercise",
+            "documentation"
+        ]
+    }
 }
