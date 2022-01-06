@@ -20,6 +20,7 @@ ReactDOM.render(
             <Route exact strict path='/contribuir' render={() => <Contribute />} />
             <Route exact strict path='/gnuno' render={() => <AboutUs />} />
             <Route exact strict path='/guia/:name' render={() => <Guide />} />
+            <Route exact strict path='/carrera/:name' render={() => <Guide career={true}/>} />
             <Footer/>
         </BrowserRouter>
     </>,

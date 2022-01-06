@@ -6,30 +6,46 @@ import Dropdown from "../components/organism/Dropdown";
 import TextContainer from "../components/molecules/TextContainer";
 import { Container } from "../components/atoms/Container";
 
-import { getData } from "../data/dataProvider";
+import Courses from "../data/courses.json";
+import Careers from "../data/careers.json";
 
 const MainList = styled.ul`
     padding: 1.5em 0em;
 `;
 
-export default function Guide() {
-    const { name } = useParams();
-    const { data, title, description, telegram } = getData(name);
+const getData = (id, isCareer) => {
+    return isCareer ? Careers[id] : Courses[id]
+}
 
+export default function Guide({ career }) {
+    const { name } = useParams();
+    const { title, description, telegram, url, content } = getData(name, career);
+    console.log(getData(name, career))
     return (
         <>
             <TextContainer title={title} description={description} telegram={telegram}/>
             <Container>
                 <MainList>
-                    {data.map((element, index) => (
+                    {career ? 
+                        content.map((element, index) => {
+                            let topics = typeof element.content === 'string' ?  getData(element.content, false) : element
+                            
+                            return <Dropdown
+                                    lista={topics.content}
+                                    key={topics.title}
+                                    open={index === 0}
+                                    titulo={topics.title}
+                                    lastChild={index === content.length - 1}
+                                />
+                        })
+                    :
                         <Dropdown
-                            lista={element.content}
-                            key={element.title}
-                            open={index === 0}
-                            titulo={element.title}
-                            lastChild={index === data.length - 1}
+                            lista={content}
+                            key={title}
+                            open={true}
+                            titulo={title}
+                            lastChild={-1}
                         />
-                    ))
                     }
                     <Dropdown />
                 </MainList>

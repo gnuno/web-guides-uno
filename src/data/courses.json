@@ -35,7 +35,7 @@
             }
         ]
     },
-    "Bases de Datos": {
+    "db": {
         "title": "Bases de Datos",
         "description": "Todo desarrollador FullStack o BackEnd debe tener los conocimientos básicos en Bases de Datos, por eso en esta guía vas a aprender para qué sirven estas, como se modelan, como se administran y cómo se programa en SQL.",
         "telegram": "https://t.me/DDBBUNO",

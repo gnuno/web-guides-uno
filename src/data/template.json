@@ -1,6 +1,6 @@
 {
     "course": {
-        "name id": {
+        "name same of url": {
             "title": "name of course",
             "description": "description of course",
             "telegram": "url to telegram",
@@ -20,7 +20,7 @@
                 }
             ]
         },
-        "career": {
+        "same of url": {
             "title": "name of course",
             "description": "description of course",
             "telegram": "url to telegram",

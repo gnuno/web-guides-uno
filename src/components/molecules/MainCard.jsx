@@ -39,15 +39,36 @@ const Icon = styled(StarIcon)`
     fill: ${Theme.color.cuartiary};
 `
 
-export default function MainCard({ element }){
+export default function MainCard({ element, career }){
+    
+    const getContents = () => {
+        var contents = " - ";
+
+        career ? 
+            (
+                element.content.map(guide => 
+                    contents += guide.title + " - "
+                )
+            ) 
+            : 
+            (
+                element.content.map(modules =>
+                    modules.void ? "" : contents += modules.name + " - "
+                    
+                )
+            )
+
+        return contents;
+    }
+
     return(
         <Item>
-            <StyledLink to={element.url}>
+            <StyledLink to={(career ? "/carrera" : "/guia") + element.url}>
                 <Title>
-                    <H2>{element.name}</H2>
-                    {element.proGuide? <Icon/> : ""}
+                    <H2>{element.title}</H2>
+                    {career ? <Icon/> : "" }
                 </Title>
-                <P3>{element.contents}</P3>
+                <P3>{getContents()}</P3>
             </StyledLink>
         </Item>
     )

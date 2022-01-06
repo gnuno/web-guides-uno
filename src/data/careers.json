@@ -1,5 +1,5 @@
 {
-    "Web": {
+    "web": {
         "title": "Web Fullstack",
         "description": "El rol al que muchos aspiran, no se asusten por la cantidad de contenidos, es un camino largo que debe disfrutarse, en esta guía vas a aprender los básico de FrontEnd(HTML-CSS-JS), un poco de git, conceptos más avanzados de FrontEnd(SASS-FrameworksJS) y por último el camino del BackEnd(Bases de Datos-API). \nTe recomiendo hacer las primeras 3 unidades y luego elegir entre el camino de FrontEnd o el de BackEnd.",
         "telegram": "https://t.me/javascript_uno",
@@ -76,7 +76,7 @@
                     }
                 ]
             },
-            "git",
+            { "content": "git" },
             {
                 "title": "CSS",
                 "content": [
@@ -329,7 +329,7 @@
                     }
                 ]
             },
-            "Bases de Datos",
+            { "content": "db" },
             {
                 "title": "Backend",
                 "content": [
