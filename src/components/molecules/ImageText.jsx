@@ -1,7 +1,8 @@
 import React from "react";
 import styled from "styled-components";
 
-import Image from "../atoms/Image";
+import ImageSlider from "../atoms/ImageSlider";
+import Imagen from "../atoms/Imagen";
 import { P2 } from "../atoms/Paragraph";
 import Breakpoints from "../atoms/Breakpoints";
 
@@ -40,15 +41,15 @@ const FlexContainer = styled.div`
     }
 `;
 
-export default function ImageText({title, text, path}) {
+export default function ImageText({title, text, paths}) {
     const desc1 = text[0];
     const desc2 = text[1];
     const final = text[2];
-
+    console.log(paths)
     return (
         <ColumnContainer>
             <FlexContainer>
-                <Image path={path}/>
+                {paths.length > 1? <ImageSlider paths={paths}/> : <Imagen path={paths[0]}/> }
                 <P2> <div className="secondary bold underline"> {title} </div> {desc1} </P2>
             </FlexContainer>
             {desc2 || final?

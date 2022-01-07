@@ -18,19 +18,23 @@ export default function Contribute() {
     const title = "Contribuir";
     const description = "Los aportes de la comunidad son una parte fundamental de este proyecto, por eso en esta guía se detallaran los pasos a seguir para hacer una contribución";
 
-    const smallContributions = []
-    smallContributions[0] = <>Lo primero que tenes que hacer para hacer cualquier aporte es hacer un fork del <a href="https://github.com/gnuno/web-guides-uno">repositorio</a>, luego te descargas/clonas tu fork para empezar a trabajar. La metodología  es la de siempre, ir haciendo cambios y commits, para al final hacer un push a tu repo.<br/><br/>Para finalizar con el aporte lo que tenes que hacer es crear un Pull Request, dirigiéndose al repositorio en github en el que subiste los cambios y dandole al botón 'Pull Request' como muestra la imagen.</>;
-    const smallContributionsPath = "img/basicContribute.gif"
+    const smallContributions = [<>
+        Lo primero que tenes que hacer para hacer cualquier aporte es hacer un fork del <a href="https://github.com/gnuno/web-guides-uno">repositorio</a>, luego te descargas/clonas tu fork para empezar a trabajar. La metodología  es la de siempre, ir haciendo cambios y commits, para al final hacer un push a tu repo.
+        <br/><br/> Para finalizar con el aporte lo que tenes que hacer es crear un Pull Request, dirigiéndose al repositorio en github en el que subiste los cambios y dandole al botón 'Pull Request' como muestra la imagen.
+    </>]
+    const smallContributionsPath = ["img/contribute/fork1.png", "img/contribute/fork2.png", "img/contribute/fork3.png"] 
 
-    const issueContributions = []
-    issueContributions[0] = <>Otra manera de contribuir es proponiendo cambios o nuevas funcionalidades, o informando sobre fallos de la app, todo esto lo podes hacer creando un nuevo <a href="https://github.com/gnuno/web-guides-uno/issues">Issue</a>.</>
-    const issueContributionsPath = "img/issueContribute.gif"
+    const issueContributions = [<>
+        Otra manera de contribuir es proponiendo cambios o nuevas funcionalidades, o informando sobre fallos de la app, todo esto lo podes hacer creando un nuevo <a href="https://github.com/gnuno/web-guides-uno/issues">Issue</a>.
+    </>]
+    const issueContributionsPath = ["img/contribute/issue0.png", "img/contribute/issue1.png", "img/contribute/issue2.png"]
 
-    const bigContributions = []
-    bigContributions[0] = <>Para esto se deben seguir los mismos pasos que para una pequeña contribución, pero te ahorramos de leer el código y entender dónde tocar. Lo primero que tenes que hacer es crear en la carpeta 'data' tu guia .json, podes copiar y pegar el template.json y editar desde ahí.<br/><br/>En esa nueva guia creada tenes que ir creando tus unidades, especificando los temas, y si es posible dejando links de referencia. Una vez tengas tu guia completa tenes que ir a 'dataProvider.jsx' y hacer lo siguiente: Importar el json, agregarlo al objeto courses y por último crear un case en la función getData.</>;
-    bigContributions[1] = "";
-    bigContributions[2] = "NOTA: Si tu guia sera muy larga y queres modularizarla mas tenes que crear un array de templates, como se ve en web.js, en dataProvider esta será una 'proGuide'(booleanos en true), y por último en el case simplemente la prop data ira sin []."
-    const bicContributionsPath = "img/bigContribute.gif"
+    const bigContributions = [<>
+        Para esto se deben seguir los mismos pasos que para una pequeña contribución, pero te ahorramos de leer el código y entender dónde tocar. Lo primero que tenes que hacer es copiar el template.json dentro de la carpeta data, lo vas a pegar en el careers.json o courses.json, dependiendo que vayas a crear.
+        <br/><br/> En esa nueva guia creada tenes que ir creando tus unidades, especificando los temas, y si es posible dejando links de referencia.
+        <br/><br/> Si tu idea es crear una guia para un rol o conjunto de tecnologias lo ideal es que lo hagas en careers, esta va a ser un conjunto de cursos, en cambio si es acerca de una tecnologia o lenguaje lo ideal es courses.
+    </>];
+    const bigContributionsPath = ["img/contribute/contribuir1.png", "img/contribute/contribuir2.png", "img/contribute/course1.png", "img/contribute/career1.png"]
 
     const titleText = []
     titleText[0] = "Por qué contribuir?"
@@ -43,11 +47,11 @@ export default function Contribute() {
             <TitleText title={titleText[0]} text={titleText[1]}/>
             <DividerBar/>
             <H2> Como Contribuir? </H2>
-            <ImageText title="Pequeños aportes: " text={smallContributions} path={smallContributionsPath}/>
+            <ImageText title="Pequeños aportes: " text={smallContributions} paths={smallContributionsPath}/>
 
-            <ImageText title="Sugiriendo cambios: " text={issueContributions} path={issueContributionsPath}/>
+            <ImageText title="Sugiriendo cambios: " text={issueContributions} paths={issueContributionsPath}/>
             
-            <ImageText title="Crear nuevas Guías: " text={bigContributions} path={bicContributionsPath}/>
+            <ImageText title="Crear nuevas Guías: " text={bigContributions} paths={bigContributionsPath}/>
         </Container>
     );
 }
