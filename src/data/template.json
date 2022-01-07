@@ -19,10 +19,12 @@
                     "void": true
                 }
             ]
-        },
-        "same of url": {
-            "title": "name of course",
-            "description": "description of course",
+        }
+    },
+    "career": {
+        "name same of url": {
+            "title": "name of career",
+            "description": "description of career",
             "telegram": "url to telegram",
             "url": "/name",
             "content": [
@@ -42,13 +44,14 @@
                             "void": true
                         }
                     ]
-                }
+                },
+                { "content": "git" }
             ]
-        },
-        "types of link": [
-            "video", 
-            "task",
-            "doc"
-        ]
-    }
+        }
+    },
+    "linkTypes": [
+        "video", 
+        "task",
+        "doc"
+    ]
 }
