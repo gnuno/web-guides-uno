@@ -42,8 +42,8 @@ export default function Card(props) {
         if (acc.video && acc.task && acc.url) arr.splice(1)
 
         if(curr.class) {
-            if(curr.class === "primary") acc.url = true
-            else if(curr.class === "terciary") acc.video = true
+            if(curr.class === "doc") acc.url = true
+            else if(curr.class === "video") acc.video = true
             else acc.task = true
         }
 
@@ -51,22 +51,25 @@ export default function Card(props) {
     };
 
     !element.void && element.links.slice(0).reduce(reducer, reduced)
-
+    
     return (
         <ChildItem>
             <ChildItemHeader>
                 <ChildBall />
                 <H3> {element.name} </H3>
                 <Details>
-                    {reduced.url? <LinkIcon className="primary"/> : ""}
-                    {reduced.video? <VideoIcon className="terciary"/> : ""}
-                    {reduced.task? <TaskIcon className="cuartiary"/> : ""}
+                    {reduced.url? <LinkIcon className="doc"/> : ""}
+                    {reduced.video? <VideoIcon className="video"/> : ""}
+                    {reduced.task? <TaskIcon className="task"/> : ""}
                 </Details>
             </ChildItemHeader>
             {!element.void ? (
                 <ChildItemContent>
                     <P3> {element.description} </P3>
-                    <LinkList links={element.links}/>
+                    {
+                        (element.links != undefined && element.links.length > 0) ? 
+                            <LinkList links={element.links}/> : ""
+                    }
                 </ChildItemContent>
             ) : (
                 <div style={{ paddingBottom: "12px" }}></div>

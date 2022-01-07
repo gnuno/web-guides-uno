@@ -42,6 +42,18 @@ const GlobalStyle = createGlobalStyle`
         .center{
             text-align: center;
         }
+        .doc{
+            color: ${Theme.color.primary};
+            fill: ${Theme.color.primary};
+        }
+        .video{
+            color: ${Theme.color.terciary};
+            fill: ${Theme.color.terciary}; 
+        }
+        .task{
+            color: ${Theme.color.cuartiary};
+            fill: ${Theme.color.cuartiary};
+        }
     }
 `;
 

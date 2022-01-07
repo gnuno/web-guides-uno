@@ -6,6 +6,8 @@ import { P3 } from "../atoms/Paragraph";
 import { Link } from "react-router-dom";
 import { ReactComponent as StarIcon } from "../../assets/icons/StarIcon.svg"
 
+import Courses from "../../data/courses.json";
+
 const Item = styled.li`
     border: 1px solid ${Theme.color.secondary};
     background: ${Theme.background.paper};
@@ -40,21 +42,24 @@ const Icon = styled(StarIcon)`
 `
 
 export default function MainCard({ element, career }){
+    const getCourse = (id) => Courses[id]
     
+
     const getContents = () => {
         var contents = " - ";
 
         career ? 
             (
-                element.content.map(guide => 
-                    contents += guide.title + " - "
-                )
+                element.content.forEach(guide => {
+                    if(typeof guide.content === "string")
+                        contents += getCourse(guide.content).title + " - "
+                    else contents += guide.title + " - "
+                })
             ) 
             : 
             (
-                element.content.map(modules =>
+                element.content.forEach(modules =>
                     modules.void ? "" : contents += modules.name + " - "
-                    
                 )
             )
 

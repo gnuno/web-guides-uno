@@ -47,8 +47,8 @@
         },
         "types of link": [
             "video", 
-            "exercise",
-            "documentation"
+            "task",
+            "doc"
         ]
     }
 }

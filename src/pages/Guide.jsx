@@ -20,7 +20,7 @@ const getData = (id, isCareer) => {
 export default function Guide({ career }) {
     const { name } = useParams();
     const { title, description, telegram, url, content } = getData(name, career);
-    console.log(getData(name, career))
+    
     return (
         <>
             <TextContainer title={title} description={description} telegram={telegram}/>
