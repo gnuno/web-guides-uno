@@ -8,17 +8,116 @@
             {
                 "name": "Introducción",
                 "description": "¿Qué es?, ¿Para qué sirve?",
-                "links": []
+                "links": [
+                    { 
+                        "key": "Git", "class": "doc", 
+                        "href": "https://www.atlassian.com/es/git/tutorials/what-is-git"
+                    },
+                    { 
+                        "key": "Git(Video)", "class": "video", 
+                        "href": "https://youtu.be/DinilgacaWs"
+                    }
+                ]
             },
             {
                 "name": "Uso básico",
-                "description": "Working directory-Stage-Head, Commit, Log",
-                "links": []
+                "description": "Working directory-Stage-Head, Commit, Log, GitIgnore",
+                "links": [
+                    { 
+                        "key": "Git", "class": "doc", 
+                        "href": "https://www.atlassian.com/es/git/tutorials/what-is-git"
+                    },
+                    { 
+                        "key": "WorkFlow", "class": "doc", 
+                        "href": "https://www.atlassian.com/es/git/tutorials/comparing-workflows"
+                    },
+                    { 
+                        "key": "WorkFlow", "class": "doc", 
+                        "href": "https://www.atlassian.com/es/git/tutorials/comparing-workflows"
+                    },
+                    { 
+                        "key": "GitIgnore", "class": "doc", 
+                        "href": "https://www.atlassian.com/es/git/tutorials/saving-changes/gitignore"
+                    },
+                    { 
+                        "key": "CheatSheet", "class": "doc", 
+                        "href": "https://training.github.com/downloads/es_ES/github-git-cheat-sheet.pdf"
+                    },
+                    { 
+                        "key": "Curso Practico", "class": "video", 
+                        "href": "https://youtu.be/HiXLkL42tMU"
+                    }                    
+                ]
             },
             {
-                "name": "Uso colaborativo",
-                "description": "Branchs - Merge, Remotes(Github-Gitlab), Push, Pull-Fetch, Clone",
-                "links": []
+                "name": "Uso avanzado",
+                "description": "Branchs, Merge, Command Alias",
+                "links": [
+                    { 
+                        "key": "Branchs", "class": "doc", 
+                        "href": "https://www.atlassian.com/es/git/tutorials/using-branches"
+                    },
+                    { 
+                        "key": "Merge", "class": "doc", 
+                        "href": "https://www.atlassian.com/es/git/tutorials/using-branches/git-merge"
+                    },
+                    { 
+                        "key": "Conflictos", "class": "doc", 
+                        "href": "https://www.atlassian.com/es/git/tutorials/using-branches/merge-conflicts"
+                    },
+                    { 
+                        "key": "Alias", "class": "doc", 
+                        "href": "https://www.atlassian.com/es/git/tutorials/git-alias"
+                    }
+                ]
+            },
+            {
+                "name": "Repositorios Remotos",
+                "description": "Github-Gitlab, Push, Pull-Fetch, Clone",
+                "links": [
+                    { 
+                        "key": "Remote", "class": "doc", 
+                        "href": "https://www.atlassian.com/es/git/tutorials/syncing"
+                    },
+                    { 
+                        "key": "Fetch", "class": "doc", 
+                        "href": "https://www.atlassian.com/es/git/tutorials/syncing/git-fetch"
+                    },
+                    { 
+                        "key": "Push", "class": "doc", 
+                        "href": "https://www.atlassian.com/es/git/tutorials/syncing/git-push"
+                    },
+                    { 
+                        "key": "Pull", "class": "doc", 
+                        "href": "https://www.atlassian.com/es/git/tutorials/syncing/git-pull"
+                    },
+                    { 
+                        "key": "Clone", "class": "doc", 
+                        "href": "https://www.atlassian.com/es/git/tutorials/setting-up-a-repository/git-clone"
+                    },
+                    { 
+                        "key": "Git y GitHub Playlist", "class": "video", 
+                        "href": "https://youtube.com/playlist?list=PLU8oAlHdN5BlyaPFiNQcV0xDqy0eR35aU"
+                    }
+                ]
+            },
+            {
+                "name": "Uso profesional",
+                "description": "GitFlow - Conventional Commit",
+                "links": [
+                    { 
+                        "key": "GitFlow", "class": "doc", 
+                        "href": "https://www.atlassian.com/es/git/tutorials/comparing-workflows/gitflow-workflow"
+                    },
+                    { 
+                        "key": "Conventional Commit(Referencia)", "class": "doc", 
+                        "href": "https://www.conventionalcommits.org/en/v1.0.0/"
+                    },
+                    { 
+                        "key": "Conventional Commit(Tutorial)", "class": "video", 
+                        "href": "https://www.youtube.com/watch?v=Cp_SHttVTi0&ab_channel=makigas%3Atutorialesdeprogramaci%C3%B3n"
+                    }
+                ]
             },
             {
                 "name": "",
