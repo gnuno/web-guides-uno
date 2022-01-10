@@ -135,30 +135,105 @@
                 "name": "Introducción",
                 "description": "¿Qué son?, ¿Para qué sirven?",
                 "links": [
-                    { "key": "Video", "href": "Video", "class": "video" },
-                    { "key": "Ejercicio", "href": "Ejercicio", "class": "task" },
-                    { "key": "Paper", "href": "Paper", "class": "doc"}
+                    { 
+                        "key": "Marco Teorico", "class": "doc", 
+                        "href": "https://www.oracle.com/ar/database/what-is-database/" 
+                    },
+                    { 
+                        "key": "Video Referencia", "class": "video", 
+                        "href": "https://youtu.be/knVwokXITGI" 
+                    }
                 ]
             },
             {
-                "name": "Modelo Entidad Interrelación",
-                "description": "¿Qué es?, Cardinalidades, Entidades Débiles y Jerarquías",
-                "links": []
-            },
-            {
                 "name": "Modelo Relacional",
-                "description": "¿Qué es?, Mapeo de MEI a MR, Álgebra Relacional",
-                "links": []
+                "description": "¿Qué es?, Cardinalidades, Relaciones",
+                "links": [
+                    { 
+                        "key": "Teoria de Conjuntos", "class": "video", 
+                        "href": "https://youtu.be/BL-cLlY959M" 
+                    },
+                    { 
+                        "key": "Modelo Relacional", "class": "doc", 
+                        "href": "https://www.oracle.com/ar/database/what-is-a-relational-database/" 
+                    },
+                    { 
+                        "key": "Cardinalidad", "class": "doc", 
+                        "href": "https://www.ibm.com/docs/es/cognos-analytics/11.0.0?topic=relationships-cardinality" 
+                    },
+                    { 
+                        "key": "Relaciones", "class": "doc", 
+                        "href": "https://www.ibm.com/docs/es/control-desk/7.6.1.2?topic=structure-database-relationships" 
+                    },
+                    { 
+                        "key": "Tutorial Modelo Relacional", "class": "video", 
+                        "href": "https://youtu.be/DZoH1qIh-0Q" 
+                    }
+                ]
             },
             {
                 "name": "SQL",
-                "description": "¿Qué es?, Creación de BDD, Consultas SQL, Joins, Funciones de Agrupamiento, SubSelect, División",
-                "links": []
+                "description": "¿Qué es?, Creación de BDD, Consultas SQL, Joins, Funciones de Agregacion, SubConsultas, División",
+                "links": [
+                    { 
+                        "key": "Taller", "class": "video", 
+                        "href": "https://youtu.be/HXV3zeQKqGY" 
+                    },
+                    { 
+                        "key": "Que es", "class": "doc", 
+                        "href": "https://datademia.es/blog/que-es-sql" 
+                    },
+                    { 
+                        "key": "CheatSheet", "class": "doc", 
+                        "href": "https://www.sqltutorial.org/sql-cheat-sheet/" 
+                    },
+                    { 
+                        "key": "Joins", "class": "doc", 
+                        "href": "https://platzi.com/blog/sql-join-en-detalle/?gclid=CjwKCAiArOqOBhBmEiwAsgeLmWk6zlv1UHeDHPEFmBBLhoXBg-08puViSzg3sqc5HNuyTw_50cziHxoCMdgQAvD_BwE&gclsrc=aw.ds" 
+                    },
+                    { 
+                        "key": "Funciones de Agregacion", "class": "doc", 
+                        "href": "https://www.campusmvp.es/recursos/post/Fundamentos-de-SQL-Agrupaciones-y-funciones-de-agregacion.aspx" 
+                    },
+                    { 
+                        "key": "Sub Consultas", "class": "doc", 
+                        "href": "https://docs.microsoft.com/es-es/sql/relational-databases/performance/subqueries?view=sql-server-ver15" 
+                    },
+                    { 
+                        "key": "Joins(Tutorial)", "class": "video", 
+                        "href": "https://youtu.be/vj1-V3YnCLY" 
+                    },
+                    { 
+                        "key": "Funciones de Agregacion(Tutorial)", "class": "video", 
+                        "href": "https://youtu.be/M8hy7qyHWTI" 
+                    },
+                    { 
+                        "key": "Sub Consultas(Tutorial)", "class": "video", 
+                        "href": "https://youtu.be/adr2Ao8WYpo" 
+                    }
+                ]
             },
             {
                 "name": "No relacionales",
                 "description": "¿Qué son?, Diferencias con Relacional, MongoDB",
-                "links": []
+                "links": [
+                    { 
+                        "key": "BD No Relacional", "class": "doc", 
+                        "href": "https://platzi.com/tutoriales/1183-bd-2017/3772-base-de-datos-nosql/?gclid=CjwKCAiArOqOBhBmEiwAsgeLmayapf26I8HlExoKC83nGho0pNukZnXbWVG19FHtiWO15eZpwxOaABoCqI8QAvD_BwE&gclsrc=aw.ds" 
+                    },
+                    { 
+                        "key": "BD No Relacionales", "class": "doc", 
+                        "href": "https://ayudaleyprotecciondatos.es/bases-de-datos/no-relacional/" 
+                    },
+                    { 
+                        "key": "Diferencias SQL - NoSQL", "class": "video", 
+                        "href": "https://youtu.be/0xx3fcYcb28" 
+                    },
+                    { 
+                        "key": "Taller MongoDB", "class": "video", 
+                        "href": "https://youtu.be/lWMemPN9t6Q" 
+                    }
+                ]
             },
             {
                 "name": "",
