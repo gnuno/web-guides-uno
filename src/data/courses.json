@@ -4,6 +4,7 @@
         "description": "En esta guía de git, una herramienta que todo desarrollador debe acostumbrarse y manejar con fluidez, vas a aprender a versionar tu código, a trabajar con repositorios remotos y con repositorios con más de 1 colaborador, abriendote las puertas a colaborar en proyectos y sumando una gran skill a tu CV.",
         "telegram": "https://t.me/unogit",
         "url": "/git",
+        "visible": true,
         "content": [
             {
                 "name": "Introducción",
@@ -130,6 +131,7 @@
         "description": "Todo desarrollador FullStack o BackEnd debe tener los conocimientos básicos en Bases de Datos, por eso en esta guía vas a aprender para qué sirven estas, como se modelan, como se administran y cómo se programa en SQL.",
         "telegram": "https://t.me/DDBBUNO",
         "url": "/db",
+        "visible": true,
         "content": [
             {
                 "name": "Introducción",
@@ -234,6 +236,27 @@
                         "href": "https://youtu.be/lWMemPN9t6Q" 
                     }
                 ]
+            },
+            {
+                "name": "",
+                "void": true
+            }
+        ]
+    },
+    "marcoTeoricoWeb": {
+        "title": "La Web",
+        "content": [
+            {
+                "name": "Un poco de Historia",
+                "description":
+                    "¿Qué es la Web?, ¿Quién la creó?, ¿Cómo surgió?, ¿Cómo evolucionó?",
+                "links": []
+            },
+            {
+                "name": "Funcionamiento de la Web",
+                "description":
+                    "¿Cómo funciona?, ¿Qué es HTTP?, ¿Cuál es la función del navegador?",
+                "links": []
             },
             {
                 "name": "",

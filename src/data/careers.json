@@ -1,31 +1,11 @@
 {
-    "web": {
-        "title": "Web Fullstack",
-        "description": "El rol al que muchos aspiran, no se asusten por la cantidad de contenidos, es un camino largo que debe disfrutarse, en esta guía vas a aprender los básico de FrontEnd(HTML-CSS-JS), un poco de git, conceptos más avanzados de FrontEnd(SASS-FrameworksJS) y por último el camino del BackEnd(Bases de Datos-API). \nTe recomiendo hacer las primeras 3 unidades y luego elegir entre el camino de FrontEnd o el de BackEnd.",
+    "frontend": {
+        "title": "Frontend Web",
+        "description": "Uno de los puestos mas solicitados del mercado, no se asusten por la cantidad de contenidos, es un camino largo que debe disfrutarse, en esta guía vas a aprender los básico de FrontEnd(HTML-CSS-JS), un poco de git, y por ultimo conceptos más avanzados de FrontEnd(SASS-FrameworksJS).",
         "telegram": "https://t.me/javascript_uno",
-        "url": "/web",
+        "url": "/frontend",
         "content": [
-            {
-                "title": "La Web",
-                "content": [
-                    {
-                        "name": "Un poco de Historia",
-                        "description":
-                            "¿Qué es la Web?, ¿Quién la creó?, ¿Cómo surgió?, ¿Cómo evolucionó?",
-                        "links": []
-                    },
-                    {
-                        "name": "Funcionamiento de la Web",
-                        "description":
-                            "¿Cómo funciona?, ¿Qué es HTTP?, ¿Cuál es la función del navegador?",
-                        "links": []
-                    },
-                    {
-                        "name": "",
-                        "void": true
-                    }
-                ]
-            },
+            { "content": "marcoTeoricoWeb" },
             {
                 "title": "HTML",
                 "content": [
@@ -74,9 +54,9 @@
                         "links": []
                     },
                     {
-                        "name": "Box Display",
+                        "name": "Box Model",
                         "description":
-                            "Box Display, Medidas de Tamaños, Márgenes, Paddings, Width/Height",
+                            "Box Model, Medidas de Tamaños, Márgenes, Paddings, Width/Height",
                         "links": []
                     },
                     {
@@ -108,7 +88,12 @@
                     {
                         "name": "Contenidos Avanzados",
                         "description":
-                            "Gradients, Transitions, Animations, Transforms, Frameworks (Tailwind, Bulma, Bootstrap)",
+                            "Gradients, Transitions, Animations, Transforms",
+                        "links": []
+                    },
+                    {
+                        "name": "Frameworks",
+                        "description": "Tailwind, Bulma, Bootstrap",
                         "links": []
                     },
                     {
@@ -215,7 +200,7 @@
                     {
                         "name": "Adentrándose un poquito mas",
                         "description":
-                            "Formularios, HTTP y Asincronismo, Bibliotecas de Estilos",
+                            "Formularios, HTTP y Asincronismo, Bibliotecas de Estilos, Observables, Estados",
                         "links": []
                     },
                     {
@@ -235,25 +220,106 @@
                         "void": true
                     }
                 ]
+            }
+        ]
+    },
+    "backend": {
+        "title": "Backend Web",
+        "description": "El rol al que muchos aspiran, no se asusten por la cantidad de contenidos, es un camino largo que debe disfrutarse, en esta guía vas a aprender los básico de FrontEnd(HTML-CSS-JS), un poco de git, conceptos más avanzados de FrontEnd(SASS-FrameworksJS) y por último el camino del BackEnd(Bases de Datos-API). \nTe recomiendo hacer las primeras 3 unidades y luego elegir entre el camino de FrontEnd o el de BackEnd.",
+        "telegram": "https://t.me/javascript_uno",
+        "url": "/backend",
+        "content": [
+            { "content": "marcoTeoricoWeb" },
+            {
+                "title": "Aprende un lenguaje",
+                "content": [
+                    {
+                        "name": "Lenguajes usados para Backend",
+                        "description":
+                            "JavaScrip, Python, PHP, C#, Java, Ruby, Go, Rust",
+                        "links": []
+                    },
+                    {
+                        "name": "Bases de Programacion",
+                        "description":
+                            "Sintaxis, Variables, Tipos, Control de Flujo(Condicionales y Flujos), Funciones",
+                        "links": []
+                    },
+                    {
+                        "name": "Contenidos Intermedios",
+                        "description":
+                            "Arrays, Estructucturas de Datos, OOP(Clases, Atributos, Metodos, Interfaces, Herencia), Testing, Manejo de Archivos",
+                        "links": []
+                    },
+                    {
+                        "name": "Contenidos Avanzados",
+                        "description": "Complejidad Computacional, Patrones de Diseño, Concurrencia/Sincronizacion",
+                        "links": []
+                    },
+                    {
+                        "name": "",
+                        "void": true
+                    }
+                ]
             },
+            { "content": "git" },
             { "content": "db" },
             {
-                "title": "Backend",
+                "title": "Servidores Web",
                 "content": [
                     {
                         "name": "Introducción",
                         "description":
-                            "¿Qué es el Backend?, Elegir Lenguaje(JS, Py, Java, Go, Ruby, PHP, C#, Rust...), ¿Qué es una API REST?, Postman",
+                            "¿Qué es el Backend?, Protocolo HTTP, JSON",
                         "links": []
                     },
                     {
-                        "name": "Bases de cada uno a aprender",
+                        "name": "Arquitectura",
                         "description":
-                            "Sintaxis y bases de programación, Frameworks de backend, Modelos - Controladores - Rutas, ORMs, Hacer un CRUD, Manejo de Archivos, CORS",
+                            "Modelo Vista Controlador, API Rest, ORM(Comunicacion con DB)",
                         "links": []
                     },
                     {
-                        "name": "Adentrándose un poquito mas",
+                        "name": "Frameworks",
+                        "description":
+                            "Cada lenguaje posee frameworks que proveen herramientas que facilitan estas tareas",
+                        "links": [
+                            { 
+                                "key": "JavaScrip", "class": "doc", 
+                                "href": ""
+                            },
+                            { 
+                                "key": "Python", "class": "doc", 
+                                "href": ""
+                            },
+                            { 
+                                "key": "PHP", "class": "doc", 
+                                "href": ""
+                            },
+                            { 
+                                "key": "C#", "class": "doc", 
+                                "href": ""
+                            },
+                            { 
+                                "key": "Java", "class": "doc", 
+                                "href": ""
+                            },
+                            { 
+                                "key": "Ruby", "class": "doc", 
+                                "href": ""
+                            },
+                            { 
+                                "key": "Go", "class": "doc", 
+                                "href": ""
+                            },
+                            { 
+                                "key": "Rust", "class": "doc", 
+                                "href": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Contenidos Intermedios",
                         "description":
                             "Autenticaciones, Enviar Mails, Testing, GraphQL, WebSockets",
                         "links": []

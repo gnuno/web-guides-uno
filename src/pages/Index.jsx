@@ -33,9 +33,8 @@ export default function Index() {
 
             <H2 style={{textAlign: 'center'}}> Nuestras Guías </H2>
             <GridContainer>
-                {courses.map((element) => (
-                    <MainCard key={element.name} element={element}/>
-                ))}
+                {courses.map((element) => element.visible ? <MainCard key={element.name} element={element} /> : ""
+                )}
             </GridContainer>
         </Container>
     );
