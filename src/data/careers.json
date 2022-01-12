@@ -236,25 +236,91 @@
                     {
                         "name": "Lenguajes usados para Backend",
                         "description":
-                            "JavaScrip, Python, PHP, C#, Java, Ruby, Go, Rust",
-                        "links": []
+                            "Elige uno de estos y sigue la guia: ",
+                        "links": [
+                            { 
+                                "key": "JavaScrip", "class": "doc", 
+                                "href": "https://developer.mozilla.org/es/docs/Web/JavaScript"
+                            },
+                            { 
+                                "key": "Python", "class": "doc", 
+                                "href": "https://www.python.org/"
+                            },
+                            { 
+                                "key": "PHP", "class": "doc", 
+                                "href": "https://www.php.net/manual/es/intro-whatis.php"
+                            },
+                            { 
+                                "key": "C#", "class": "doc", 
+                                "href": "https://docs.microsoft.com/en-us/dotnet/csharp/"
+                            },
+                            { 
+                                "key": "Java", "class": "doc", 
+                                "href": "https://www.java.com/es/"
+                            },
+                            { 
+                                "key": "Ruby", "class": "doc", 
+                                "href": "https://www.ruby-lang.org/es/"
+                            },
+                            { 
+                                "key": "Go", "class": "doc", 
+                                "href": "https://go.dev/"
+                            },
+                            { 
+                                "key": "Rust", "class": "doc", 
+                                "href": "https://www.rust-lang.org/"
+                            }
+                        ]
                     },
                     {
                         "name": "Bases de Programacion",
                         "description":
-                            "Sintaxis, Variables, Tipos, Control de Flujo(Condicionales y Flujos), Funciones",
-                        "links": []
+                            "Sintaxis, Variables, Tipos, Control de Flujo(Condicionales y Flujos), Funciones"
                     },
                     {
                         "name": "Contenidos Intermedios",
                         "description":
                             "Arrays, Estructucturas de Datos, OOP(Clases, Atributos, Metodos, Interfaces, Herencia), Testing, Manejo de Archivos",
-                        "links": []
+                        "links": [
+                            { 
+                                "key": "OOP", "class": "doc", 
+                                "href": "https://desarrolloweb.com/articulos/499.php"
+                            },
+                            { 
+                                "key": "OOP(Video)", "class": "video", 
+                                "href": "https://youtu.be/DlphYPc_HKk"
+                            },
+                            { 
+                                "key": "Estructuras de Datos", "class": "doc", 
+                                "href": "https://medium.com/techwomenc/estructuras-de-datos-a29062de5483"
+                            }
+                        ]
                     },
                     {
                         "name": "Contenidos Avanzados",
                         "description": "Complejidad Computacional, Patrones de Diseño, Concurrencia/Sincronizacion",
-                        "links": []
+                        "links": [
+                            { 
+                                "key": "Complejidad Computacional", "class": "doc", 
+                                "href": "https://medium.com/@nelramoyano/qu%C3%A9-es-la-complejidad-computacional-3a556e557973"
+                            },
+                            { 
+                                "key": "Big O Notation", "class": "video", 
+                                "href": "https://youtu.be/MyAiCtuhiqQ"
+                            },
+                            { 
+                                "key": "Patrones de Diseño", "class": "doc", 
+                                "href": "https://medium.com/all-you-need-is-clean-code/patrones-de-dise%C3%B1o-b7a99b8525e"
+                            },
+                            { 
+                                "key": "Patrones de Diseño - Gamma", "class": "doc", 
+                                "href": "https://www.utnianos.com.ar/foro/attachment.php?aid=3577"
+                            },
+                            { 
+                                "key": "Paralelismo y Concurrencia", "class": "doc", 
+                                "href": "https://medium.com/@rcougil/software-paralelismo-y-concurrencia-ae6018f68d75"
+                            }
+                        ]
                     },
                     {
                         "name": "",
@@ -271,13 +337,55 @@
                         "name": "Introducción",
                         "description":
                             "¿Qué es el Backend?, Protocolo HTTP, JSON",
-                        "links": []
+                        "links": [
+                            { 
+                                "key": "Backend(Video)", "class": "video", 
+                                "href": "https://youtu.be/ZTsi1e-VJIU"
+                            },
+                            { 
+                                "key": "Backend", "class": "doc", 
+                                "href": "https://rafarjonilla.com/que-es/backend/"
+                            },
+                            { 
+                                "key": "Protocolo HTTP", "class": "doc", 
+                                "href": "https://developer.mozilla.org/es/docs/Web/HTTP/Overview"
+                            },
+                            { 
+                                "key": "Protocolo HTTP(Video)", "class": "video", 
+                                "href": "https://youtu.be/6jKkd3buI0o"
+                            },
+                            { 
+                                "key": "JSON", "class": "doc", 
+                                "href": "https://www.json.org/json-es.html"
+                            }
+                        ]
                     },
                     {
                         "name": "Arquitectura",
                         "description":
                             "Modelo Vista Controlador, API Rest, ORM(Comunicacion con DB)",
-                        "links": []
+                        "links": [
+                            { 
+                                "key": "MVC", "class": "doc", 
+                                "href": "https://developer.mozilla.org/es/docs/Glossary/MVC"
+                            },
+                            { 
+                                "key": "MVC(Video)", "class": "video", 
+                                "href": "https://youtu.be/ANQDmqBYwns"
+                            },
+                            { 
+                                "key": "API RESTful", "class": "doc", 
+                                "href": "https://restfulapi.net/"
+                            },
+                            { 
+                                "key": "ORM", "class": "doc", 
+                                "href": "https://www2.deloitte.com/es/es/pages/technology/articles/que-es-orm.html"
+                            },
+                            { 
+                                "key": "ORM(Video)", "class": "video", 
+                                "href": "https://youtu.be/pKawc1UtVcQ"
+                            }
+                        ]
                     },
                     {
                         "name": "Frameworks",
@@ -285,36 +393,44 @@
                             "Cada lenguaje posee frameworks que proveen herramientas que facilitan estas tareas",
                         "links": [
                             { 
-                                "key": "JavaScrip", "class": "doc", 
-                                "href": ""
+                                "key": "NodeJS(JavaScrip)", "class": "doc", 
+                                "href": "https://nodejs.org/es/"
                             },
                             { 
-                                "key": "Python", "class": "doc", 
-                                "href": ""
+                                "key": "Django(Python)", "class": "doc", 
+                                "href": "https://www.djangoproject.com/"
                             },
                             { 
-                                "key": "PHP", "class": "doc", 
-                                "href": ""
+                                "key": "FastAPI(Python)", "class": "doc", 
+                                "href": "https://fastapi.tiangolo.com/"
                             },
                             { 
-                                "key": "C#", "class": "doc", 
-                                "href": ""
+                                "key": "Laravel(PHP)", "class": "doc", 
+                                "href": "https://laravel.com/"
                             },
                             { 
-                                "key": "Java", "class": "doc", 
-                                "href": ""
+                                "key": "Symfony(PHP)", "class": "doc", 
+                                "href": "https://symfony.com/"
                             },
                             { 
-                                "key": "Ruby", "class": "doc", 
-                                "href": ""
+                                "key": "ASP.NET (C#)", "class": "doc", 
+                                "href": "http://www.aspnetcore.co.uk/"
                             },
                             { 
-                                "key": "Go", "class": "doc", 
-                                "href": ""
+                                "key": "SpringBoot(Java)", "class": "doc", 
+                                "href": "https://spring.io/projects/spring-boot"
                             },
                             { 
-                                "key": "Rust", "class": "doc", 
-                                "href": ""
+                                "key": "Ruby on Rails", "class": "doc", 
+                                "href": "https://rubyonrails.org/"
+                            },
+                            { 
+                                "key": "Gin(Go)", "class": "doc", 
+                                "href": "https://gin-gonic.com/"
+                            },
+                            { 
+                                "key": "Rocket(Rust)", "class": "doc", 
+                                "href": "https://rocket.rs/"
                             }
                         ]
                     },
@@ -322,12 +438,42 @@
                         "name": "Contenidos Intermedios",
                         "description":
                             "Autenticaciones, Enviar Mails, Testing, GraphQL, WebSockets",
-                        "links": []
+                        "links": [
+                            { 
+                                "key": "Autenticacion", "class": "doc", 
+                                "href": "https://www.itdo.com/blog/cual-es-el-mejor-metodo-de-autentificacion-en-un-api-rest/"
+                            },
+                            { 
+                                "key": "GraphQL", "class": "doc", 
+                                "href": "https://graphql.org/"
+                            },
+                            { 
+                                "key": "WebSockets", "class": "doc", 
+                                "href": "https://developer.mozilla.org/es/docs/Web/API/WebSockets_API"
+                            }
+                        ]
                     },
                     {
                         "name": "Contenidos Avanzados",
                         "description": "Microservicios, Docker",
-                        "links": []
+                        "links": [
+                            { 
+                                "key": "Microservicios", "class": "doc", 
+                                "href": "https://aws.amazon.com/es/microservices/#:~:text=Los%20microservicios%20son%20un%20enfoque,servicios%20son%20equipos%20peque%C3%B1os%20independientes"
+                            },
+                            { 
+                                "key": "Microservicios(Video)", "class": "video", 
+                                "href": "https://youtu.be/9R2hFwIPGnQ"
+                            },
+                            { 
+                                "key": "Docker", "class": "doc", 
+                                "href": "https://www.docker.com/"
+                            },
+                            { 
+                                "key": "Guia Docker(Video)", "class": "video", 
+                                "href": "https://youtu.be/CV_Uf3Dq-EU"
+                            }
+                        ]
                     },
                     {
                         "name": "",

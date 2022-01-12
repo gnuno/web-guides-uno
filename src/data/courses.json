@@ -250,13 +250,31 @@
                 "name": "Un poco de Historia",
                 "description":
                     "¿Qué es la Web?, ¿Quién la creó?, ¿Cómo surgió?, ¿Cómo evolucionó?",
-                "links": []
+                "links": [
+                    { 
+                        "key": "Nacimiento de la Web", "class": "video", 
+                        "href": "https://youtu.be/cCHzhQVqEyI" 
+                    },
+                    { 
+                        "key": "Tim Berners Lee", "class": "video", 
+                        "href": "https://youtu.be/GUrDI6OkJfU" 
+                    }
+                ]
             },
             {
                 "name": "Funcionamiento de la Web",
                 "description":
                     "¿Cómo funciona?, ¿Qué es HTTP?, ¿Cuál es la función del navegador?",
-                "links": []
+                "links": [
+                    { 
+                        "key": "Como Funciona la Web", "class": "video", 
+                        "href": "https://youtu.be/7DXNmEwdGy4" 
+                    },
+                    { 
+                        "key": "Navegadores Web", "class": "video", 
+                        "href": "https://youtu.be/2Gb8ZEF-f4Y" 
+                    }
+                ]
             },
             {
                 "name": "",
