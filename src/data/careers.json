@@ -562,31 +562,116 @@
                         "name": "Introducción",
                         "description":
                             "¿Qué es un Framework/Biblioteca JS?, ¿Por qué utilizar uno?, Choose One(React-Vue-Angular-Svelte)",
-                        "links": []
+                        "links": [
+                            { 
+                                "key": "Frameworks", "class": "doc", 
+                                "href": "https://developer.mozilla.org/es/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks"
+                            },
+                            { 
+                                "key": "Diferencias entre Framreworks", "class": "video", 
+                                "href": "https://youtu.be/REmltoDk07g"
+                            },
+                            { 
+                                "key": "Angular", "class": "doc", 
+                                "href": "https://angular.io/"
+                            },
+                            { 
+                                "key": "Reach", "class": "doc", 
+                                "href": "https://es.reactjs.org/"
+                            },
+                            { 
+                                "key": "Vue", "class": "doc", 
+                                "href": "https://vuejs.org/"
+                            },
+                            { 
+                                "key": "Svelte", "class": "doc", 
+                                "href": "https://svelte.dev/"
+                            }
+                        ]
                     },
                     {
                         "name": "Bases de cada uno a aprender",
                         "description":
                             "Componentes y Atomic Design, Router y Navegación, Ciclo de Vida de Componentes, Comunicación entre Componentes",
-                        "links": []
+                        "links": [
+                            { 
+                                "key": "Atomic Design", "class": "doc", 
+                                "href": "https://bradfrost.com/blog/post/atomic-web-design/"
+                            },
+                            { 
+                                "key": "Taller React", "class": "video", 
+                                "href": "https://youtu.be/zIY87vU33aA"
+                            },
+                            { 
+                                "key": "Taller Vue", "class": "video", 
+                                "href": "https://youtu.be/Wd9dOIlTWCc"
+                            },
+                            { 
+                                "key": "Curso Svelte", "class": "video", 
+                                "href": "https://youtube.com/playlist?list=PLV8x_i1fqBw2QScggh0pw2ATSJg_WHqUN"
+                            },
+                            { 
+                                "key": "Curso Angular", "class": "video", 
+                                "href": "https://youtube.com/playlist?list=PLU8oAlHdN5BnNAe8zXnuBNzKID39DUwcO"
+                            }
+                        ]
                     },
                     {
                         "name": "Adentrándose un poquito mas",
                         "description":
                             "Formularios, HTTP y Asincronismo, Bibliotecas de Estilos, Observables, Estados",
-                        "links": []
+                        "links": [
+                            { 
+                                "key": "Observable(RxJS)", "class": "doc", 
+                                "href": "https://rxjs.dev/guide/observable"
+                            },
+                            { 
+                                "key": "State Pattern", "class": "doc", 
+                                "href": "https://refactoring.guru/es/design-patterns/state"
+                            }
+                        ]
                     },
                     {
                         "name": "Mas y mas",
                         "description":
                             "Testing, TypeScript, Server Side Rendering, GraphQL",
-                        "links": []
+                        "links": [
+                            { 
+                                "key": "Testing", "class": "doc", 
+                                "href": "https://youtu.be/SH7JSlc36uA"
+                            },
+                            { 
+                                "key": "Typescript", "class": "doc", 
+                                "href": "https://www.typescriptlang.org/"
+                            },
+                            { 
+                                "key": "Server Sude Rendering", "class": "video", 
+                                "href": "https://youtu.be/YfkJyRFvP1s"
+                            },
+                            { 
+                                "key": "GraphQL", "class": "doc", 
+                                "href": "https://graphql.org/"
+                            }
+                        ]
                     },
                     {
                         "name": "Contenidos Avanzados",
                         "description":
                             "Mobile Apps, Desktop Apps, Progressive Web Apps, Web Assembly",
-                        "links": []
+                        "links": [
+                            { 
+                                "key": "Progressive Web Apps", "class": "video", 
+                                "href": "https://youtu.be/QSb4VZnF9q4"
+                            },
+                            { 
+                                "key": "Web Assembly", "class": "doc", 
+                                "href": "https://webassembly.org/"
+                            },
+                            { 
+                                "key": "Web Assembly(MDN)", "class": "doc", 
+                                "href": "https://developer.mozilla.org/es/docs/WebAssembly"
+                            }
+                        ]
                     },
                     {
                         "name": "",
