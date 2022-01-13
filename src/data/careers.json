@@ -13,24 +13,80 @@
                         "name": "Introducción",
                         "description":
                             "¿Qué es HTML?, ¿Qué son las Etiquetas?, Estructura básica, Atributos de Etiquetas",
-                        "links": []
+                        "links": [
+                            { 
+                                "key": "HTML(W3C)", "class": "doc", 
+                                "href": "https://www.w3schools.com/html/"
+                            },
+                            { 
+                                "key": "HTML(MDN)", "class": "doc", 
+                                "href": "https://developer.mozilla.org/es/docs/Web/HTML"
+                            },
+                            { 
+                                "key": "HTML(Taller)", "class": "video", 
+                                "href": "https://youtu.be/rbuYtrNUxg4"
+                            }
+                        ]
                     },
                     {
                         "name": "Etiquetas importantes",
                         "description":
                             "Textos, Listas, Div, Imágenes, Tablas, Formularios",
-                        "links": []
+                        "links": [
+                            { 
+                                "key": "Listas", "class": "doc", 
+                                "href": "https://www.w3schools.com/html/html_lists.asp"
+                            },
+                            { 
+                                "key": "Tablas", "class": "doc", 
+                                "href": "https://www.w3schools.com/html/html_images.asp"
+                            },
+                            { 
+                                "key": "Tablas", "class": "doc", 
+                                "href": "https://www.w3schools.com/html/html_tables.asp"
+                            },
+                            { 
+                                "key": "Listas", "class": "doc", 
+                                "href": "https://www.w3schools.com/html/html_lists.asp"
+                            },
+                            { 
+                                "key": "Formularios", "class": "doc", 
+                                "href": "https://www.w3schools.com/html/html_forms.asp"
+                            }
+                        ]
                     },
                     {
                         "name": "Etiquetas Semánticas",
                         "description":
                             "header, article, section, main, nav, aside, footer, details, figure...",
-                        "links": []
+                        "links": [
+                            { 
+                                "key": "W3C", "class": "doc", 
+                                "href": "https://www.w3schools.com/html/html5_semantic_elements.asp"
+                            }
+                        ]
                     },
                     {
                         "name": "Contenidos Avanzados",
                         "description": "Metadata, SEO, Accesibilidad Web",
-                        "links": []
+                        "links": [
+                            { 
+                                "key": "Metaetiquetas(Google)", "class": "doc", 
+                                "href": "https://developers.google.com/search/docs/advanced/crawling/special-tags?hl=es"
+                            },
+                            { 
+                                "key": "Metaetiquetas(W3C)", "class": "doc", 
+                                "href": "https://www.w3schools.com/tags/tag_meta.asp"
+                            },
+                            { 
+                                "key": "SEO", "class": "doc", 
+                                "href": "https://developers.google.com/search/docs/beginner/seo-starter-guide?hl=es"
+                            },
+                            { 
+                                "key": "Accesibilidad", "class": "doc", 
+                                "href": "https://developer.mozilla.org/es/docs/Learn/Accessibility/HTML"
+                            }
+                        ]
                     },
                     {
                         "name": "",
@@ -46,55 +102,201 @@
                         "name": "Introducción",
                         "description":
                             "¿Qué es CSS?, Sintaxis, Selectores, Especificidad",
-                        "links": []
+                        "links": [
+                            { 
+                                "key": "CSS(MDN)", "class": "doc", 
+                                "href": "https://developer.mozilla.org/es/docs/Web/CSS"
+                            },
+                            { 
+                                "key": "CSS(W3C)", "class": "doc", 
+                                "href": "https://www.w3schools.com/css/"
+                            },
+                            { 
+                                "key": "CSS(Taller)", "class": "video", 
+                                "href": "https://youtu.be/OWKXEJN67FE"
+                            },
+                            { 
+                                "key": "Selectores", "class": "doc", 
+                                "href": "https://developer.mozilla.org/es/docs/Web/CSS/CSS_Selectors"
+                            },
+                            { 
+                                "key": "Especificidad", "class": "doc", 
+                                "href": "https://developer.mozilla.org/es/docs/Web/CSS/Specificity"
+                            }
+                        ]
                     },
                     {
                         "name": "Colorear",
                         "description": "Medidas de Colores, Backgrounds, Bordes, Sombras",
-                        "links": []
+                        "links": [
+                            { 
+                                "key": "Colors", "class": "doc", 
+                                "href": "https://www.w3schools.com/css/css_colors.asp"
+                            },
+                            { 
+                                "key": "Coolors Generator", "class": "doc", 
+                                "href": "https://coolors.co/"
+                            },
+                            { 
+                                "key": "Background", "class": "doc", 
+                                "href": "https://www.w3schools.com/css/css_background.asp"
+                            },
+                            { 
+                                "key": "Border", "class": "doc", 
+                                "href": "https://www.w3schools.com/css/css_border.asp"
+                            },
+                            { 
+                                "key": "Shadows", "class": "doc", 
+                                "href": "https://www.w3schools.com/css/css3_shadows.asp"
+                            }
+                        ]
                     },
                     {
                         "name": "Box Model",
                         "description":
                             "Box Model, Medidas de Tamaños, Márgenes, Paddings, Width/Height",
-                        "links": []
+                        "links": [
+                            { 
+                                "key": "Medidas", "class": "doc", 
+                                "href": "https://lenguajecss.com/css/modelo-de-cajas/unidades-css/"
+                            },
+                            { 
+                                "key": "BoxModel", "class": "doc", 
+                                "href": "https://www.w3schools.com/css/css_boxmodel.asp"
+                            },
+                            { 
+                                "key": "Margins", "class": "doc", 
+                                "href": "https://www.w3schools.com/css/css_margin.asp"
+                            },
+                            { 
+                                "key": "Paddings", "class": "doc", 
+                                "href": "https://www.w3schools.com/css/css_padding.asp"
+                            }
+                        ]
                     },
                     {
                         "name": "Textos",
                         "description": "Alineamiento, Tamaños, Fuentes, Decoración",
-                        "links": []
+                        "links": [
+                            { 
+                                "key": "Google Fonts", "class": "doc", 
+                                "href": "https://fonts.google.com/"
+                            },
+                            { 
+                                "key": "Texts", "class": "doc", 
+                                "href": "https://www.w3schools.com/css/css_text.asp"
+                            }
+                        ]
                     },
                     {
                         "name": "Web Layout",
                         "description":
                             "Diseño e Implementación, Alinear Horizontal/Vertical",
-                        "links": []
+                        "links": [
+                            { 
+                                "key": "WebLayout", "class": "doc", 
+                                "href": "https://www.w3schools.com/css/css_website_layout.asp"
+                            }
+                        ]
                     },
                     {
                         "name": "Responsive Design",
                         "description": "¿Qué es?, Max-width, Media Queries, calc",
-                        "links": []
+                        "links": [
+                            { 
+                                "key": "Responsive", "class": "doc", 
+                                "href": "https://www.w3schools.com/html/html_responsive.asp"
+                            },
+                            { 
+                                "key": "Media Queries", "class": "doc", 
+                                "href": "https://developer.mozilla.org/es/docs/Web/CSS/Media_Queries/Using_media_queries"
+                            },
+                            { 
+                                "key": "calc", "class": "doc", 
+                                "href": "https://css-tricks.com/a-complete-guide-to-calc-in-css/"
+                            }
+                        ]
                     },
                     {
                         "name": "Imagenes",
                         "description": "Overflow, Responsive",
-                        "links": []
+                        "links": [
+                            { 
+                                "key": "Images", "class": "doc", 
+                                "href": "https://css-tricks.com/a-guide-to-the-responsive-images-syntax-in-html/"
+                            }
+                        ]
                     },
                     {
                         "name": "Responsive Box Display",
                         "description": "FlexBox, Grid",
-                        "links": []
+                        "links": [
+                            { 
+                                "key": "FlexBox", "class": "doc", 
+                                "href": "https://css-tricks.com/snippets/css/a-guide-to-flexbox/"
+                            },
+                            { 
+                                "key": "FlexBox(Video)", "class": "doc", 
+                                "href": "https://youtube.com/playlist?list=PLvq-jIkSeTUbQc3dGsssp8lxAi5npMrys"
+                            },
+                            { 
+                                "key": "Grid", "class": "doc", 
+                                "href": "https://css-tricks.com/snippets/css/complete-guide-grid/"
+                            },
+                            { 
+                                "key": "Grid(Video)", "class": "video", 
+                                "href": "https://youtu.be/QBOUSrMqlSQ"
+                            },
+                            { 
+                                "key": "Grid(Video Extra)", "class": "video", 
+                                "href": "https://youtu.be/El0OJ6h_2ZI"
+                            }
+                        ]
                     },
                     {
                         "name": "Contenidos Avanzados",
                         "description":
                             "Gradients, Transitions, Animations, Transforms",
-                        "links": []
+                        "links": [
+                            { 
+                                "key": "GradientGenerator", "class": "doc", 
+                                "href": "https://cssgradient.io/"
+                            },
+                            { 
+                                "key": "Transitions", "class": "doc", 
+                                "href": "https://www.w3schools.com/css/css3_transitions.asp"
+                            },
+                            { 
+                                "key": "Animation", "class": "doc", 
+                                "href": "https://css-tricks.com/almanac/properties/a/animation/"
+                            },
+                            { 
+                                "key": "AnimationGenerator", "class": "doc", 
+                                "href": "https://animista.net/"
+                            },
+                            { 
+                                "key": "Transform", "class": "doc", 
+                                "href": "https://css-tricks.com/almanac/properties/t/transform/"
+                            }
+                        ]
                     },
                     {
                         "name": "Frameworks",
                         "description": "Tailwind, Bulma, Bootstrap",
-                        "links": []
+                        "links": [
+                            { 
+                                "key": "Bootstrap", "class": "doc", 
+                                "href": "https://getbootstrap.com/"
+                            },
+                            { 
+                                "key": "Bulma", "class": "doc", 
+                                "href": "https://bulma.io/"
+                            },
+                            { 
+                                "key": "Tailwind", "class": "doc", 
+                                "href": "https://tailwindcss.com/"
+                            }
+                        ]
                     },
                     {
                         "name": "",
@@ -109,41 +311,160 @@
                         "name": "Introducción",
                         "description":
                             "Nacimiento, Usos, Bondades del lenguaje, Sintaxis básica, ¿Qué significa inferencia de tipo?",
-                        "links": []
+                        "links": [
+                            { 
+                                "key": "Fundamentos", "class": "doc", 
+                                "href": "https://developer.mozilla.org/es/docs/Learn/Getting_started_with_the_web/JavaScript_basics"
+                            },
+                            { 
+                                "key": "Guia", "class": "doc", 
+                                "href": "https://es.javascript.info/"
+                            },
+                            { 
+                                "key": "Guia(MDN)", "class": "doc", 
+                                "href": "https://developer.mozilla.org/es/docs/Web/JavaScript/Guide"
+                            },
+                            { 
+                                "key": "Guia(W3C)", "class": "doc", 
+                                "href": "https://www.w3schools.com/js/"
+                            },
+                            { 
+                                "key": "Taller", "class": "video", 
+                                "href": "https://youtu.be/RqQ1d1qEWlE"
+                            }
+                        ]
                     },
                     {
                         "name": "Bases",
                         "description":
                             "Operadores lógicos, matemáticos, Manejo de strings, Condicionales, Operador ternario, Bucles, Funciones",
-                        "links": []
+                        "links": [
+                            { 
+                                "key": "Operadores", "class": "doc", 
+                                "href": "https://www.w3schools.com/js/js_operators.asp"
+                            },
+                            { 
+                                "key": "Strings", "class": "doc", 
+                                "href": "https://www.w3schools.com/js/js_strings.asp"
+                            },
+                            { 
+                                "key": "Condicionales", "class": "doc", 
+                                "href": "https://www.w3schools.com/js/js_if_else.asp"
+                            },
+                            { 
+                                "key": "Ternario", "class": "doc", 
+                                "href": "https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Operators/Conditional_Operator"
+                            },
+                            { 
+                                "key": "Bucles", "class": "doc", 
+                                "href": "https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Loops_and_iteration"
+                            },
+                            { 
+                                "key": "Funciones", "class": "doc", 
+                                "href": "https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Functions"
+                            }
+                        ]
                     },
                     {
                         "name": "JavaScript Funcional",
                         "description":
                             "Closure, Funciones Anónimas/Arrow Functions, High Order Functions, First Class Functions, Funciones Puras, Manejo de Arrays/Set/Maps, Callbacks",
-                        "links": []
+                        "links": [
+                            { 
+                                "key": "Closure", "class": "doc", 
+                                "href": "https://developer.mozilla.org/es/docs/Web/JavaScript/Closures"
+                            },
+                            { 
+                                "key": "Programacion Funcional", "class": "doc", 
+                                "href": "https://www.freecodecamp.org/espanol/news/que-es-la-programacion-funcional-una-guia-de-javascript-para-principiantes/"
+                            },
+                            { 
+                                "key": "JS Funcional(Video)", "class": "video", 
+                                "href": "https://youtu.be/Ga3XXNAIPt0"
+                            },
+                            { 
+                                "key": "Callbacks(Video)", "class": "video", 
+                                "href": "https://youtu.be/cNjIUSDnb9k"
+                            }
+                        ]
                     },
                     {
                         "name": "JavaScript Orientado a Objetos",
                         "description": "Objetos, Herencia/Extensión",
-                        "links": []
+                        "links": [
+                            { 
+                                "key": "JS OOP", "class": "doc", 
+                                "href": "https://www.freecodecamp.org/espanol/news/programacion-orientada-a-objectos-en-javascript-explicado-con-ejemplos/#:~:text=JavaScript%20no%20es%20un%20lenguaje,orientada%20a%20objetos%20(POO).&text=El%20modelo%20m%C3%A1s%20popular%20de,un%20lenguaje%20basado%20en%20prototipos."
+                            }
+                        ]
                     },
                     {
                         "name": "JavaScript y el DOM",
                         "description":
                             "¿Qué es el DOM?, Interacción con el DOM, Event Listeners",
-                        "links": []
+                        "links": [
+                            { 
+                                "key": "DOM", "class": "doc", 
+                                "href": "https://www.w3schools.com/js/js_htmldom.asp"
+                            },
+                            { 
+                                "key": "Manipular el DOM", "class": "doc", 
+                                "href": "https://platzi.com/tutoriales/2193-dom/9548-como-manipular-el-dom-con-javascript/?gclid=CjwKCAiAlfqOBhAeEiwAYi43FxOh4zhq1iaOcd1hDfPVbtiUCyIJztCAP1j4EBQBL4ndg0fiIDWVuRoC-dcQAvD_BwE&gclsrc=aw.ds"
+                            },
+                            { 
+                                "key": "EventListeners", "class": "doc", 
+                                "href": "https://www.w3schools.com/js/js_htmldom_eventlistener.asp"
+                            },
+                            { 
+                                "key": "EventListeners(video)", "class": "video", 
+                                "href": "https://youtu.be/wp48fCSv-ow"
+                            }
+                        ]
                     },
                     {
                         "name": "JavaScript Asincrónico",
                         "description":
                             "Asincronismo, Event loop, Promesas, Encadenamiento de Promesas, Async/Await",
-                        "links": []
+                        "links": [
+                            { 
+                                "key": "Asincronismo(video)", "class": "video", 
+                                "href": "https://youtu.be/iAq9SOEODvo"
+                            },
+                            { 
+                                "key": "Event Loop", "class": "doc", 
+                                "href": "https://developer.mozilla.org/es/docs/Web/JavaScript/EventLoop"
+                            },
+                            { 
+                                "key": "Promesas", "class": "doc", 
+                                "href": "https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Using_promises"
+                            },
+                            { 
+                                "key": "Promesas y Callbacks", "class": "video", 
+                                "href": "https://youtu.be/Q3HtXuDEy5s"
+                            }
+                        ]
                     },
                     {
                         "name": "JavaScript y el Backend",
                         "description": "JSON, Request HTTP, LocalStorage",
-                        "links": []
+                        "links": [
+                            { 
+                                "key": "JSON", "class": "doc", 
+                                "href": "https://www.json.org/json-es.html"
+                            },
+                            { 
+                                "key": "Fetch", "class": "doc", 
+                                "href": "https://developer.mozilla.org/es/docs/Web/API/Fetch_API/Using_Fetch"
+                            },
+                            { 
+                                "key": "Fetch(Tutorial)", "class": "video", 
+                                "href": "https://youtu.be/aKPcs-EIzZI"
+                            },
+                            { 
+                                "key": "LocalStorage", "class": "video", 
+                                "href": "https://youtu.be/DRs6zlwKZ34"
+                            }
+                        ]
                     },
                     {
                         "name": "",
@@ -157,24 +478,76 @@
                     {
                         "name": "Introducción",
                         "description": "¿Qué es un Preprocesador?, Transpilar, SCSS/SASS",
-                        "links": []
+                        "links": [
+                            { 
+                                "key": "Preprocesadores", "class": "video", 
+                                "href": "https://youtu.be/mHp2nr2kErs"
+                            },
+                            { 
+                                "key": "Sass", "class": "doc", 
+                                "href": "https://sass-lang.com/"
+                            }
+                        ]
                     },
                     {
                         "name": "Bases",
                         "description": "Variables, Nesting/Anidamiento, Módulos, Mixins",
-                        "links": []
+                        "links": [
+                            { 
+                                "key": "Variables", "class": "doc", 
+                                "href": "https://sass-lang.com/documentation/variables"
+                            },
+                            { 
+                                "key": "Nesting", "class": "doc", 
+                                "href": "https://www.w3schools.com/sass/sass_nesting.php"
+                            },
+                            { 
+                                "key": "Modulos", "class": "doc", 
+                                "href": "https://desarrolloweb.com/articulos/modularizar-codigo-css-sass.html"
+                            },
+                            { 
+                                "key": "Mixins", "class": "doc", 
+                                "href": "https://sass-lang.com/documentation/at-rules/mixin"
+                            }
+                        ]
                     },
                     {
                         "name": "Metodología CSS",
                         "description":
                             "¿Qué son las Metodologías CSS y por qué aplicarlas?, BEM",
-                        "links": []
+                        "links": [
+                            { 
+                                "key": "BEM", "class": "doc", 
+                                "href": "http://getbem.com/introduction/"
+                            },
+                            { 
+                                "key": "BEM(Tutorial)", "class": "video", 
+                                "href": "https://youtu.be/bvnzyXGkNY4"
+                            }
+                        ]
                     },
                     {
                         "name": "SCSS/SASS Avanzado",
                         "description":
                             "Herencia/Extensión, Operadores, Control de Flujo, Functions",
-                        "links": []
+                        "links": [
+                            { 
+                                "key": "Extend", "class": "doc", 
+                                "href": "https://sass-lang.com/documentation/at-rules/extend"
+                            },
+                            { 
+                                "key": "Operators", "class": "doc", 
+                                "href": "https://sass-lang.com/documentation/operators"
+                            },
+                            { 
+                                "key": "Flow Control", "class": "doc", 
+                                "href": "https://sass-lang.com/documentation/at-rules/control"
+                            },
+                            { 
+                                "key": "Function", "class": "doc", 
+                                "href": "https://sass-lang.com/documentation/at-rules/function"
+                            }
+                        ]
                     },
                     {
                         "name": "",
