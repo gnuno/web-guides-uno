@@ -281,5 +281,21 @@
                 "void": true
             }
         ]
+    },
+    "react": {
+        "title": "ReactJS",
+        "description": "<b class='primary'>Proximamente</b>, para colaborar con esta guia dirigite <a href='https://guidesuno.vercel.app/contribuir'>aqui</a>",
+        "telegram": "https://t.me/React_UNO",
+        "url": "/react",
+        "visible": true,
+        "content": []
+    },
+    "node": {
+        "title": "NodeJS",
+        "description": "<b class='primary'>Proximamente</b>, para colaborar con esta guia dirigite <a href='https://guidesuno.vercel.app/contribuir'>aqui</a>",
+        "telegram": "https://t.me/nodejs_uno",
+        "url": "/node",
+        "visible": true,
+        "content": []
     }
 }

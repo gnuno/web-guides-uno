@@ -39,13 +39,15 @@ export default function Guide({ career }) {
                                 />
                         })
                     :
-                        <Dropdown
-                            lista={content}
-                            key={title}
-                            open={true}
-                            titulo={title}
-                            lastChild={-1}
-                        />
+                        content.length > 0 ?
+                            <Dropdown
+                                lista={content}
+                                key={title}
+                                open={true}
+                                titulo={title}
+                                lastChild={-1}
+                            /> 
+                        : ""
                     }
                     <Dropdown />
                 </MainList>

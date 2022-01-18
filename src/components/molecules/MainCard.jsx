@@ -9,14 +9,15 @@ import { ReactComponent as StarIcon } from "../../assets/icons/StarIcon.svg"
 import Courses from "../../data/courses.json";
 
 const Item = styled.li`
-    border: 1px solid ${Theme.color.secondary};
+    border: 1px solid ${props => props.color};
     background: ${Theme.background.paper};
     border-radius: 30px;
     padding: 15px;
-    box-shadow: 0px 2px 8px ${Theme.color.secondary}df;
+    box-shadow: 0px 2px 8px ${props => props.color}df;
     :hover{
-        background: ${Theme.color.secondary}66;
+        background: ${props => props.color}66;
     }
+    ${H2} { color: ${props => props.color}}
 `;
 
 const StyledLink = styled(Link)`
@@ -66,12 +67,13 @@ export default function MainCard({ element, career }){
         return contents;
     }
 
+    let color = career ? Theme.color.quintiary : Theme.color.secondary
+
     return(
-        <Item>
+        <Item color={color}>
             <StyledLink to={(career ? "/carrera" : "/guia") + element.url}>
                 <Title>
                     <H2>{element.title}</H2>
-                    {career ? <Icon/> : "" }
                 </Title>
                 <P3>{getContents()}</P3>
             </StyledLink>

@@ -24,7 +24,7 @@ export default function Index() {
             
             <DividerBar/>
 
-            <H2 style={{textAlign: 'center'}}> Nuestras Carreras </H2>
+            <H2 style={{textAlign: 'center'}} className='quintiary'> Nuestras Carreras </H2>
             <GridContainer>
                 {careers.map((element) => (
                     <MainCard key={element.name} element={element} career={true}/>

@@ -940,5 +940,19 @@
                 ]
             }
         ]
+    },
+    "datascience": {
+        "title": "Data Science",
+        "description": "<b class='primary'>Proximamente</b>, para colaborar con esta guia dirigite <a href='https://guidesuno.vercel.app/contribuir'>aqui</a>",
+        "url": "/datascience",
+        "telegram": "",
+        "content": []
+    },
+    "qa": {
+        "title": "Quality Assurance",
+        "description": "<b class='primary'>Proximamente</b>, para colaborar con esta guia dirigite <a href='https://guidesuno.vercel.app/contribuir'>aqui</a>",
+        "url": "/qa",
+        "telegram": "",
+        "content": []
     }
 }
