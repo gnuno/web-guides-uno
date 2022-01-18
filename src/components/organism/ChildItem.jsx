@@ -67,7 +67,7 @@ export default function Card(props) {
                 <ChildItemContent>
                     <P3> {element.description} </P3>
                     {
-                        (element.links != undefined && element.links.length > 0) ? 
+                        (element.links !== undefined && element.links.length > 0) ? 
                             <LinkList links={element.links}/> : ""
                     }
                 </ChildItemContent>

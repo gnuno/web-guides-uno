@@ -19,7 +19,7 @@ const getData = (id, isCareer) => {
 
 export default function Guide({ career }) {
     const { name } = useParams();
-    const { title, description, telegram, url, content } = getData(name, career);
+    const { title, description, telegram, content } = getData(name, career);
     
     return (
         <>

@@ -4,7 +4,6 @@ import Theme from "../atoms/Theme";
 import { H2 } from "../atoms/Title";
 import { P3 } from "../atoms/Paragraph";
 import { Link } from "react-router-dom";
-import { ReactComponent as StarIcon } from "../../assets/icons/StarIcon.svg"
 
 import Courses from "../../data/courses.json";
 
@@ -35,11 +34,6 @@ const Title = styled.div`
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-`
-
-const Icon = styled(StarIcon)`
-    display: inline;
-    fill: ${Theme.color.cuartiary};
 `
 
 export default function MainCard({ element, career }){
