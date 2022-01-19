@@ -50,7 +50,7 @@ export default function Card(props) {
         return acc
     };
 
-    !element.void && element.links.slice(0).reduce(reducer, reduced)
+    !element.void && element.links && element.links.slice(0).reduce(reducer, reduced)
     
     return (
         <ChildItem>
