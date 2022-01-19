@@ -683,7 +683,7 @@
     },
     "backend": {
         "title": "Backend Web",
-        "description": "El rol al que muchos aspiran, no se asusten por la cantidad de contenidos, es un camino largo que debe disfrutarse, en esta guía vas a aprender los básico de FrontEnd(HTML-CSS-JS), un poco de git, conceptos más avanzados de FrontEnd(SASS-FrameworksJS) y por último el camino del BackEnd(Bases de Datos-API). \nTe recomiendo hacer las primeras 3 unidades y luego elegir entre el camino de FrontEnd o el de BackEnd.",
+        "description": "Uno de los puestos mas solicitados del mercado, no se asusten por la cantidad de contenidos, es un camino largo que debe disfrutarse, en esta guía la idea es que te especialices en un lenguaje y con este puedas desarrollar un Backend completo(con autenticacion, bases de datos, buena arquitectura y hasta cms), tambien aprenderan un poco de git y bases de datos.",
         "telegram": "https://t.me/javascript_uno",
         "url": "/backend",
         "content": [
@@ -821,7 +821,7 @@
                     {
                         "name": "Arquitectura",
                         "description":
-                            "Modelo Vista Controlador, API Rest, ORM(Comunicacion con DB)",
+                            "Modelo Vista Controlador, API Rest, ORM(Comunicacion con DB), CMS",
                         "links": [
                             { 
                                 "key": "MVC", "class": "doc", 
@@ -842,6 +842,10 @@
                             { 
                                 "key": "ORM(Video)", "class": "video", 
                                 "href": "https://youtu.be/pKawc1UtVcQ"
+                            },
+                            { 
+                                "key": "CMS", "class": "doc", 
+                                "href": "https://rockcontent.com/es/blog/cms/"
                             }
                         ]
                     },
