@@ -12,7 +12,7 @@ import Courses from "../data/courses.json";
 import Careers from "../data/careers.json";
 
 export default function Index() {
-    const title = "Guides UNO";
+    const title = "Soy Autodidacta";
     const careers = Object.values(Careers)
     const courses = Object.values(Courses)
     const description =

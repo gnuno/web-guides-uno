@@ -34,7 +34,7 @@ export default function Header(){
     return(
         <Header>
             <Container>
-                <Title to="/"> Guides UNO </Title>
+                <Title to="/"> Soy Autodidacta </Title>
                 <NavBar/>
             </Container>
         </Header>
