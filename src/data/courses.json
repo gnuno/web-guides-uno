@@ -47,6 +47,10 @@
                     { 
                         "key": "Curso Practico", "class": "video", 
                         "href": "https://youtu.be/HiXLkL42tMU"
+                    },
+                    { 
+                        "key": "Guia de ejercicios", "class": "task", 
+                        "href": "https://github.com/gnuno/web-guides-uno/tree/main/public/practice/Git.md#introduccion"
                     }                    
                 ]
             },
@@ -69,6 +73,10 @@
                     { 
                         "key": "Alias", "class": "doc", 
                         "href": "https://www.atlassian.com/es/git/tutorials/git-alias"
+                    },
+                    { 
+                        "key": "Guia de ejercicios", "class": "task", 
+                        "href": "https://github.com/gnuno/web-guides-uno/tree/main/public/practice/Git.md#ramas"
                     }
                 ]
             },
@@ -99,6 +107,10 @@
                     { 
                         "key": "Git y GitHub Playlist", "class": "video", 
                         "href": "https://youtube.com/playlist?list=PLU8oAlHdN5BlyaPFiNQcV0xDqy0eR35aU"
+                    },
+                    { 
+                        "key": "Guia de ejercicios", "class": "task", 
+                        "href": "https://github.com/gnuno/web-guides-uno/tree/main/public/practice/Git.md#convenciones"
                     }
                 ]
             },
