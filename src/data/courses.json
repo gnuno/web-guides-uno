@@ -182,6 +182,10 @@
                     { 
                         "key": "Tutorial Modelo Relacional", "class": "video", 
                         "href": "https://youtu.be/DZoH1qIh-0Q" 
+                    },
+                    { 
+                        "key": "Guia de ejercicios", "class": "task", 
+                        "href": "https://github.com/gnuno/web-guides-uno/tree/main/public/practice/DataBase.md#mr"
                     }
                 ]
             },
@@ -202,24 +206,40 @@
                         "href": "https://www.sqltutorial.org/sql-cheat-sheet/" 
                     },
                     { 
+                        "key": "Guia de ejercicios SQL", "class": "task", 
+                        "href": "https://github.com/gnuno/web-guides-uno/tree/main/public/practice/DataBase.md#sqlbasico"
+                    },
+                    { 
                         "key": "Joins", "class": "doc", 
                         "href": "https://platzi.com/blog/sql-join-en-detalle/?gclid=CjwKCAiArOqOBhBmEiwAsgeLmWk6zlv1UHeDHPEFmBBLhoXBg-08puViSzg3sqc5HNuyTw_50cziHxoCMdgQAvD_BwE&gclsrc=aw.ds" 
                     },
                     { 
-                        "key": "Funciones de Agregacion", "class": "doc", 
-                        "href": "https://www.campusmvp.es/recursos/post/Fundamentos-de-SQL-Agrupaciones-y-funciones-de-agregacion.aspx" 
-                    },
-                    { 
-                        "key": "Sub Consultas", "class": "doc", 
-                        "href": "https://docs.microsoft.com/es-es/sql/relational-databases/performance/subqueries?view=sql-server-ver15" 
+                        "key": "Guia de ejercicios JOINS", "class": "task", 
+                        "href": "https://github.com/gnuno/web-guides-uno/tree/main/public/practice/DataBase.md#joins"
                     },
                     { 
                         "key": "Joins(Tutorial)", "class": "video", 
                         "href": "https://youtu.be/vj1-V3YnCLY" 
                     },
                     { 
+                        "key": "Funciones de Agregacion", "class": "doc", 
+                        "href": "https://www.campusmvp.es/recursos/post/Fundamentos-de-SQL-Agrupaciones-y-funciones-de-agregacion.aspx" 
+                    },
+                    { 
+                        "key": "Guia de ejercicios AGREGACION", "class": "task", 
+                        "href": "https://github.com/gnuno/web-guides-uno/tree/main/public/practice/DataBase.md#agregacion"
+                    },
+                    { 
                         "key": "Funciones de Agregacion(Tutorial)", "class": "video", 
                         "href": "https://youtu.be/M8hy7qyHWTI" 
+                    },
+                    { 
+                        "key": "Sub Consultas", "class": "doc", 
+                        "href": "https://docs.microsoft.com/es-es/sql/relational-databases/performance/subqueries?view=sql-server-ver15" 
+                    },
+                    { 
+                        "key": "Guia de ejercicios SUB-CONSULTAS", "class": "task", 
+                        "href": "https://github.com/gnuno/web-guides-uno/tree/main/public/practice/DataBase.md#subconsultas"
                     },
                     { 
                         "key": "Sub Consultas(Tutorial)", "class": "video", 
