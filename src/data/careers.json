@@ -25,7 +25,11 @@
                             { 
                                 "key": "HTML(Taller)", "class": "video", 
                                 "href": "https://youtu.be/rbuYtrNUxg4"
-                            }
+                            },
+                            { 
+                                "key": "Guia de ejercicios", "class": "task", 
+                                "href": "https://github.com/gnuno/web-guides-uno/tree/main/public/practice/Frontend.md#html"
+                            } 
                         ]
                     },
                     {
@@ -122,6 +126,10 @@
                             { 
                                 "key": "Especificidad", "class": "doc", 
                                 "href": "https://developer.mozilla.org/es/docs/Web/CSS/Specificity"
+                            },
+                            { 
+                                "key": "Guia de ejercicios", "class": "task", 
+                                "href": "https://github.com/gnuno/web-guides-uno/tree/main/public/practice/Frontend.md#css"
                             }
                         ]
                     },
@@ -331,7 +339,7 @@
                             { 
                                 "key": "Taller", "class": "video", 
                                 "href": "https://youtu.be/RqQ1d1qEWlE"
-                            }
+                            } 
                         ]
                     },
                     {
@@ -362,6 +370,10 @@
                             { 
                                 "key": "Funciones", "class": "doc", 
                                 "href": "https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Functions"
+                            },
+                            { 
+                                "key": "Guia de ejercicios", "class": "task", 
+                                "href": "https://github.com/gnuno/web-guides-uno/tree/main/public/practice/Frontend.md#js"
                             }
                         ]
                     },
@@ -418,6 +430,10 @@
                             { 
                                 "key": "EventListeners(video)", "class": "video", 
                                 "href": "https://youtu.be/wp48fCSv-ow"
+                            },
+                            { 
+                                "key": "Guia de ejercicios", "class": "task", 
+                                "href": "https://github.com/gnuno/web-guides-uno/tree/main/public/practice/Frontend.md#jsdom"
                             }
                         ]
                     },
@@ -441,6 +457,10 @@
                             { 
                                 "key": "Promesas y Callbacks", "class": "video", 
                                 "href": "https://youtu.be/Q3HtXuDEy5s"
+                            },
+                            { 
+                                "key": "Guia de ejercicios", "class": "task", 
+                                "href": "https://github.com/gnuno/web-guides-uno/tree/main/public/practice/Frontend.md#jsasincronico"
                             }
                         ]
                     },
