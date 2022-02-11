@@ -8,7 +8,8 @@ const Image = styled.img`
     box-shadow: 0px 2px 8px ${Theme.color.secondary}df;
     max-height: 350px;  
     object-fit: contain;
-    margin: 0 10px 0 10px;
+    margin: 0;
+    width: 100%;
 `;
 
 export default function Imagen({path}) {
