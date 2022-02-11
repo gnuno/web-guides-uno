@@ -38,12 +38,12 @@ const ImageSlider = ({ paths }) => {
 
   return (
     <Slider>
-      <Icon>
+      <Icon style={{marginRight: "10px"}}>
         <BackArrow onClick={prevSlide} />
       </Icon>
       {
         paths.map((image, index) => 
-            <div
+            <div style={{maxWidth:"100%"}}
               key={index}>
               {index === current && (
                 <Imagen path={image} />
@@ -51,7 +51,7 @@ const ImageSlider = ({ paths }) => {
             </div>
         )
       }
-      <Icon>
+      <Icon style={{marginLeft: "10px"}}>
         <NextArrow onClick={nextSlide} />
       </Icon>
     </Slider>
